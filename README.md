@@ -5,8 +5,7 @@
 
 The website has been created as for a associate of mine. The hiking trail is based in Braunwald, Glarus-Süd in the North East of Switzerland. Bartli is a well known mountain dwelling drawf, the fictitious character is based on a children's book. My associate wanted to provide a website to breathe new life into the trail, and attract more visitors during the summer and autumn months. 
 
-IMAGE
-
+![Bartli sleeping](./assets/media/images/Winter_Sleep.jpg)
 
 ---
 
@@ -30,9 +29,21 @@ IMAGE
         * To ask questions about the trail 
 
 * ## Design
-Created a prototype for the site with Figma, [here](https://www.figma.com/file/6KQhxGl6q3N0ccFwV6UxXw/PP1?node-id=0%3A1&t=Qqr2DniHOcIOQmPK-1).
+*Created a prototype for the site with Figma, [here](https://www.figma.com/file/6KQhxGl6q3N0ccFwV6UxXw/PP1?node-id=0%3A1&t=Qqr2DniHOcIOQmPK-1)*
 
-Designed mobile-first, so using min-width media queries in the code structure.
+* ### Designed mobile-first, so using min-width media queries in the code structure.
+
+![Adobe Color - Color theme from image](./assets/media/images/adobe_color_palette.png)
+*[Adobe Color](https://color.adobe.com/create/image)*
+
+    * ## Color Palette created from the Image Picker function on the [coolors.co](https://coolors.co/image-picker) website
+    ```
+    --redwood: hsla(3, 34%, 50%, 1);
+    --dark-lava: hsla(31, 19%, 25%, 1);
+    --davys-grey: hsla(39, 10%, 33%, 1);
+    --feldgrau: hsla(156, 15%, 33%, 1);
+    --white: hsla(0, 0%, 100%, 1);
+    ```
 
 # Technologies Used
 
@@ -60,9 +71,12 @@ Designed mobile-first, so using min-width media queries in the code structure.
 ## Content
 * [Visit Glarnerland](https://glarnerland.ch/de/map/detail/zwerg-bartli-erlebnisweg-9ff632fe-5eaf-45d9-a6ea-4d743635148f.html) 
 * Character based on Der Zwerg Bartli by Lorly Jenny
+* [Use of GeoJSON with Leaflet](https://leafletjs.com/examples/geojson/)
 
 ## Media
 * Images kindly provided by Hermina 
+* Pawprints by <a href="https://pixabay.com/users/b0red-4473488/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2165814">b0red</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2165814">Pixabay</a>
+* Footprint by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">Pixabay</a>
 
 ## Acknowledgements
 
