@@ -3,7 +3,7 @@
 
 [View the live project here.]()
 
-The website is for a made up hiking trail for families. The trail is based on a book about a Dwarf who lives in the mountains and the path takes the user to different areas of the Dwarf's day to day life. 
+The website has been created as for a associate of mine. The hiking trail is based in Braunwald, Glarus-Süd in the North East of Switzerland. Bartli is a well known mountain dwelling drawf, the fictitious character is based on a children's book. My associate wanted to provide a website to breathe new life into the trail, and attract more visitors during the summer and autumn months. 
 
 IMAGE
 
@@ -12,12 +12,27 @@ IMAGE
 
 # User Experience (UX)
 
-* ## User stories
+* ## Intended Audience
     * First Time Visitor Goals
     * Return Vistor Goals
     * Frequent Viistor Goals
 
+* ## User stories
+    * Create content that is child appropriate
+    * Create content for adults or parents with children
+    * Provide easy access to routes
+        * Show terrain (whether steep or steady climbs)
+        * Show distances
+        * Show approximate times
+    * Provide details of how to get to destination
+    * Provide a form
+        * For people to book family passes in advance
+        * To ask questions about the trail 
+
 * ## Design
+Created a prototype for the site with Figma, [here](https://www.figma.com/file/6KQhxGl6q3N0ccFwV6UxXw/PP1?node-id=0%3A1&t=Qqr2DniHOcIOQmPK-1).
+
+Designed mobile-first, so using min-width media queries in the code structure.
 
 # Technologies Used
 
@@ -40,13 +55,16 @@ IMAGE
 # Credit
 
 ## Code
+* [Pawprint animation](https://designmodo.com/demo/stepscss/pawprints.html)
 
 ## Content
+* [Visit Glarnerland](https://glarnerland.ch/de/map/detail/zwerg-bartli-erlebnisweg-9ff632fe-5eaf-45d9-a6ea-4d743635148f.html) 
+* Character based on Der Zwerg Bartli by Lorly Jenny
 
 ## Media
+* Images kindly provided by Hermina 
 
 ## Acknowledgements
-
 
 ### Todo
 - [ ] IMAGE - Add image of site on different devices  
