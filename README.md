@@ -12,9 +12,19 @@ The website has been created as for a associate of mine. The hiking trail is bas
 # User Experience (UX)
 
 * ## Intended Audience
+    * Parents with children
+    * Families
+    * Schools
+
+    ---
+
     * First Time Visitor Goals
+        * Try one of the trails
     * Return Vistor Goals
-    * Frequent Viistor Goals
+        * Try other trail options
+        * Choose another route in the area
+    * Frequent Vistor Goals
+        * 
 
 * ## User stories
     * Create content that is child appropriate
