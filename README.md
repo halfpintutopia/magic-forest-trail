@@ -42,7 +42,7 @@ The website has been created as for a associate of mine. The hiking trail is bas
     --dark-lava: hsla(31, 19%, 25%, 1);
     --davys-grey: hsla(39, 10%, 33%, 1);
     --feldgrau: hsla(156, 15%, 33%, 1);
-    --white: hsla(0, 0%, 100%, 1);
+    --white: hsla(156, 15%, 33%, 1);
     ```
 
 # Technologies Used
@@ -59,7 +59,8 @@ The website has been created as for a associate of mine. The hiking trail is bas
 * Git
     * Git was used for version control by utilising the Gitpod terminal to commit to git and push to GitHub.
 * GitHub
-    * Github was used to store the project's code after being pushed from Git. 
+    * Github was used to store the project's code after being pushed from Git.
+* LeafletJS - [Use of GeoJSON with Leaflet](https://leafletjs.com/examples/geojson/) 
 * Figma
 
 
@@ -71,12 +72,16 @@ The website has been created as for a associate of mine. The hiking trail is bas
 ## Content
 * [Visit Glarnerland](https://glarnerland.ch/de/map/detail/zwerg-bartli-erlebnisweg-9ff632fe-5eaf-45d9-a6ea-4d743635148f.html) 
 * Character based on Der Zwerg Bartli by Lorly Jenny
-* [Use of GeoJSON with Leaflet](https://leafletjs.com/examples/geojson/)
+
 
 ## Media
 * Images kindly provided by Hermina 
 * Pawprints by <a href="https://pixabay.com/users/b0red-4473488/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2165814">b0red</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2165814">Pixabay</a>
 * Footprint by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">Pixabay</a>
+* [Photo by Nouman Raees from Pexels](https://www.pexels.com/photo/green-trees-on-brown-soil-3670681/)
+* [Photo by Josh Willink](https://www.pexels.com/photo/shallow-focus-on-blond-haired-woman-in-white-long-sleeve-shirt-carrying-a-baby-on-her-back-701016/)
+* [Photo by Susanne Jutzeler, suju-foto](https://www.pexels.com/photo/two-girls-sitting-on-brown-bench-near-body-of-water-1292006/)
+* [Photo by Allan Mas](https://www.pexels.com/photo/child-drawing-picture-on-concrete-block-in-grassy-yard-5623752/)
 
 ## Acknowledgements
 
