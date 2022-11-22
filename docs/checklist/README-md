@@ -1,11 +1,19 @@
 # Portfolio 1: Project Submission - Checklist
 *Taken from [To be sure, to be sure on Code Institute Learning Pages](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)*
 
-- [] The web app is interactive through, for example, the use of inputs, buttons or CSS transitions.
-- [] That if you have included an optional audio or video file, it does not autoplay.
-- [] That if you have included an optional form, the inputs have validation.
-- [] That you have included accessibility attributes for images and links.
-- []That all the links and images work on the hosted site, and not just locally.
-- [] That all HTML and CSS code files are validated.
-- [] That your homepage file is named index.html.
-- [] That you have included the sections recommended in the assessment handbook in the README.md file. Any files linked within it are not in the webpage assets directory.
+- [ ] The web app is interactive through, for example, the use of inputs, buttons or CSS transitions.
+- [ ] That if you have included an optional audio or video file, it does not autoplay.
+- [ ] That if you have included an optional form, the inputs have validation.
+- [ ] That you have included accessibility attributes for images and links.
+- [ ] That all the links and images work on the hosted site, and not just locally.
+- [ ] That all HTML and CSS code files are validated.
+- [ ] That your homepage file is named index.html.
+- [ ] That you have included the sections recommended in the assessment handbook in the README.md file. Any files linked within it are not in the webpage assets directory.
+
+
+# Submission Procedure
+
+- [ ] Fill out form on the [Project Submissions Page](https://docs.google.com/forms/d/e/1FAIpQLScD9WjXbG6vOnkNPJlsYhegRWpoHAXAJ2z9-6wdWAuKVhvcBg/viewform?usp=pp_url&entry.1549078852=Portfolio+Project+1+-+HTML/CSS+Essentials)
+    - [ ] Provide links:
+        - [ ] Source code
+        - [ ] Live Deployment Project (GitHub Pages)  
