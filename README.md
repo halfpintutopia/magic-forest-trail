@@ -179,6 +179,7 @@ Photo by <a href="https://unsplash.com/@planetlb?utm_source=unsplash&utm_medium=
   Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/pine-tree-branch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   Photo by <a href="https://unsplash.com/@hans_isaacson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hans Isaacson</a> on <a href="https://unsplash.com/s/photos/pine-tree-branch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   Image by <a href="https://pixabay.com/users/janeb13-725943/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1177545">Welcome to All ! ツ</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1177545">Pixabay</a>
+  Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=36730">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=36730">Pixabay</a>
 
   ### Icons
   * form by The Icon Z from <a href="https://thenounproject.com/browse/icons/term/form/" target="_blank" title="form Icons">Noun Project</a>
@@ -196,3 +197,28 @@ Photo by <a href="https://unsplash.com/@planetlb?utm_source=unsplash&utm_medium=
 
   By choosing to use the top tabbed menus, it makes it easier to see everything available on the site at a glance. As there less then 5 nav items.
   As it is visible it should also stimulate the user to discover more.
+
+[]()
+*Quick link video for trails*
+
+
+  ## Deployment
+  *deployment.gif*
+
+1. Go to repository
+2. Click Settings tab
+3. Click on Pages in the left hand menu, under Code and automation
+4. Under Build and deployment > Source ensure Deploy from a branch is selected
+[]()
+*Screenshot of source option*
+5. Under Build and deploment > Branch select main branch
+[]()
+*Screenshot of branch option*
+6. Click save
+7. It may take more than a few minutes, but when the page has been created, you will see the following success message
+
+[]()
+*Screenshot of success message*
+
+# Code
+## Forking 
