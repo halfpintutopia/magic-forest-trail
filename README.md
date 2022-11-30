@@ -74,7 +74,15 @@ The website has been created solely for the course, but inpsired by an actual hi
 
 
 ## Design
-*Created a prototype for the site with Figma, [here](https://www.figma.com/file/mY6L1TpxKS6PupGlHRLvVF/PP1-Wireframe?node-id=0%3A1&t=29queejCZUsKPnX9-1)*
+*Created a prototype for the site with [Figma](https://www.figma.com). 
+
+![Figma Wireframe of landing page for mobile](./docs/media/images/mobile_view.png)
+*[Landing page - mobile view](https://color.adobe.com/create/image)*
+
+![Figma Wireframe of landing page for desktop](./docs/media/images/desktop_view.png)
+*[Landing page - desktop view](https://color.adobe.com/create/image)*
+
+To see the full wireframe, view it [here](https://www.figma.com/file/mY6L1TpxKS6PupGlHRLvVF/PP1-Wireframe?node-id=0%3A1&t=29queejCZUsKPnX9-1)*
 
 Building from mobile first, I focused on swiping gestures. There are a couple prototype ideas I was playing with but the main idea was to create the landing page with horizontal scrolling. Taking into account new user experiences such as streaming channels like Netflix and phone apps like Tinder, swiping has become quite an expected experience for user.
 
