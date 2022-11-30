@@ -2,9 +2,19 @@ footer {
     background-color: var(--concrete);
 }
 
-footer .social-links {
+footer .social-links,
+footer .copyright {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+}
+
+
+footer .social-links {
+    justify-content: space-evenly;
+}
+
+footer .copyright {
+    justify-content: space-between;
 }
