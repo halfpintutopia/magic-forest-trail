@@ -16,17 +16,12 @@
     margin-bottom: calc(var(--standard-margin) / 2);
 }
 
-.trail > div {
-    flex: 0 0 auto;
-
-}
-
 .trail .trail-image {
-    width: 40%;
+    flex: 0 1 40%;
 }
 
 .trail .trail-summary {
-    width: 60%;
+     flex: 0 1 60%;
 }
 
 

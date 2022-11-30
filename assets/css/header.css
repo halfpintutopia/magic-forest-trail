@@ -29,7 +29,8 @@ header nav div.menu-icon {
 }
 
 header nav div.menu-icon:hover {
-    background-color: var(--concrete-opactity);
+    background-color: var(--armadillo);
+    color: var(--concrete);
 }
 
 header nav div:nth-child(2) {
@@ -37,6 +38,6 @@ header nav div:nth-child(2) {
 }
 
 header nav div.active {
-    background-color: var(--concrete-opactity);
+    background-color: var(--armadillo);
     color: var(--nandor);
 }
