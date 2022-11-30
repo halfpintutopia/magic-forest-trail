@@ -10,6 +10,7 @@
     --concrete-opactity: hsla(0, 0%, 95%, 20%);
     --standard-padding: 1rem;
     --standard-margin: 1rem;
+    --standard-gap: 1rem;
     --header-height: 78px;
     --nav-item-width: var(--header-height);
     --nav-item-height: var(--header-height);
