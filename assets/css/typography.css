@@ -66,4 +66,9 @@ header nav div.menu-icon:hover i.fa-solid {
     color: var(--nandor);
 }
 
+footer .social-links a i.fa-brands {
+    font-size: 40px;
+    color: var(--armadillo)
+}
+
 
