@@ -22,9 +22,12 @@
     --wide-container-width: 90%;
 }
 
-body {
+* {
     padding: 0;
     margin: 0;
+}
+
+body {
     background-color: var(--concrete);
     min-height: 100vh;
 }
