@@ -3,10 +3,6 @@ h1.hero-title {
     font-size: 58px;
 }
 
-h1 {
-
-}
-
 header nav div.menu-icon i.fa-solid {
     font-size: 48px;
     color: var(--concrete);

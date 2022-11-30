@@ -18,11 +18,23 @@
     --font-family-weight-light: 300;
     --font-family-weight-semi-bold: 600;
     --font-family-weight-bold: 700;
+    --wide-container-width: 90%;
 }
 
 body {
     padding: 0;
     margin: 0;
     background-color: var(--concrete);
+    min-height: 100vh;
 }
 
+.wide-container {
+    max-width: var(--wide-container-width);
+    margin: 0 auto;
+}
+
+@media screen and (width >= 1400px) {
+    .wide-container {
+        --wide-container-width: 1320px;
+    }
+}

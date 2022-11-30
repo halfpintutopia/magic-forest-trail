@@ -1,11 +1,11 @@
 .hero-image {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    position: relative;
 }
 
 .hero-image img {
     width: 100%;
-    height: calc(100% - var(--header-height));
+    height: 100vh;
     position: absolute;
     object-fit: cover;
 }
