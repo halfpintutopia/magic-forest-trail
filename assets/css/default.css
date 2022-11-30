@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;600;700&family=Permanent+Marker&display=swap');
+
 :root {
     --nandor: hsl(156, 15%, 33%);
     --armadillo: hsl(51, 6%, 24%);
@@ -11,6 +13,11 @@
     --header-height: 78px;
     --nav-item-width: var(--header-height);
     --nav-item-height: var(--header-height);
+    --font-family-heading: 'Permanent Marker', cursive;
+    --font-family-body: 'Overpass', sans-serif;
+    --font-family-weight-light: 300;
+    --font-family-weight-semi-bold: 600;
+    --font-family-weight-bold: 700;
 }
 
 body {
