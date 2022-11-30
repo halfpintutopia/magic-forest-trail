@@ -1,7 +1,50 @@
+/* TODO add clamp */
 h1.hero-title {
     font-family: var(--font-family-heading);
     font-size: 58px;
 }
+
+h1 {
+    font-family: var(--font-family-heading);
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--font-family-heading);
+    font-size: 48px;
+}
+
+h3 {
+    font-family: var(--font-family-heading);
+    font-size: 48px;
+}
+
+h4 {
+    font-family: var(--font-family-heading);
+    font-size: 24px; 
+}
+
+h5 {
+    font-family: var(--font-family-heading);
+    font-size: 48px;
+}
+
+h6 {
+    font-family: var(--font-family-heading);
+    font-size: 48px;
+}
+
+p {
+    font-family: var(--font-family-body);
+    font-size: 18px;
+}
+
+small {
+    font-family: var(--font-family-body);
+    font-size: 14px;
+}
+
 
 header nav div.menu-icon i.fa-solid {
     font-size: 48px;
