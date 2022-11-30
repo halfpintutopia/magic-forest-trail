@@ -1,0 +1,8 @@
+header nav div.menu-icon i.fa-solid {
+    font-size: 48px;
+    color: var(--concrete);
+}
+
+header nav div.menu-icon:hover i.fa-solid {
+    color: var(--nandor);
+}

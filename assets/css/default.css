@@ -1,0 +1,18 @@
+:root {
+    --nandor: hsl(156, 15%, 33%);
+    --armadillo: hsl(51, 6%, 24%);
+    --indian-khaki: hsl(29, 27%, 65%);
+    --chestnut: hsl(0, 48%, 52%);
+    --concrete: hsl(0, 0%, 95%);
+    --nandor-opacity: hsla(156, 15%, 33%, 70%);
+    --concrete-opactity: hsla(0, 0%, 95%, 20%);
+    --standard-padding: 1rem;
+    --standard-margin: 1rem;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--concrete);
+}
+

@@ -1,0 +1,37 @@
+header {
+    background-color: var(--nandor-opacity);
+}
+
+header nav {
+    display: flex;
+}
+
+header nav > div {
+    background-color: var(--nandor);
+    height: 78px;
+    width: 78px;
+}
+
+header nav div.logo {
+    background-image: url('../media/images/logo.svg');
+    background-size: cover;
+}
+
+header nav div.menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav div.menu-icon:hover {
+    background-color: var(--concrete-opactity);
+}
+
+header nav div:nth-child(2) {
+    margin-left: auto;
+}
+
+header nav div.active {
+    background-color: var(--concrete-opactity);
+    color: var(--nandor);
+}
