@@ -7,9 +7,10 @@ header nav {
 }
 
 header nav > div {
+
     background-color: var(--nandor);
-    height: 78px;
-    width: 78px;
+    height: var(--nav-item-height);
+    width: var(--nav-item-width);
 }
 
 header nav div.logo {
