@@ -67,23 +67,23 @@ a:active {
 }
 
 
-header nav div.menu-icon i.fa-solid {
+header a i.fa-solid {
     font-size: 48px;
     color: var(--concrete);
 }
 
-header nav div.menu-icon:hover i.fa-solid {
+header a:hover i.fa-solid {
     color: var(--nandor);
 }
 
-a i.fa-brands {
+footer a i.fa-brands {
     font-size: 40px;
     color: var(--concrete)
 }
 
-a:hover i.fa-brands,
-a:focus i.fa-brands,
-a:active i.fa-brands {
+footer a:hover i.fa-brands,
+footer a:focus i.fa-brands,
+footer a:active i.fa-brands {
     color: var(--nandor);
 }
 

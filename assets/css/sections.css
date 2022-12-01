@@ -41,13 +41,38 @@
 }
 
 .trail-details {
-    height: 40vh;
+    height: 100vh;
     position: relative;
+
+}
+
+.trail-details .trail-image,
+.trail-details .trail-overview img {
+    height: 40vh;
 }
 
 .trail-details .trail-overview img {
     width: 100%;
-    height: 40vh;
     position: absolute;
     object-fit: cover;
+}
+
+.trail-stats {
+    display: flex;
+    border: 1px solid var(--armadillo);
+}
+
+.trail-stats > div {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.trail-stats .duration {
+    border-right: 1px solid var(--armadillo);
+}
+
+.trail-stats .level {
+    border-left: 1px solid var(--armadillo);
 }
