@@ -38,6 +38,7 @@ footer .copyright .clause {
 
 footer .copyright .website-name,
 footer .copyright .webwork {
+    color: var(--concrete);
     flex: 0 0 50%;
 }
 

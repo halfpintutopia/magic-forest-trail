@@ -39,3 +39,15 @@
     position: absolute;
     object-fit: cover;
 }
+
+.trail-details {
+    height: 40vh;
+    position: relative;
+}
+
+.trail-details .trail-overview img {
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    object-fit: cover;
+}
