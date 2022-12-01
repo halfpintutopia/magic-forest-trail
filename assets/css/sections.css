@@ -10,6 +10,10 @@
     object-fit: cover;
 }
 
+.trails {
+    margin-right: 5%;
+}
+
 .trails .trail {
     display: flex;
     gap: calc(var(--standard-gap) / 2);

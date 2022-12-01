@@ -1,12 +1,12 @@
 /* TODO add clamp */
 h1.hero-title {
     font-family: var(--font-family-heading);
-    font-size: 58px;
+    font-size: calc(58px + 0.390625vw);
 }
 
 h1 {
     font-family: var(--font-family-heading);
-    font-size: 48px;
+    font-size: calc(48px + 0.390625vw);
     text-align: center;
 }
 
@@ -17,12 +17,12 @@ h2 {
 
 h3 {
     font-family: var(--font-family-heading);
-    font-size: 28px;
+    font-size: calc(28px + 0.390625vw);
 }
 
 h4 {
     font-family: var(--font-family-heading);
-    font-size: 24px; 
+    font-size: calc(24px + 0.390625vw);
 }
 
 h5 {
@@ -37,18 +37,22 @@ h6 {
 
 p {
     font-family: var(--font-family-body);
-    font-size: 18px;
+    font-size: calc(16px + 0.390625vw);
 }
 
 strong {
     font-family: var(--font-family-body);
     font-weight: 700;
-    font-size: 18px;
+    font-size: calc(18px + 0.390625vw);
+}
+
+small strong {
+    font-size: calc(14px + 0.390625vw);
 }
 
 small {
     font-family: var(--font-family-body);
-    font-size: 14px;
+    font-size: calc(14px + 0.390625vw);
 }
 
 a {

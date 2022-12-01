@@ -1,5 +1,10 @@
 footer {
     background-color: var(--concrete);
+    box-shadow: 0 -10px 40px -15px rgba(0, 0, 0, 0.4);
+    /* position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; */
 }
 
 footer .social-links,
@@ -15,6 +20,32 @@ footer .social-links {
     justify-content: space-evenly;
 }
 
+
+footer .social-link {
+    border-radius: 50%;
+    background-color: green;
+    padding: 5px;
+    aspect-ratio: 1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 footer .copyright {
     justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--armadillo);
+}
+
+footer .copyright .clause {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+footer .copyright .website-name,
+footer .copyright .webwork {
+    flex: 0 0 50%;
+}
+
+footer .copyright .webwork {
+    text-align: right;
 }
