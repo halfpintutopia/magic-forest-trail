@@ -20,14 +20,9 @@ footer .social-links {
     justify-content: space-evenly;
 }
 
-
-footer .social-link {
-    border-radius: 50%;
-    background-color: green;
-    padding: 5px;
-    aspect-ratio: 1;
-    margin-top: 15px;
-    margin-bottom: 15px;
+footer .social-links .social-link {
+    margin-top: var(--standard-margin);
+    margin-bottom: var(--standard-margin);
 }
 
 footer .copyright {

@@ -57,7 +57,13 @@ small {
 
 a {
     text-decoration: none;
-    color: var(--armadillo)
+    color: var(--nandor)
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: var(--armadillo);
 }
 
 
@@ -70,9 +76,15 @@ header nav div.menu-icon:hover i.fa-solid {
     color: var(--nandor);
 }
 
-footer .social-links a i.fa-brands {
+a i.fa-brands {
     font-size: 40px;
-    color: var(--armadillo)
+    color: var(--concrete)
+}
+
+a:hover i.fa-brands,
+a:focus i.fa-brands,
+a:active i.fa-brands {
+    color: var(--nandor);
 }
 
 
