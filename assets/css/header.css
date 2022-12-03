@@ -29,11 +29,15 @@ header nav li {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .2s;
 }
 
 header nav li:hover {
-    background-color: var(--armadillo);
-    color: var(--concrete);
+    background-color: var(--concrete);
+}
+
+header nav li:hover i.fa-solid {
+    color: var(--nandor);
 }
 
 header nav li:nth-child(2) {
@@ -41,6 +45,6 @@ header nav li:nth-child(2) {
 }
 
 header nav .active {
-    background-color: var(--armadillo);
+    background-color: var(--concrete);
     color: var(--nandor);
 }
