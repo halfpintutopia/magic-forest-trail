@@ -22,7 +22,8 @@ h3 {
 }
 
 h4 {
-    font-family: var(--font-family-heading);
+    font-family: var(--font-family-body);
+    font-weight: 600;
     font-size: clamp(1.575rem, calc(1.34rem + 1.17vw), 2.25rem);
 }
 
@@ -71,7 +72,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: var(--armadillo);
+    color: var(--concrete);
 }
 
 

@@ -46,5 +46,8 @@ header nav li:nth-child(2) {
 
 header nav .active {
     background-color: var(--concrete);
+}
+
+header nav .active i.fa-solid {
     color: var(--nandor);
 }
