@@ -22,15 +22,40 @@
     --wide-container-width: 90%;
 }
 
+/* Reset default */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 * {
     padding: 0;
     margin: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
 }
 
 body {
-    background-color: var(--concrete);
     min-height: 100vh;
 }
+
+img, 
+picture, 
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input, 
+textarea,
+button,
+select {
+    font: inherit;
+}
+/* end Reset default */
 
 .wide-container {
     max-width: var(--wide-container-width);
