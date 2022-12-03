@@ -58,12 +58,8 @@ select {
 /* end Reset default */
 
 .wide-container {
-    max-width: var(--wide-container-width);
-    margin: 0 auto;
-}
-
-@media screen and (width >= 1400px) {
-    .wide-container {
-        --wide-container-width: 1320px;
-    }
+    --container-margin: 2rem;
+    --max-width: 1400px;
+    width: min(100% - var(--container-margin), var(--max-width));
+    margin-inline: auto;
 }
