@@ -1,12 +1,22 @@
 .hero-image {
     height: 100vh;
     position: relative;
+    display: grid;
+}
+
+.hero-image > * {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+.hero-image img {
+    z-index: -1;
 }
 
 .hero-image img {
     width: 100%;
     height: 100vh;
-    position: absolute;
+    /* position: absolute; */
     object-fit: cover;
 }
 
