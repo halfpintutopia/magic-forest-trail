@@ -22,12 +22,14 @@
 
 .trail .trail-summary {
      flex: 0 1 60%;
+     display: grid;
+     place-items: center;
 }
 
 
 .trail-image {
     position: relative;
-    aspect-ratio: 1;
+    min-height: 10rem;
 }
 
 .trail-image img {
