@@ -13,7 +13,7 @@
 .trails .trail {
     display: flex;
     gap: calc(var(--standard-gap) / 2);
-    margin-bottom: calc(var(--standard-margin) / 2);
+    margin-block: max(5vh, 2rem);
 }
 
 .trail .trail-image {
@@ -61,8 +61,7 @@
 .trail-stats > div {
     width: 100%;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-block: max(3vh, 1rem);
 }
 
 .trail-stats .duration {

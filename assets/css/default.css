@@ -19,7 +19,8 @@
     --font-family-weight-light: 300;
     --font-family-weight-semi-bold: 600;
     --font-family-weight-bold: 700;
-    --wide-container-width: 90%;
+    --wide-container-width: 87.5rem;
+    --container-margin: calc(var(--standard-margin) * 2);
 }
 
 /* Reset default */
@@ -58,8 +59,6 @@ select {
 /* end Reset default */
 
 .wide-container {
-    --container-margin: 2rem;
-    --max-width: 1400px;
-    width: min(100% - var(--container-margin), var(--max-width));
+    width: min(100% - var(--container-margin), var(--wide-container-width));
     margin-inline: auto;
 }
