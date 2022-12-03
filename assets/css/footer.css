@@ -1,10 +1,6 @@
 footer {
     background-color: var(--concrete);
     box-shadow: 0 -10px 40px -15px rgba(0, 0, 0, 0.4);
-    /* position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0; */
 }
 
 footer .social-links,

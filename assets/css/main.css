@@ -1,6 +1,6 @@
-@import './default.css';
-@import './typography.css';
-@import './header.css';
-@import './footer.css';
-@import './sections.css';
-
+@import url('./default.css');
+@import url('./typography.css');
+@import url('./header.css');
+@import url('./footer.css');
+@import url('./sections.css');
+@import url('./buttons.css');

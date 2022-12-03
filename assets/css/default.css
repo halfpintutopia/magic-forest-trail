@@ -19,8 +19,6 @@
     --font-family-weight-light: 300;
     --font-family-weight-semi-bold: 600;
     --font-family-weight-bold: 700;
-    --wide-container-width: 87.5rem;
-    --container-margin: calc(var(--standard-margin) * 2);
 }
 
 /* Reset default */
@@ -59,7 +57,12 @@ select {
 }
 /* end Reset default */
 
-.wide-container {
-    width: min(100% - var(--container-margin), var(--wide-container-width));
+.container {
+    width: min(100% - var(--container-padding), var(--container-max-width));
     margin-inline: auto;
+}
+
+.container[data-type="wide"] {
+    --container-max-width: 87.5rem;
+    --container-padding: calc(var(--standard-padding) * 2);
 }

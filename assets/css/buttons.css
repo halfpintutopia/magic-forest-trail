@@ -1,0 +1,32 @@
+button {
+    border: none;
+    border-radius: 10px;
+
+    background-color: red;
+    color: white;
+    font-family: var(--font-family-heading);
+    font-size: 48px;
+
+    display: inline;
+    padding: max(3vh, 1rem) max(6vh, 2rem);
+    cursor: pointer;
+    text-decoration: none;
+    text-overflow: uppercase;
+    font-weight: 700;
+    border: 0;
+
+    color: var(--button-text, white);
+    background-color: var(--button-background, red);
+}
+
+button:hover {
+    color: var(--button-text-hover, red);
+    background-color: var(--button-background-color-hover, white);
+}
+
+button[data-type='wide'] {
+--button-text: var(--concrete);
+--button-background: var(--chestnut);
+--button-text-hover: var(--chestnut);
+--button-background-color-hover: var(--concrete);
+}
