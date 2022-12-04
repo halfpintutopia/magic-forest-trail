@@ -210,10 +210,8 @@ https://user-images.githubusercontent.com/30613818/205482507-083fdd7d-01cd-4cc2-
 
 
   ## Deployment
-<video autoplay loop muted playsinline>
-  <source src="./docs/media/videos/deployment.mov" type="video/mp4">
-</video>
-  *Deployment screencast - converted from .mov extension to .gif with [Adobe](https://express.adobe.com/tools/convert-to-gif)*
+![How to deploy](https://user-images.githubusercontent.com/30613818/205482507-083fdd7d-01cd-4cc2-b6ea-8fcf388fbd77.mov)
+*Screencast of deployment*
 
 1. Go to repository
 2. Click Settings tab
