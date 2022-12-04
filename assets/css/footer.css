@@ -3,7 +3,12 @@ footer {
     box-shadow: 0 -10px 40px -15px rgba(0, 0, 0, 0.4);
 }
 
-footer .social-links,
+footer .social-links {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
 footer .copyright {
     display: flex;
     align-items: center;
@@ -11,14 +16,10 @@ footer .copyright {
     width: 100%;
 }
 
-
-footer .social-links {
-    justify-content: space-evenly;
-}
-
 footer .social-links .social-link {
     margin-top: var(--standard-margin);
     margin-bottom: var(--standard-margin);
+    text-align: center;
 }
 
 footer .copyright {
