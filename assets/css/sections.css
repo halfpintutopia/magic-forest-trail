@@ -31,6 +31,7 @@ section.trails {
     display: grid;
     grid-auto-flow: column;
     gap: 1rem;
+    grid-auto-columns: 1fr;
 }
 
 @media only screen and (width >=768px) {
@@ -42,8 +43,16 @@ section.trails {
 .trail .trail-summary {
     display: grid;
     place-items: center start;
+    gap: 1rem;
 }
 
+.trail .trail-summary h4 {
+    place-self: end start;
+}
+
+.trail .trail-summary p {
+    place-self: start;
+}
 
 .trail-image {
     --box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14),
