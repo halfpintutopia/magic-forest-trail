@@ -24,7 +24,7 @@ footer .social-links .social-link {
 footer .copyright {
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--armadillo);
+    background-color: var(--shark);
 }
 
 footer .copyright .clause {
@@ -34,7 +34,7 @@ footer .copyright .clause {
 
 footer .copyright .website-name,
 footer .copyright .webwork {
-    color: var(--concrete);
+    color: var(--pampas);
     flex: 0 0 50%;
 }
 

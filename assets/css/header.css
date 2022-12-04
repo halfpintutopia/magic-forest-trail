@@ -1,5 +1,5 @@
 header {
-    background-color: var(--nandor-opacity);
+    background-color: var(--verdun-green-dark-opacity);
     position: fixed;
     top: 0;
     left: 0;
@@ -14,7 +14,7 @@ header nav .menu {
 }
 
 header .menu li {
-    background-color: var(--nandor);
+    background-color: var(--verdun-green-dark);
     height: var(--nav-item-height);
     width: var(--nav-item-width);
 }
@@ -33,11 +33,11 @@ header nav li {
 }
 
 header nav li:hover {
-    background-color: var(--concrete);
+    background-color: var(--pampas);
 }
 
 header nav li:hover i.fa-solid {
-    color: var(--nandor);
+    color: var(--verdun-green-dark);
 }
 
 header nav li:nth-child(2) {
@@ -45,7 +45,7 @@ header nav li:nth-child(2) {
 }
 
 header nav .active {
-    background-color: var(--concrete);
+    background-color: var(--pampas);
 }
 
 header nav .active i.fa-solid {

@@ -68,9 +68,9 @@
 
 .trail-stats {
     display: flex;
-    border-left: 4px solid var(--concrete);
-    border-right: 4px solid var(--concrete);
-    border-bottom: 4px solid var(--concrete);
+    border-left: 4px solid var(--pampas);
+    border-right: 4px solid var(--pampas);
+    border-bottom: 4px solid var(--pampas);
 }
 
 .trail-stats > div {
@@ -80,9 +80,9 @@
 }
 
 .trail-stats .duration {
-    border-right: 4px solid var(--concrete);
+    border-right: 4px solid var(--pampas);
 }
 
 .trail-stats .level {
-    border-left: 4px solid var(--concrete);
+    border-left: 4px solid var(--pampas);
 }

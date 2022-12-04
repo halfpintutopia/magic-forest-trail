@@ -66,33 +66,33 @@ a {
     font-weight: 300;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     text-decoration: none;
-    color: var(--nandor)
+    color: var(--shark)
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: var(--concrete);
+    color: var(--pampas);
 }
 
 
 header a i.fa-solid {
     font-size: 48px;
-    color: var(--concrete);
+    color: var(--pampas);
 }
 
 header a:hover i.fa-solid {
-    color: var(--nandor);
+    color: var(--shark);
 }
 
 footer a i.fa-brands {
     font-size: 40px;
-    color: var(--concrete)
+    color: var(--pampas)
 }
 
 footer a:hover i.fa-brands,
 footer a:focus i.fa-brands,
 footer a:active i.fa-brands {
-    color: var(--nandor);
+    color: var(--shark);
 }
 
