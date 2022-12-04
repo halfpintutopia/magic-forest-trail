@@ -1,5 +1,5 @@
 section.trails {
-    padding-top: max(3vh, 1rem);
+    padding-block: max(3vh, 1rem);
 }
 
 .trails ul {
@@ -55,9 +55,6 @@ section.trails {
 }
 
 .trail-image {
-    --box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 4px -1px rgba(0, 0, 0, 0.2);
     position: relative;
     min-height: 10rem;
     box-shadow: var(--box-shadow);
@@ -107,11 +104,3 @@ section.trails {
 .trail-stats .level {
     border-left: 4px solid var(--pampas);
 }
-
-/*
-display: grid;
-gap: 1rem;
-
-grid-auto-flow: column;
-grid-auto-columns: 1fr;
-*/

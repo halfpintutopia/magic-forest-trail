@@ -82,7 +82,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: var(--pampas);
+    color: var(--verdun-green-light);
 }
 
 
@@ -97,12 +97,12 @@ header a:hover i.fa-solid {
 
 footer a i.fa-brands {
     font-size: 40px;
-    color: var(--pampas)
+    color: var(--icon-social-color);
 }
 
 footer a:hover i.fa-brands,
 footer a:focus i.fa-brands,
 footer a:active i.fa-brands {
-    color: var(--shark);
+    color: var(--icon-social-hover-color);
 }
 
