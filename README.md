@@ -1,6 +1,6 @@
 # Magic Forest Trail
 
-[View the live project here.]()
+[View the live project here.](https://halfpintutopia.github.io/magic-forest-trail/)
 
 The website has been created solely for the course, but inpsired by an actual hiking trail based in Braunwald, Glarus-Süd in the North East of Switzerland. "Zwerg Bartli", a moutain dwelling drawf, is an affectionately well know character in this area. A fictitious character   made famous by a children's book.  The idea of the website came about, when a colleague, Hermina, enthused about the trail and taking her children to it. She is very motivated in breathing a new breath of life into this attraction and wanted and I thought it would be a win-win to provide a basic website to get her personal project started.
 
@@ -250,3 +250,19 @@ Testing
 Font sizing was not being responsive, used clamp()
 Color scheme fitting the 70/20/10 ratio, there were too much 
 Slow loading images use loading lazy and https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
+
+https://matthewjamestaylor.com/responsive-font-size
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://www.cssmatic.com/box-shadow
+https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-picture
+https://web.dev/browser-level-image-lazy-loading/
+https://www.editorx.com/shaping-design/article/font-size
+https://utopia.fyi
+https://css-tricks.com/early-days-of-container-style-queries/
+https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
+https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862
+https://zoomadmin.com/HowToInstall/UbuntuPackage/graphicsmagick
+https://developer.chrome.com/en/docs/lighthouse/performance/uses-long-cache-ttl/
+https://inkscape.org/
+https://www.gimp.org/
+https://fontawesome.com
