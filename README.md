@@ -209,8 +209,11 @@ Photo by <a href="https://unsplash.com/@planetlb?utm_source=unsplash&utm_medium=
 
 
   ## Deployment
-[![How to deploy](https://user-images.githubusercontent.com/30613818/205482507-083fdd7d-01cd-4cc2-b6ea-8fcf388fbd77.mov)](https://user-images.githubusercontent.com/30613818/205482507-083fdd7d-01cd-4cc2-b6ea-8fcf388fbd77.mov
-)
+  
+
+https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-9212-0e119214ff22.mov
+
+
 *Screencast of deployment*
 
 1. Go to repository
