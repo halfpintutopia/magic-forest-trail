@@ -249,3 +249,4 @@ Photo by <a href="https://unsplash.com/@allphotobangkok?utm_source=unsplash&utm_
 Testing
 Font sizing was not being responsive, used clamp()
 Color scheme fitting the 70/20/10 ratio, there were too much 
+Slow loading images use loading lazy and https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
