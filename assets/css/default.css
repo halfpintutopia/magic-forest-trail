@@ -24,6 +24,8 @@
     --font-color-hero-title: var(--pampas);
     --font-color-heading: var(--shark);
     --font-color-body: var(--shark);
+    --trail-list-item-hover-bg: var(--verdun-green-light);
+
 }
 
 @media (prefers-color-scheme: dark) {
