@@ -266,3 +266,4 @@ https://developer.chrome.com/en/docs/lighthouse/performance/uses-long-cache-ttl/
 https://inkscape.org/
 https://www.gimp.org/
 https://fontawesome.com
+https://app.svgator.com
