@@ -218,17 +218,22 @@ Photo by <a href="https://unsplash.com/@planetlb?utm_source=unsplash&utm_medium=
 
 
   ## Deployment
-  *deployment.gif*
+<video autoplay loop muted playsinline>
+  <source src="./docs/media/videos/deployment.mov" type="video/mp4">
+</video>
+  *Deployment screencast*
 
 1. Go to repository
 2. Click Settings tab
-3. Click on Pages in the left hand menu, under Code and automation
-4. Under Build and deployment > Source ensure Deploy from a branch is selected
-[]()
+3. Click on Pages in the left hand menu, under Code and automation ![Click Pages](./docs/media/images/deployment_pages.png)
+*Screenshot of how to get the Pages section*
+
+4. Under Build and deployment > Source ensure Deploy from a branch is selected ![Choose Source](./docs/media/images/deployment_pages_source.png)
 *Screenshot of source option*
-5. Under Build and deploment > Branch select main branch
-[]()
+
+5. Under Build and deploment > Branch select main branch ![Choose Branch](./docs/media/images/deployment_pages_branch.png)
 *Screenshot of branch option*
+
 6. Click save
 7. It may take more than a few minutes, but when the page has been created, you will see the following success message
 
@@ -247,3 +252,7 @@ Photo by <a href="https://unsplash.com/@chris_regg?utm_source=unsplash&utm_mediu
 Photo by <a href="https://unsplash.com/@mamuej?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 Photo by <a href="https://unsplash.com/@allphotobangkok?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Paul Szewczyk</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+
+Testing
+Font sizing was not being responsive, used clamp()
+Color scheme fitting the 70/20/10 ratio, there were too much 
