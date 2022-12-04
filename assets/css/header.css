@@ -49,7 +49,7 @@ header nav .active {
 }
 
 header nav .active i.fa-solid {
-    color: var(--nandor);
+    color: var(--verdun-green-dark);
 }
 
 @media only screen and (width >=768px) {
@@ -67,4 +67,61 @@ header .nav-title {
    header .nav-title {
        display: inline-flex;
    }
+}
+
+.hero-section {
+    display: grid;
+    place-items: center;
+    isolation: isolate;
+}
+
+.hero-section > * {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+.hero-section .hero-image {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-section > .footprints {
+    place-self: end center;
+}
+
+#bootprints-light_down-u-bootprints-light-down__right {
+    animation: bootprints-light_down-u-bootprints-light-down__right_c_o 3000ms linear infinite normal forwards
+}
+
+@keyframes bootprints-light_down-u-bootprints-light-down__right_c_o {
+    0% {
+        opacity: 0
+    }
+
+    16.666667% {
+        opacity: 0.75
+    }
+
+    33.333333% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    66.666667% {
+        opacity: 1
+    }
+
+    83.333333% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
 }

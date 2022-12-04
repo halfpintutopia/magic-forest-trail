@@ -6,6 +6,7 @@
     --verdun-green-dark: hsl(79, 97%, 13%);
     --limeade: hsl(79, 96%, 28%);
     --pampas: hsl(60, 21%, 94%);
+    --svg-fill: var(--limeade);
     --verdun-green-dark-opacity: hsla(79, 97%, 13%, 70%);
     --pampas-opacity: hsla(60, 21%, 94%, 20%);
     --standard-padding: 1rem;
@@ -20,7 +21,21 @@
     --font-family-weight-regular: 400;
     --font-family-weight-semi-bold: 600;
     --font-family-weight-bold: 700;
+    --font-color-hero-title: var(--pampas);
+    --font-color-heading: var(--shark);
+    --font-color-body: var(--shark);
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+        --font-color-hero-title: var(--pampas);
+        --font-color-heading: var(--pampas);
+        --font-color-body: var(--pampas);
+    }
+}
+
+
 
 /* Reset default */
 *, *::before, *::after {
@@ -32,10 +47,6 @@
     margin: 0;
     font-family: var(--font-family-body);
     font-weight: 300;
-}
-
-html {
-    color-scheme: dark light;
 }
 
 body {

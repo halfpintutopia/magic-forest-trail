@@ -32,7 +32,12 @@
         </nav>
     </header>
     <section>
-        <div class="hero-image">
+        <div class="hero-section">
+            <h1 class="hero-title">Magic Forest Trail</h1>
+            <div class="footprints">
+                <img src="assets/media/images/bootprints-light_down.svg" alt="">
+            </div>
+
             <picture>
                 <source media="(min-width: 900px)"
                     srcset="assets/media/images/home/lg/hero-image-lg_1x.webp 1x, assets/media/images/home/lg/hero-image-lg_2x.webp 2x"
@@ -41,150 +46,165 @@
                             assets/media/images/home/md/hero-image-md_2x.webp 2x" type="image/webp" />
                 <source srcset="assets/media/images/home/sm/hero-image-sm_1x.webp 1x,
                             assets/media/images/home/sm/hero-image-sm_2x.webp 2x" type="image/webp" />
-                <img srcset="assets/media/images/home/sm/hero-image-sm_1x.jpg 600w, assets/media/images/home/md/hero-image-md_1x.jpg 900w, assets/media/images/home/lg/hero-image-lg_1x.jpg 1440w"
+                <img class="hero-image" srcset="assets/media/images/home/sm/hero-image-sm_1x.jpg 600w, assets/media/images/home/md/hero-image-md_1x.jpg 900w, assets/media/images/home/lg/hero-image-lg_1x.jpg 1440w"
                     src="assets/media/images/home/lg/hero-image-lg_1x.jpg" type="image/jpeg"
                     alt="Forest trail" />
             </picture>
-            <div class="footprints">Footprints</div>
         </div>
     </section>
     <section class="trails">
         <h1>Trails</h1>
-        <a href="trails.html#full-trail" target="_self">
-            <div class="trail">
-                <div class="trail-image">
-                    <picture>
-                        <source media="(min-width: 900px)"
-                            srcset="assets/media/images/full-trail/lg/full-trail-lg_1x.webp 1x, assets/media/images/full-trail/lg/full-trail-lg_2x.webp 2x"
-                            type="image/webp" />
-                        <source media="(min-width: 601px)"
-                            srcset="assets/media/images/full-trail/md/full-trail-md_1x.webp 1x,
-                            assets/media/images/full-trail/md/full-trail-md_2x.webp 2x"
-                            type="image/webp" />
-                        <source
-                            srcset="assets/media/images/full-trail/sm/full-trail-sm_1x.webp 1x,
-                            assets/media/images/full-trail/sm/full-trail-sm_2x.webp 2x"
-                            type="image/webp" />
-                        <img loading="lazy" srcset="assets/media/images/full-trail/sm/full-trail-sm_1x.jpg 600w, assets/media/images/full-trail/md/full-trail-md_1x.jpg 900w, assets/media/images/full-trail/lg/full-trail-lg_1x.jpg 1440w"
-                            src="assets/media/images/full-trail/lg/full-trail-lg_1x.jpg" type="image/jpeg" alt="Stone marker with white-red-white flag on the trail" />
-                    </picture>
-                </div>
-                <div class="trail-summary">
-                    <h4>Full Trail</h4>
-                    <p>Gumen - Braunwald</p>
-                </div>
-            </div>
-        </a>
-        <a href="trails.html" target="_self">
-            <div class="trail">
-                <div class="trail-image">
-                   <picture>
-                       <source media="(min-width: 900px)"
-                           srcset="assets/media/images/variation-1/lg/variation-1-lg_1x.webp 1x, assets/media/images/variation-1/lg/variation-1-lg_2x.webp 2x"
-                           type="image/webp" />
-                       <source media="(min-width: 601px)" srcset="assets/media/images/variation-1/md/variation-1-md_1x.webp 1x,
+        <ul>
+            <li>
+                <a href="trails.html#full-trail" target="_self">
+                    <div class="trail">
+                        <div class="trail-image">
+                            <picture>
+                                <source media="(min-width: 900px)"
+                                    srcset="assets/media/images/full-trail/lg/full-trail-lg_1x.webp 1x, assets/media/images/full-trail/lg/full-trail-lg_2x.webp 2x"
+                                    type="image/webp" />
+                                <source media="(min-width: 601px)" srcset="assets/media/images/full-trail/md/full-trail-md_1x.webp 1x,
+                            assets/media/images/full-trail/md/full-trail-md_2x.webp 2x" type="image/webp" />
+                                <source srcset="assets/media/images/full-trail/sm/full-trail-sm_1x.webp 1x,
+                            assets/media/images/full-trail/sm/full-trail-sm_2x.webp 2x" type="image/webp" />
+                                <img loading="lazy"
+                                    srcset="assets/media/images/full-trail/sm/full-trail-sm_1x.jpg 600w, assets/media/images/full-trail/md/full-trail-md_1x.jpg 900w, assets/media/images/full-trail/lg/full-trail-lg_1x.jpg 1440w"
+                                    src="assets/media/images/full-trail/lg/full-trail-lg_1x.jpg" type="image/jpeg"
+                                    alt="Stone marker with white-red-white flag on the trail" />
+                            </picture>
+                        </div>
+                        <div class="trail-summary">
+                            <h4>Full Trail</h4>
+                            <p>Gumen - Braunwald</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="trails.html" target="_self">
+                    <div class="trail">
+                        <div class="trail-image">
+                            <picture>
+                                <source media="(min-width: 900px)"
+                                    srcset="assets/media/images/variation-1/lg/variation-1-lg_1x.webp 1x, assets/media/images/variation-1/lg/variation-1-lg_2x.webp 2x"
+                                    type="image/webp" />
+                                <source media="(min-width: 601px)" srcset="assets/media/images/variation-1/md/variation-1-md_1x.webp 1x,
                             assets/media/images/variation-1/md/variation-1-md_2x.webp 2x" type="image/webp" />
-                       <source srcset="assets/media/images/variation-1/sm/variation-1-sm_1x.webp 1x,
+                                <source srcset="assets/media/images/variation-1/sm/variation-1-sm_1x.webp 1x,
                             assets/media/images/variation-1/sm/variation-1-sm_2x.webp 2x" type="image/webp" />
-                       <img loading="lazy" srcset="assets/media/images/variation-1/sm/variation-1-sm_1x.jpg 600w, assets/media/images/variation-1/md/variation-1-md_1x.jpg 900w, assets/media/images/variation-1/lg/variation-1-lg_1x.jpg 1440w"
-                           src="assets/media/images/variation-1/lg/variation-1-lg_1x.jpg" type="image/jpeg"
-                           alt="Overview of the valley" />
-                   </picture>
-                </div>
-                <div class="trail-summary">
-                    <h4>Variation One</h4>
-                    <p>Gumen - Braunwald</p>
-                </div>
-            </div>
-        </a>
-        <a href="trails.html" target="_self">
-            <div class="trail">
-                <div class="trail-image">
-                    <picture>
-                        <source media="(min-width: 900px)"
-                            srcset="assets/media/images/variation-2/lg/variation-2-lg_1x.webp 1x, assets/media/images/variation-2/lg/variation-2-lg_2x.webp 2x"
-                            type="image/webp" />
-                        <source media="(min-width: 601px)" srcset="assets/media/images/variation-2/md/variation-2-md_1x.webp 1x,
+                                <img loading="lazy"
+                                    srcset="assets/media/images/variation-1/sm/variation-1-sm_1x.jpg 600w, assets/media/images/variation-1/md/variation-1-md_1x.jpg 900w, assets/media/images/variation-1/lg/variation-1-lg_1x.jpg 1440w"
+                                    src="assets/media/images/variation-1/lg/variation-1-lg_1x.jpg" type="image/jpeg"
+                                    alt="Overview of the valley" />
+                            </picture>
+                        </div>
+                        <div class="trail-summary">
+                            <h4>Variation One</h4>
+                            <p>Gumen - Braunwald</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="trails.html" target="_self">
+                    <div class="trail">
+                        <div class="trail-image">
+                            <picture>
+                                <source media="(min-width: 900px)"
+                                    srcset="assets/media/images/variation-2/lg/variation-2-lg_1x.webp 1x, assets/media/images/variation-2/lg/variation-2-lg_2x.webp 2x"
+                                    type="image/webp" />
+                                <source media="(min-width: 601px)" srcset="assets/media/images/variation-2/md/variation-2-md_1x.webp 1x,
                             assets/media/images/variation-2/md/variation-2-md_2x.webp 2x" type="image/webp" />
-                        <source srcset="assets/media/images/variation-2/sm/variation-2-sm_1x.webp 1x,
+                                <source srcset="assets/media/images/variation-2/sm/variation-2-sm_1x.webp 1x,
                             assets/media/images/variation-2/sm/variation-2-sm_2x.webp 2x" type="image/webp" />
-                        <img loading="lazy" srcset="assets/media/images/variation-2/sm/variation-2-sm_1x.jpg 600w, assets/media/images/variation-2/md/variation-2-md_1x.jpg 900w, assets/media/images/variation-2/lg/variation-2-lg_1x.jpg 1440w"
-                            src="assets/media/images/variation-2/lg/variation-2-lg_1x.jpg" type="image/jpeg"
-                            alt="Top of the mountain, overview of the mountain ridge in summer" />
-                    </picture>
-                </div>
-                <div class="trail-summary">
-                    <h4>Variation Two</h4>
-                    <p>Gumen - Braunwald</p>
-                </div>
-            </div>
-        </a>
-        <a href="trails.html" target="_self">
-            <div class="trail">
-                <div class="trail-image">
-                    <picture>
-                        <source media="(min-width: 900px)"
-                            srcset="assets/media/images/variation-3/lg/variation-3-lg_1x.webp 1x, assets/media/images/variation-3/lg/variation-3-lg_2x.webp 2x"
-                            type="image/webp" />
-                        <source media="(min-width: 601px)" srcset="assets/media/images/variation-3/md/variation-3-md_1x.webp 1x,
+                                <img loading="lazy"
+                                    srcset="assets/media/images/variation-2/sm/variation-2-sm_1x.jpg 600w, assets/media/images/variation-2/md/variation-2-md_1x.jpg 900w, assets/media/images/variation-2/lg/variation-2-lg_1x.jpg 1440w"
+                                    src="assets/media/images/variation-2/lg/variation-2-lg_1x.jpg" type="image/jpeg"
+                                    alt="Top of the mountain, overview of the mountain ridge in summer" />
+                            </picture>
+                        </div>
+                        <div class="trail-summary">
+                            <h4>Variation Two</h4>
+                            <p>Gumen - Braunwald</p>
+                        </div>
+                    </div>
+                </a></li>
+            <li>
+                <a href="trails.html" target="_self">
+                    <div class="trail">
+                        <div class="trail-image">
+                            <picture>
+                                <source media="(min-width: 900px)"
+                                    srcset="assets/media/images/variation-3/lg/variation-3-lg_1x.webp 1x, assets/media/images/variation-3/lg/variation-3-lg_2x.webp 2x"
+                                    type="image/webp" />
+                                <source media="(min-width: 601px)" srcset="assets/media/images/variation-3/md/variation-3-md_1x.webp 1x,
                             assets/media/images/variation-3/md/variation-3-md_2x.webp 2x" type="image/webp" />
-                        <source srcset="assets/media/images/variation-3/sm/variation-3-sm_1x.webp 1x,
+                                <source srcset="assets/media/images/variation-3/sm/variation-3-sm_1x.webp 1x,
                             assets/media/images/variation-3/sm/variation-3-sm_2x.webp 2x" type="image/webp" />
-                        <img loading="lazy" srcset="assets/media/images/variation-3/sm/variation-3-sm_1x.jpg 600w, assets/media/images/variation-3/md/variation-3-md_1x.jpg 900w, assets/media/images/variation-3/lg/variation-3-lg_1x.jpg 1440w"
-                            src="assets/media/images/variation-3/lg/variation-3-lg_1x.jpg" type="image/jpeg"
-                            alt="Overpass, view down into the valley" />
-                    </picture>
-                </div>
-                <div class="trail-summary">
-                    <h4>Variation Three</h4>
-                    <p>Gumen - Braunwald</p>
-                </div>
-            </div>
-        </a>
-         <a href="trails.html" target="_self">
-             <div class="trail">
-                 <div class="trail-image">
-                     <picture>
-                         <source media="(min-width: 900px)"
-                             srcset="assets/media/images/variation-4/lg/variation-4-lg_1x.webp 1x, assets/media/images/variation-4/lg/variation-4-lg_2x.webp 2x"
-                             type="image/webp" />
-                         <source media="(min-width: 601px)" srcset="assets/media/images/variation-4/md/variation-4-md_1x.webp 1x,
+                                <img loading="lazy"
+                                    srcset="assets/media/images/variation-3/sm/variation-3-sm_1x.jpg 600w, assets/media/images/variation-3/md/variation-3-md_1x.jpg 900w, assets/media/images/variation-3/lg/variation-3-lg_1x.jpg 1440w"
+                                    src="assets/media/images/variation-3/lg/variation-3-lg_1x.jpg" type="image/jpeg"
+                                    alt="Overpass, view down into the valley" />
+                            </picture>
+                        </div>
+                        <div class="trail-summary">
+                            <h4>Variation Three</h4>
+                            <p>Gumen - Braunwald</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="trails.html" target="_self">
+                    <div class="trail">
+                        <div class="trail-image">
+                            <picture>
+                                <source media="(min-width: 900px)"
+                                    srcset="assets/media/images/variation-4/lg/variation-4-lg_1x.webp 1x, assets/media/images/variation-4/lg/variation-4-lg_2x.webp 2x"
+                                    type="image/webp" />
+                                <source media="(min-width: 601px)" srcset="assets/media/images/variation-4/md/variation-4-md_1x.webp 1x,
                             assets/media/images/variation-4/md/variation-4-md_2x.webp 2x" type="image/webp" />
-                         <source srcset="assets/media/images/variation-4/sm/variation-4-sm_1x.webp 1x,
+                                <source srcset="assets/media/images/variation-4/sm/variation-4-sm_1x.webp 1x,
                             assets/media/images/variation-4/sm/variation-4-sm_2x.webp 2x" type="image/webp" />
-                         <img loading="lazy" srcset="assets/media/images/variation-4/sm/variation-4-sm_1x.jpg 600w, assets/media/images/variation-4/md/variation-4-md_1x.jpg 900w, assets/media/images/variation-4/lg/variation-4-lg_1x.jpg 1440w"
-                             src="assets/media/images/variation-4/lg/variation-4-lg_1x.jpg" type="image/jpeg"
-                             alt="Path leading down to the the lake" />
-                     </picture>
-                 </div>
-                 <div class="trail-summary">
-                     <h4>Variation Four</h4>
-                     <p>Gumen - Braunwald</p>
-                 </div>
-             </div>
-         </a>
-         <a href="trails.html" target="_self">
-             <div class="trail">
-                 <div class="trail-image">
-                     <picture>
-                         <source media="(min-width: 900px)"
-                             srcset="assets/media/images/variation-5/lg/variation-5-lg_1x.webp 1x, assets/media/images/variation-5/lg/variation-5-lg_2x.webp 2x"
-                             type="image/webp" />
-                         <source media="(min-width: 601px)" srcset="assets/media/images/variation-5/md/variation-5-md_1x.webp 1x,
+                                <img loading="lazy"
+                                    srcset="assets/media/images/variation-4/sm/variation-4-sm_1x.jpg 600w, assets/media/images/variation-4/md/variation-4-md_1x.jpg 900w, assets/media/images/variation-4/lg/variation-4-lg_1x.jpg 1440w"
+                                    src="assets/media/images/variation-4/lg/variation-4-lg_1x.jpg" type="image/jpeg"
+                                    alt="Path leading down to the the lake" />
+                            </picture>
+                        </div>
+                        <div class="trail-summary">
+                            <h4>Variation Four</h4>
+                            <p>Gumen - Braunwald</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="trails.html" target="_self">
+                    <div class="trail">
+                        <div class="trail-image">
+                            <picture>
+                                <source media="(min-width: 900px)"
+                                    srcset="assets/media/images/variation-5/lg/variation-5-lg_1x.webp 1x, assets/media/images/variation-5/lg/variation-5-lg_2x.webp 2x"
+                                    type="image/webp" />
+                                <source media="(min-width: 601px)" srcset="assets/media/images/variation-5/md/variation-5-md_1x.webp 1x,
                             assets/media/images/variation-5/md/variation-5-md_2x.webp 2x" type="image/webp" />
-                         <source srcset="assets/media/images/variation-5/sm/variation-5-sm_1x.webp 1x,
+                                <source srcset="assets/media/images/variation-5/sm/variation-5-sm_1x.webp 1x,
                             assets/media/images/variation-5/sm/variation-5-sm_2x.webp 2x" type="image/webp" />
-                         <img loading="lazy" srcset="assets/media/images/variation-5/sm/variation-5-sm_1x.jpg 600w, assets/media/images/variation-5/md/variation-5-md_1x.jpg 900w, assets/media/images/variation-5/lg/variation-5-lg_1x.jpg 1440w"
-                             src="assets/media/images/variation-5/lg/variation-5-lg_1x.jpg" type="image/jpeg"
-                             alt="Trail leading to seating area" />
-                     </picture>
-                 </div>
-                 <div class="trail-summary">
-                     <h4>Variation Five</h4>
-                     <p>Gumen - Braunwald</p>
-                 </div>
-             </div>
-         </a>
+                                <img loading="lazy"
+                                    srcset="assets/media/images/variation-5/sm/variation-5-sm_1x.jpg 600w, assets/media/images/variation-5/md/variation-5-md_1x.jpg 900w, assets/media/images/variation-5/lg/variation-5-lg_1x.jpg 1440w"
+                                    src="assets/media/images/variation-5/lg/variation-5-lg_1x.jpg" type="image/jpeg"
+                                    alt="Trail leading to seating area" />
+                            </picture>
+                        </div>
+                        <div class="trail-summary">
+                            <h4>Variation Five</h4>
+                            <p>Gumen - Braunwald</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
     </section>
     <footer>
         <div class="social-links">
@@ -227,5 +247,9 @@
             <div class="webwork"><small><strong>website by:</strong>S Richardson</small></div>
         </div>
     </footer>
+
+    <symbol id="icon−bootprints−light_down" viewBox="0 0 84.574 194.104" shape−rendering="geometricPrecision"
+        text−rendering="geometricPrecision" id=".08000843379279998">
+        </path>
 </body>
 </html>
