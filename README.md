@@ -205,12 +205,12 @@ Photo by <a href="https://unsplash.com/@planetlb?utm_source=unsplash&utm_medium=
 *Quick link video for trails*
 
 
-https://user-images.githubusercontent.com/30613818/205482507-083fdd7d-01cd-4cc2-b6ea-8fcf388fbd77.mov
 
 
 
   ## Deployment
-![How to deploy](https://user-images.githubusercontent.com/30613818/205482507-083fdd7d-01cd-4cc2-b6ea-8fcf388fbd77.mov)
+[![How to deploy](https://user-images.githubusercontent.com/30613818/205482507-083fdd7d-01cd-4cc2-b6ea-8fcf388fbd77.mov)](https://user-images.githubusercontent.com/30613818/205482507-083fdd7d-01cd-4cc2-b6ea-8fcf388fbd77.mov
+)
 *Screencast of deployment*
 
 1. Go to repository
