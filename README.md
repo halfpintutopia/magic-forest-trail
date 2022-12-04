@@ -196,19 +196,7 @@ Photo by <a href="https://unsplash.com/@planetlb?utm_source=unsplash&utm_medium=
   Image by <a href="https://pixabay.com/users/janeb13-725943/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1177545">Welcome to All ! ツ</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1177545">Pixabay</a>
   Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=36730">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=36730">Pixabay</a>
 
-  ### Icons
-  * form by The Icon Z from <a href="https://thenounproject.com/browse/icons/term/form/" target="_blank" title="form Icons">Noun Project</a>
-  * Book by Mariyani from <a href="https://thenounproject.com/browse/icons/term/book/" target="_blank" title="Book Icons">Noun Project</a>
-  * Book by Mariyani from <a href="https://thenounproject.com/browse/icons/term/book/" target="_blank" title="Book Icons">Noun Project</a>
-  * path by Andy M from <a href="https://thenounproject.com/browse/icons/term/path/" target="_blank" title="path Icons">Noun Project</a>
-  * route by Andy M from <a href="https://thenounproject.com/browse/icons/term/route/" target="_blank" title="route Icons">Noun Project</a>
-  * Marker by James Smith from <a href="https://thenounproject.com/browse/icons/term/marker/" target="_blank" title="Marker Icons">Noun Project</a>
-  * Home by Jon Lim from <a href="https://thenounproject.com/browse/icons/term/home/" target="_blank" title="Home Icons">Noun Project</a>
-  * Home by Akshar Pathak from <a href="https://thenounproject.com/browse/icons/term/home/" target="_blank" title="Home Icons">Noun Project</a>
-  * form by Kudicon from <a href="https://thenounproject.com/browse/icons/term/form/" target="_blank" title="form Icons">Noun Project</a>
-  * form by Kudicon from <a href="https://thenounproject.com/browse/icons/term/form/" target="_blank" title="form Icons">Noun Project</a>
-  * cable car by Ralf Schmitzer from <a href="https://thenounproject.com/browse/icons/term/cable-car/" target="_blank" title="cable car Icons">Noun Project</a>
-  Map by Arto Lereh Saraga from <a href="https://thenounproject.com/browse/icons/term/map/" target="_blank" title="Map Icons">Noun Project</a>
+
 
   By choosing to use the top tabbed menus, it makes it easier to see everything available on the site at a glance. As there less then 5 nav items.
   As it is visible it should also stimulate the user to discover more.
@@ -221,7 +209,7 @@ Photo by <a href="https://unsplash.com/@planetlb?utm_source=unsplash&utm_medium=
 <video autoplay loop muted playsinline>
   <source src="./docs/media/videos/deployment.mov" type="video/mp4">
 </video>
-  *Deployment screencast*
+  *Deployment screencast - converted from .mov extension to .gif with [Adobe](https://express.adobe.com/tools/convert-to-gif)*
 
 1. Go to repository
 2. Click Settings tab
