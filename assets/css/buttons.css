@@ -11,12 +11,12 @@ button,
     border: var(--button-border, none);
     border-radius: var(--button-border-radius, 10px);
     color: var(--button-text, white);
-    background-color: var(--button-background, lime);
+    background-color: var(--button-background, red);
 }
 
 button:hover,
 .button:hover {
-    color: var(--button-text-hover, lime);
+    color: var(--button-text-hover, red);
     background-color: var(--button-background-color-hover, white);
 }
 
@@ -24,22 +24,22 @@ button[data-type='wide'],
 .button[data-type='wide'] {
     --button-font-size: clamp(1.75rem, calc(1.49rem + 1.30vw), 2.5rem);
     --button-padding: max(3vh, 1rem) max(5vh, 2.5rem);
-    --button-border-color: var(--limeade);
-    --button-border: 2px solid var(--button-border-color, lime);
-    --button-text: var(--limeade);
+    --button-border-color: var(--chestnut);
+    --button-border: 2px solid var(--button-border-color, red);
+    --button-text: var(--chestnut);
     --button-background: var(--pampas);
     --button-text-hover: var(--pampas);
-    --button-background-color-hover: var(--limeade);
+    --button-background-color-hover: var(--chestnut);
 }
 
 button[data-type='narrow'],
 .button[data-type='narrow'] {
     --button-font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     --button-padding: max(1vh, .5rem) max(3vh, 1rem);
-    --button-border-color: var(--limeade);
-    --button-border: 2px solid var(--button-border-color, lime);
-    --button-text: var(--limeade);
+    --button-border-color: var(--chestnut);
+    --button-border: 2px solid var(--button-border-color, red);
+    --button-text: var(--chestnut);
     --button-background: var(--pampas);
     --button-text-hover: var(--pampas);
-    --button-background-color-hover: var(--limeade);
+    --button-background-color-hover: var(--chestnut);
 }

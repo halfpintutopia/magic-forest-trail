@@ -4,9 +4,10 @@
     --shark: hsl(228, 7%, 14%);
     --verdun-green-light: hsl(79, 96%, 18%);
     --verdun-green-dark: hsl(79, 97%, 13%);
-    --limeade: hsl(79, 96%, 28%);
+    --chestnut: hsl(0, 48%, 52%);
+    /* --limeade: hsl(79, 96%, 28%); */
     --pampas: hsl(60, 21%, 94%);
-    --svg-fill: var(--limeade);
+    --svg-fill: var(--chestnut);
     --verdun-green-dark-opacity: hsla(79, 97%, 13%, 70%);
     --pampas-opacity: hsla(60, 21%, 94%, 20%);
     --standard-padding: 1rem;

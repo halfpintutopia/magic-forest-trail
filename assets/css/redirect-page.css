@@ -1,0 +1,23 @@
+.redirect-message {
+    display: grid;
+    place-items: center;
+    isolation: isolate;
+}
+
+.redirect-message>* {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+.redirect-message img {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.redirect-message-text h1 {
+    width: 50%;
+    text-align: left;
+}
