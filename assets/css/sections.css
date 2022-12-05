@@ -150,5 +150,7 @@ section.trails {
 
     .story-part:nth-child(even) .text {
         margin-right: 52%;
+        direction: ltr;
+        text-align: right;
     }
 }

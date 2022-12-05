@@ -83,6 +83,15 @@ header .nav-title {
    }
 }
 
+.skip-nav-link {
+    position: absolute;
+    transform: translateY(-120%);
+}
+
+.skip-nav-link:focus {
+    transform: translateY(0);
+}
+
 .hero-section {
     display: grid;
     place-items: center;
