@@ -14,8 +14,8 @@ section.trails {
     .trails ul {
         /* grid-auto-flow: column; */
         /* grid-auto-columns: repeat(3, 1fr); */
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
     }
 }
 
@@ -91,7 +91,7 @@ section.trails {
     border-bottom: 4px solid var(--pampas);
 }
 
-.trail-stats > div {
+.trail-stats>div {
     width: 100%;
     text-align: center;
     padding-block: max(3vh, 1rem);
@@ -103,4 +103,52 @@ section.trails {
 
 .trail-stats .level {
     border-left: 4px solid var(--pampas);
+}
+
+.story {
+    display: grid;
+    gap: 1rem;
+}
+
+.story .image {
+    height: 25vh;
+    position: relative;
+}
+
+@media only screen and (width >=768px) {
+    .story .image {
+        height: auto;
+    }
+}
+
+.story .image img {
+    height: 25vh;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media only screen and (width >=768px) {
+    .story .image img {
+        width: 50%;
+    }
+}
+
+@media only screen and (width >=768px) {
+    .story-part {
+        display: grid;
+        height: 25vh;
+    }
+
+    .story-part:nth-child(even) {
+        direction: rtl;
+    }
+
+    .story-part:nth-child(odd) .text {
+        margin-left: 52%;
+    }
+
+    .story-part:nth-child(even) .text {
+        margin-right: 52%;
+    }
 }
