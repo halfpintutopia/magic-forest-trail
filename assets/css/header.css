@@ -104,10 +104,22 @@ header .nav-title {
 
 .hero-section > .footprints {
     place-self: end center;
+    margin-bottom: 3rem;
+}
+
+.footprints img {
+    height: 179px;
+    margin-inline: auto;
 }
 
 #bootprints-light_down-u-bootprints-light-down__right {
     animation: bootprints-light_down-u-bootprints-light-down__right_c_o 3000ms linear infinite normal forwards
+}
+
+.hero-section .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .45);
 }
 
 @keyframes bootprints-light_down-u-bootprints-light-down__right_c_o {

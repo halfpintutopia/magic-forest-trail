@@ -86,3 +86,14 @@ select {
     --container-max-width: 87.5rem;
     --container-padding: calc(var(--standard-padding) * 2);
 }
+
+.container[data-type="full"] {
+    --container-max-width: 100%;
+}
+
+@media only screen and (width >=768px) {
+    .container[data-type="full"] {
+        --container-max-width: 87.5rem;
+        --container-padding: calc(var(--standard-padding) * 2);
+    }
+}
