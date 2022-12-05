@@ -1,6 +1,11 @@
 footer {
     background-color: var(--concrete);
-    box-shadow: 0 -10px 40px -15px rgba(0, 0, 0, 0.4);
+    box-shadow: var(--box-shadow);
+}
+
+footer .footer-bottom {
+    width: 100%;
+    background-color: var(--shark);
 }
 
 footer .social-links {
@@ -13,7 +18,6 @@ footer .copyright {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
 }
 
 footer .social-links .social-link {
@@ -25,7 +29,6 @@ footer .social-links .social-link {
 footer .copyright {
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--shark);
 }
 
 footer .copyright .clause {

@@ -95,6 +95,15 @@ header a:hover i.fa-solid {
     color: var(--shark);
 }
 
+nav .active a .nav-title {
+    color: var(--verdun-green-dark);
+}
+
+nav .nav-title {
+    font-family: var(--font-family-heading);
+    font-size: clamp(1.575rem, calc(1.34rem + 1.17vw), 2.25rem);
+}
+
 footer a i.fa-brands {
     font-size: 40px;
     color: var(--icon-social-color);

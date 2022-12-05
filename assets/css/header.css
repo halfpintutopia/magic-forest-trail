@@ -19,6 +19,14 @@ header .menu li {
     width: var(--nav-item-width);
 }
 
+@media only screen and (width >=768px) {
+    header .menu li {
+        background-color: initial;
+        padding: 1rem;
+        width: auto;
+    }
+}
+
 header nav .logo {
     background-image: url('../media/images/logo.svg');
     background-size: cover;
@@ -60,6 +68,12 @@ header nav .active i.fa-solid {
 
 header .nav-title {
     display: none;
+}
+
+@media only screen and (width >=768px) {
+    header .nav-title {
+        font-size: 2rem;
+    }
 }
 
 
