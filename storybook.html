@@ -16,7 +16,6 @@
 
     <body>
         <header>
-
             <a class="skip-nav-link" href="#main-story">Skip to main content</a>
 
             <nav aria-label="primary navigation">
@@ -26,18 +25,40 @@
                                     class="fa-solid fa-house-chimney"></i></span><span class="nav-title">Home</span></a>
                     </li>
                     <li>
-                        <a href="trails.html" target="_self" aria-label="Trail description list page"><span class="nav-icon"><i
-                                    class="fa-solid fa-signs-post"></i></span><span class="nav-title">Trails</span></a>
+                        <a href="trails.html" target="_self" aria-label="Trail description list page"><span
+                                class="nav-icon"><i class="fa-solid fa-signs-post"></i></span><span
+                                class="nav-title">Trails</span></a>
                     </li>
                     <li class="active">
-                        <a href="storybook.html" target="_self" aria-label="Story of Bartli page"><span class="nav-icon"><i
-                                    class="fa-solid fa-book"></i></span><span class="nav-title">Storybook</span></a>
+                        <a href="storybook.html" target="_self" aria-label="Story of Bartli page"><span
+                                class="nav-icon"><i class="fa-solid fa-book"></i></span><span
+                                class="nav-title">Storybook</span></a>
                     </li>
                 </ul>
             </nav>
+            
         </header>
-        <section id="main-story" class="story">
-            <div class="story-part">
+        <section class="section-header">
+            <div class="section-header-image">
+                 <picture>
+                     <source media="(min-width: 900px)" srcset="assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_1x.webp 1x,
+                            assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_2x.webp 2x" type="image/webp" />
+                     <source media="(min-width: 601px)" srcset="assets/media/images/storybook/bartli/md/Sitting_On_Rock-md_1x.webp 1x,
+                            assets/media/images/storybook/bartli/md/Sitting_On_Rock-md_2x.webp 2x" type="image/webp" />
+                     <source srcset="assets/media/images/storybook/bartli/sm/Sitting_On_Rock-sm_1x.webp 1x,
+                            assets/media/images/storybook/bartli/sm/Sitting_On_Rock-sm_2x.webp 2x" type="image/webp" />
+                     <img loading="lazy" srcset="assets/media/images/storybook/bartli/sm/Sitting_On_Rock-sm_1x.jpg 600w,
+                            assets/media/images/storybook/bartli/md/Sitting_On_Rock-md_1x.jpg 900w,
+                            assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_1x.jpg 1440w"
+                         src="assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_1x.jpg" type="image/jpeg"
+                         alt="The valley down towards Bartl's house" />
+                 </picture>
+            </div>
+        </section>
+        <main aria-labelledby="main-storybook">
+        <section id="main-storybook" class="storybook">
+            <h1>Bartli's Story</h1>
+            <article class="storybook-part">
                 <div class="image">
                     <picture>
                         <source media="(min-width: 900px)" srcset="assets/media/images/storybook/part-1/lg/hike-1-lg_1x.webp 1x,
@@ -64,9 +85,9 @@
                     </div>
                 </div>
                 <div class="quick-links"></div>
-            </div>
+            </article>
 
-            <div class="story-part">
+            <article class="storybook-part">
                 <div class="image">
                     <picture>
                         <source media="(min-width: 900px)" srcset="assets/media/images/storybook/part-2/lg/hike-2-lg_1x.webp 1x,
@@ -94,9 +115,9 @@
 
                 </div>
                 <div class="quick-links"></div>
-            </div>
+            </article>
 
-            <div class="story-part">
+            <article class="storybook-part">
                 <div class="image">
                     <picture>
                         <source media="(min-width: 900px)" srcset="assets/media/images/storybook/part-3/lg/hike-3-lg_1x.webp 1x,
@@ -122,9 +143,9 @@
 
                 </div>
                 <div class="quick-links"></div>
-            </div>
+            </article>
 
-            <div class="story-part">
+            <article class="storybook-part">
                 <div class="image">
                     <picture>
                         <source media="(min-width: 900px)" srcset="assets/media/images/storybook/part-4/lg/hike-4-lg_1x.webp 1x,
@@ -156,9 +177,9 @@
 
                 </div>
                 <div class="quick-links"></div>
-            </div>
+            </article>
 
-            <div class="story-part">
+            <article class="storybook-part">
                 <div class="image">
                     <picture>
                         <source media="(min-width: 900px)" srcset="assets/media/images/storybook/part-5/lg/hike-5-lg_1x.webp 1x,
@@ -184,9 +205,10 @@
                     </div>
                 </div>
                 <div class="quick-links"></div>
-            </div>
+            </article>
 
         </section>
+        </main>
         <footer>
             <div class="footer-top">
                 <div class="social-links container" data-type="wide">
@@ -226,9 +248,9 @@
             </div>
             <div class="footer-bottom">
                 <div class="copyright container" data-type="wide">
-                    <div class="clause"><small>This website is only for educational purpose.</small></div>
-                    <div class="website-name"><small>Magic Forest Trail 2022</small></div>
-                    <div class="webwork"><small><strong>website by:</strong>S Richardson</small></div>
+                    <small class="clause">This website is only for educational purpose.</small>
+                    <small class="website-name">Magic Forest Trail 2022</small>
+                    <small class="webwork"><strong>website by: </strong>S Richardson</small>
                 </div>
             </div>
         </footer>

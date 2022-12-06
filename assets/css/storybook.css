@@ -1,0 +1,48 @@
+.storybook {
+    display: grid;
+}
+
+.storybook .image {
+    height: 25vh;
+    position: relative;
+}
+
+@media only screen and (width >=768px) {
+    .storybook .image {
+        height: auto;
+    }
+}
+
+.storybook .image img {
+    height: 25vh;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media only screen and (width >=768px) {
+    .storybook .image img {
+        width: 50%;
+    }
+}
+
+@media only screen and (width >=768px) {
+    .storybook-part {
+        display: grid;
+        height: 25vh;
+    }
+
+    .storybook-part:nth-child(even) {
+        direction: rtl;
+    }
+
+    .storybook-part:nth-child(odd) .text {
+        margin-left: 52%;
+    }
+
+    .storybook-part:nth-child(even) .text {
+        margin-right: 52%;
+        direction: ltr;
+        text-align: right;
+    }
+}

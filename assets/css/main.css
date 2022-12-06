@@ -2,6 +2,8 @@
 @import url('./typography.css');
 @import url('./header.css');
 @import url('./footer.css');
-@import url('./sections.css');
 @import url('./buttons.css');
 @import url('./redirect-page.css');
+@import url('./trails.css');
+@import url('./storybook.css');
+@import url('./sections.css');
