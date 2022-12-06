@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;600;700&family=Permanent+Marker&display=swap');
 
 :root {
+    --font-family-permanent-marker: 'Permanent Marker',
+    cursive;
+    --font-family-overpass: 'Overpass',
+    sans-serif;
     --shark: hsl(228, 7%, 14%);
     --verdun-green-light: hsl(79, 96%, 18%);
     --verdun-green-dark: hsl(79, 97%, 13%);
@@ -16,8 +20,8 @@
     --header-height: 78px;
     --nav-item-width: var(--header-height);
     --nav-item-height: var(--header-height);
-    --font-family-heading: 'Permanent Marker', cursive;
-    --font-family-body: 'Overpass', sans-serif;
+    --font-family-heading: var(--font-family-permanent-marker);
+    --font-family-body: var(--font-family-overpass);
     --font-family-weight-light: 300;
     --font-family-weight-regular: 400;
     --font-family-weight-semi-bold: 600;
@@ -31,6 +35,7 @@
     --box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14),
     0px 1px 10px 0px rgba(0, 0, 0, 0.12),
     0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+    --filter-drop-shadow: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.14));
 }
 
 @media (prefers-color-scheme: dark) {

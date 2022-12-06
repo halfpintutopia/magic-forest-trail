@@ -14,6 +14,10 @@ footer .social-links {
     grid-auto-columns: 1fr;
 }
 
+footer .social-links .fa-solid.fa-cirlce {
+    filter: var(--filter);
+}
+
 footer .copyright {
     display: flex;
     align-items: center;
@@ -29,11 +33,15 @@ footer .social-links .social-link {
 footer .copyright {
     justify-content: space-between;
     flex-wrap: wrap;
+    row-gap: 1rem;
+    padding-block: max(1vh, .5rem);
 }
 
 footer .copyright .clause {
     flex: 0 0 100%;
     text-align: center;
+    border-bottom: 1px solid var(--pampas);
+    padding-bottom: .5rem;
 }
 
 footer .copyright .website-name,

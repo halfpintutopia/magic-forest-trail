@@ -71,6 +71,10 @@ small {
     color: var(--font-color-body);
 }
 
+footer small {
+     color: var(--pampas);
+}
+
 a {
     font-family: var(--font-family-body);
     font-weight: 300;
@@ -99,13 +103,37 @@ nav .active a .nav-title {
     color: var(--verdun-green-dark);
 }
 
-nav .nav-title {
-    font-family: var(--font-family-heading);
+header .nav-title {
+    display: none;
+}
+
+@media only screen and (width >=768px) {
+    header .nav-title {
+        font-family: var(--font-family-heading);
+        font-size: clamp(1.575rem, calc(1.34rem + 1.17vw), 2.25rem);
+        color: var(--pampas);
+        transition: all .4s;
+    }
+
+    header nav li:hover .nav-title {
+        color: var(--verdun-green-dark);
+    }
+}
+
+.footprints .scroll-hint {
+    font-family: var(--font-family-permanent-marker);
     font-size: clamp(1.575rem, calc(1.34rem + 1.17vw), 2.25rem);
+    color: var(--pampas);
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+    color: var(--pampas);
 }
 
 footer a i.fa-brands {
-    font-size: 40px;
+    font-size: clamp(2.00rem, calc(1.83rem + 0.87vw), 2.50rem);
     color: var(--icon-social-color);
 }
 
