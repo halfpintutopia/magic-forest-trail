@@ -35,7 +35,7 @@ button[data-type='wide'],
 button[data-type='narrow'],
 .button[data-type='narrow'] {
     --button-font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
-    --button-padding: max(1vh, .5rem) max(3vh, 1rem);
+    --button-padding: 0 max(3vh, 1rem);
     --button-border-color: var(--chestnut);
     --button-border: 2px solid var(--button-border-color, red);
     --button-text: var(--chestnut);

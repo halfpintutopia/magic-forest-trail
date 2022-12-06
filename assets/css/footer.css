@@ -1,6 +1,7 @@
 footer {
     background-color: var(--concrete);
     box-shadow: var(--box-shadow);
+    margin-top: 3vh;
 }
 
 footer .footer-bottom {
