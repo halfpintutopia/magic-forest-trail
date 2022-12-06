@@ -108,3 +108,9 @@ section.trails {
 .trail-stats .level {
     border-left: 4px solid var(--pampas);
 }
+
+#trail-details .trail-overview {
+     height: 100vh;
+     width: 100vw;
+     scroll-snap-align: start;
+}

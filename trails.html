@@ -23,12 +23,12 @@
                         <a href="index.html" target="_self" aria-label="Home page"><span class="nav-icon"><i
                                     class="fa-solid fa-house-chimney"></i></span><span class="nav-title">Home</span></a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="trails.html" target="_self" aria-label="Trail description list page"><span
                                 class="nav-icon"><i class="fa-solid fa-signs-post"></i></span><span
                                 class="nav-title">Trails</span></a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="storybook.html" target="_self" aria-label="Story of Bartli page"><span
                                 class="nav-icon"><i class="fa-solid fa-book"></i></span><span
                                 class="nav-title">Storybook</span></a>
@@ -36,116 +36,172 @@
                 </ul>
             </nav>
         </header>
-        <section class="trail-details">
-            <div id="full-trail" class="trail-overview">
-                <div class="trail-image">
-                    <picture>
-                        <source srcset="assets/media/images/samples/full-trail.webp">
-                        <img src="assets/media/images/samples/full-trail.jpg" alt="Thumbnail of image from full trail">
-                    </picture>
-                </div>
-                <div class="trail-stats container" data-type="wide">
-                    <div class="duration"><span>5 km</span></div>
-                    <div class="distance"><span>3 hrs 30 mins</span></div>
-                    <div class="level"><span>Easy</span></div>
-                </div>
-                <div class="trail-summary container" data-type="wide">
-                    <h2>Full Trail</h2>
+        <main aria-labelledby="trail-details">
+            <section id="trail-details" class="trail-details">
+                <article id="full-trail" class="trail-overview">
+                    <div class="trail-image">
+                        <picture>
+                            <source media="(min-width: 900px)"
+                                srcset="assets/media/images/full-trail/lg/full-trail-lg_1x.webp 1x, assets/media/images/full-trail/lg/full-trail-lg_2x.webp 2x"
+                                type="image/webp" />
+                            <source media="(min-width: 601px)" srcset="assets/media/images/full-trail/md/full-trail-md_1x.webp 1x,
+                        assets/media/images/full-trail/md/full-trail-md_2x.webp 2x" type="image/webp" />
+                            <source srcset="assets/media/images/full-trail/sm/full-trail-sm_1x.webp 1x,
+                        assets/media/images/full-trail/sm/full-trail-sm_2x.webp 2x" type="image/webp" />
+                            <img loading="lazy"
+                                srcset="assets/media/images/full-trail/sm/full-trail-sm_1x.jpg 600w, assets/media/images/full-trail/md/full-trail-md_1x.jpg 900w, assets/media/images/full-trail/lg/full-trail-lg_1x.jpg 1440w"
+                                src="assets/media/images/full-trail/lg/full-trail-lg_1x.jpg" type="image/jpeg"
+                                alt="Stone marker with white-red-white flag on the trail" />
+                        </picture>
+                    </div>
+                    <div class="trail-stats container" data-type="wide">
+                        <div class="duration"><span>5 km</span></div>
+                        <div class="distance"><span>3 hrs 30 mins</span></div>
+                        <div class="level"><span>Easy</span></div>
+                    </div>
+                    <div class="trail-summary container" data-type="wide">
+                        <h2>Full Trail</h2>
 
-                    <button data-type="narrow">Click me</button>
-                </div>
-            </div>
-            <div id="full-trail" class="trail-overview">
-                <div class="trail-image">
-                    <picture>
-                        <source srcset="assets/media/images/samples/full-trail.webp">
-                        <img src="assets/media/images/samples/full-trail.jpg" alt="Thumbnail of image from full trail">
-                    </picture>
-                </div>
-                <div class="trail-stats container" data-type="wide">
-                    <div class="duration"><span>5 km</span></div>
-                    <div class="distance"><span>3 hrs 30 mins</span></div>
-                    <div class="level"><span>Easy</span></div>
-                </div>
-                <div class="trail-summary container" data-type="wide">
-                    <h2>Full Trail</h2>
+                        <button data-type="narrow">Click me</button>
+                    </div>
+                </article>
+                <article id="variation-1" class="trail-overview">
+                    <div class="trail-image">
+                        <picture>
+                            <source media="(min-width: 900px)"
+                                srcset="assets/media/images/variation-1/lg/variation-1-lg_1x.webp 1x, assets/media/images/variation-1/lg/variation-1-lg_2x.webp 2x"
+                                type="image/webp" />
+                            <source media="(min-width: 601px)" srcset="assets/media/images/variation-1/md/variation-1-md_1x.webp 1x,
+                        assets/media/images/variation-1/md/variation-1-md_2x.webp 2x" type="image/webp" />
+                            <source srcset="assets/media/images/variation-1/sm/variation-1-sm_1x.webp 1x,
+                        assets/media/images/variation-1/sm/variation-1-sm_2x.webp 2x" type="image/webp" />
+                            <img loading="lazy"
+                                srcset="assets/media/images/variation-1/sm/variation-1-sm_1x.jpg 600w, assets/media/images/variation-1/md/variation-1-md_1x.jpg 900w, assets/media/images/variation-1/lg/variation-1-lg_1x.jpg 1440w"
+                                src="assets/media/images/variation-1/lg/variation-1-lg_1x.jpg" type="image/jpeg"
+                                alt="Overview of the valley" />
+                        </picture>
+                    </div>
+                    <div class="trail-stats container" data-type="wide">
+                        <div class="duration"><span>5 km</span></div>
+                        <div class="distance"><span>3 hrs 30 mins</span></div>
+                        <div class="level"><span>Easy</span></div>
+                    </div>
+                    <div class="trail-summary container" data-type="wide">
+                        <h2>Trail Option One</h2>
 
-                    <button data-type="narrow">Click me</button>
-                </div>
-            </div>
-            <div id="full-trail" class="trail-overview">
-                <div class="trail-image">
-                    <picture>
-                        <source srcset="assets/media/images/samples/full-trail.webp">
-                        <img src="assets/media/images/samples/full-trail.jpg" alt="Thumbnail of image from full trail">
-                    </picture>
-                </div>
-                <div class="trail-stats container" data-type="wide">
-                    <div class="duration"><span>5 km</span></div>
-                    <div class="distance"><span>3 hrs 30 mins</span></div>
-                    <div class="level"><span>Easy</span></div>
-                </div>
-                <div class="trail-summary container" data-type="wide">
-                    <h2>Full Trail</h2>
+                        <button data-type="narrow">Click me</button>
+                    </div>
+                </article>
+                <article id="variation-2" class="trail-overview">
+                    <div class="trail-image">
+                        <picture>
+                            <source media="(min-width: 900px)"
+                                srcset="assets/media/images/variation-2/lg/variation-2-lg_1x.webp 1x, assets/media/images/variation-2/lg/variation-2-lg_2x.webp 2x"
+                                type="image/webp" />
+                            <source media="(min-width: 601px)" srcset="assets/media/images/variation-2/md/variation-2-md_1x.webp 1x,
+                        assets/media/images/variation-2/md/variation-2-md_2x.webp 2x" type="image/webp" />
+                            <source srcset="assets/media/images/variation-2/sm/variation-2-sm_1x.webp 1x,
+                        assets/media/images/variation-2/sm/variation-2-sm_2x.webp 2x" type="image/webp" />
+                            <img loading="lazy"
+                                srcset="assets/media/images/variation-2/sm/variation-2-sm_1x.jpg 600w, assets/media/images/variation-2/md/variation-2-md_1x.jpg 900w, assets/media/images/variation-2/lg/variation-2-lg_1x.jpg 1440w"
+                                src="assets/media/images/variation-2/lg/variation-2-lg_1x.jpg" type="image/jpeg"
+                                alt="Top of the mountain, overview of the mountain ridge in summer" />
+                        </picture>
+                    </div>
+                    <div class="trail-stats container" data-type="wide">
+                        <div class="duration"><span>5 km</span></div>
+                        <div class="distance"><span>3 hrs 30 mins</span></div>
+                        <div class="level"><span>Easy</span></div>
+                    </div>
+                    <div class="trail-summary container" data-type="wide">
+                        <h2>Trail Option Two</h2>
 
-                    <button data-type="narrow">Click me</button>
-                </div>
-            </div>
-            <div id="full-trail" class="trail-overview">
-                <div class="trail-image">
-                    <picture>
-                        <source srcset="assets/media/images/samples/full-trail.webp">
-                        <img src="assets/media/images/samples/full-trail.jpg" alt="Thumbnail of image from full trail">
-                    </picture>
-                </div>
-                <div class="trail-stats container" data-type="wide">
-                    <div class="duration"><span>5 km</span></div>
-                    <div class="distance"><span>3 hrs 30 mins</span></div>
-                    <div class="level"><span>Easy</span></div>
-                </div>
-                <div class="trail-summary container" data-type="wide">
-                    <h2>Full Trail</h2>
+                        <button data-type="narrow">Click me</button>
+                    </div>
+                </article>
+                <article id="variation-3" class="trail-overview">
+                    <div class="trail-image">
+                        <picture>
+                            <source media="(min-width: 900px)"
+                                srcset="assets/media/images/variation-3/lg/variation-3-lg_1x.webp 1x, assets/media/images/variation-3/lg/variation-3-lg_2x.webp 2x"
+                                type="image/webp" />
+                            <source media="(min-width: 601px)" srcset="assets/media/images/variation-3/md/variation-3-md_1x.webp 1x,
+                        assets/media/images/variation-3/md/variation-3-md_2x.webp 2x" type="image/webp" />
+                            <source srcset="assets/media/images/variation-3/sm/variation-3-sm_1x.webp 1x,
+                        assets/media/images/variation-3/sm/variation-3-sm_2x.webp 2x" type="image/webp" />
+                            <img loading="lazy"
+                                srcset="assets/media/images/variation-3/sm/variation-3-sm_1x.jpg 600w, assets/media/images/variation-3/md/variation-3-md_1x.jpg 900w, assets/media/images/variation-3/lg/variation-3-lg_1x.jpg 1440w"
+                                src="assets/media/images/variation-3/lg/variation-3-lg_1x.jpg" type="image/jpeg"
+                                alt="Overpass, view down into the valley" />
+                        </picture>
+                    </div>
+                    <div class="trail-stats container" data-type="wide">
+                        <div class="duration"><span>5 km</span></div>
+                        <div class="distance"><span>3 hrs 30 mins</span></div>
+                        <div class="level"><span>Easy</span></div>
+                    </div>
+                    <div class="trail-summary container" data-type="wide">
+                        <h2>Trail Option Three</h2>
 
-                    <button data-type="narrow">Click me</button>
-                </div>
-            </div>
-            <div id="full-trail" class="trail-overview">
-                <div class="trail-image">
-                    <picture>
-                        <source srcset="assets/media/images/samples/full-trail.webp">
-                        <img src="assets/media/images/samples/full-trail.jpg" alt="Thumbnail of image from full trail">
-                    </picture>
-                </div>
-                <div class="trail-stats container" data-type="wide">
-                    <div class="duration"><span>5 km</span></div>
-                    <div class="distance"><span>3 hrs 30 mins</span></div>
-                    <div class="level"><span>Easy</span></div>
-                </div>
-                <div class="trail-summary container" data-type="wide">
-                    <h2>Full Trail</h2>
+                        <button data-type="narrow">Click me</button>
+                    </div>
+                </article>
+                <article id="variation-4" class="trail-overview">
+                    <div class="trail-image">
+                        <picture>
+                            <source media="(min-width: 900px)"
+                                srcset="assets/media/images/variation-4/lg/variation-4-lg_1x.webp 1x, assets/media/images/variation-4/lg/variation-4-lg_2x.webp 2x"
+                                type="image/webp" />
+                            <source media="(min-width: 601px)" srcset="assets/media/images/variation-4/md/variation-4-md_1x.webp 1x,
+                        assets/media/images/variation-4/md/variation-4-md_2x.webp 2x" type="image/webp" />
+                            <source srcset="assets/media/images/variation-4/sm/variation-4-sm_1x.webp 1x,
+                        assets/media/images/variation-4/sm/variation-4-sm_2x.webp 2x" type="image/webp" />
+                            <img loading="lazy"
+                                srcset="assets/media/images/variation-4/sm/variation-4-sm_1x.jpg 600w, assets/media/images/variation-4/md/variation-4-md_1x.jpg 900w, assets/media/images/variation-4/lg/variation-4-lg_1x.jpg 1440w"
+                                src="assets/media/images/variation-4/lg/variation-4-lg_1x.jpg" type="image/jpeg"
+                                alt="Path leading down to the the lake" />
+                        </picture>
+                    </div>
+                    <div class="trail-stats container" data-type="wide">
+                        <div class="duration"><span>5 km</span></div>
+                        <div class="distance"><span>3 hrs 30 mins</span></div>
+                        <div class="level"><span>Easy</span></div>
+                    </div>
+                    <div class="trail-summary container" data-type="wide">
+                        <h2>Trail Option Four</h2>
 
-                    <button data-type="narrow">Click me</button>
-                </div>
-            </div>
-            <div id="full-trail" class="trail-overview">
-                <div class="trail-image">
-                    <picture>
-                        <source srcset="assets/media/images/samples/full-trail.webp">
-                        <img src="assets/media/images/samples/full-trail.jpg" alt="Thumbnail of image from full trail">
-                    </picture>
-                </div>
-                <div class="trail-stats container" data-type="wide">
-                    <div class="duration"><span>5 km</span></div>
-                    <div class="distance"><span>3 hrs 30 mins</span></div>
-                    <div class="level"><span>Easy</span></div>
-                </div>
-                <div class="trail-summary container" data-type="wide">
-                    <h2>Full Trail</h2>
+                        <button data-type="narrow">Click me</button>
+                    </div>
+                </article>
+                <article id="variation-5" class="trail-overview">
+                    <div class="trail-image">
+                        <picture>
+                            <source media="(min-width: 900px)"
+                                srcset="assets/media/images/variation-5/lg/variation-5-lg_1x.webp 1x, assets/media/images/variation-5/lg/variation-5-lg_2x.webp 2x"
+                                type="image/webp" />
+                            <source media="(min-width: 601px)" srcset="assets/media/images/variation-5/md/variation-5-md_1x.webp 1x,
+                        assets/media/images/variation-5/md/variation-5-md_2x.webp 2x" type="image/webp" />
+                            <source srcset="assets/media/images/variation-5/sm/variation-5-sm_1x.webp 1x,
+                        assets/media/images/variation-5/sm/variation-5-sm_2x.webp 2x" type="image/webp" />
+                            <img loading="lazy"
+                                srcset="assets/media/images/variation-5/sm/variation-5-sm_1x.jpg 600w, assets/media/images/variation-5/md/variation-5-md_1x.jpg 900w, assets/media/images/variation-5/lg/variation-5-lg_1x.jpg 1440w"
+                                src="assets/media/images/variation-5/lg/variation-5-lg_1x.jpg" type="image/jpeg"
+                                alt="Trail leading to seating area" />
+                        </picture>
+                    </div>
+                    <div class="trail-stats container" data-type="wide">
+                        <div class="duration"><span>5 km</span></div>
+                        <div class="distance"><span>3 hrs 30 mins</span></div>
+                        <div class="level"><span>Easy</span></div>
+                    </div>
+                    <div class="trail-summary container" data-type="wide">
+                        <h2>Trail Option Five</h2>
 
-                    <button data-type="narrow">Click me</button>
-                </div>
-            </div>
-        </section>
+                        <button data-type="narrow">Click me</button>
+                    </div>
+                </article>
+            </section>
+        </main>
         <footer>
             <div class="footer-top">
                 <div class="social-links container" data-type="wide">
@@ -191,8 +247,8 @@
                 </div>
             </div>
         </footer>
-         <!-- Font awesome script -->
-         <script src="https://kit.fontawesome.com/28847961b6.js" rel="preconnect" crossorigin="anonymous"></script>
+        <!-- Font awesome script -->
+        <script src="https://kit.fontawesome.com/28847961b6.js" rel="preconnect" crossorigin="anonymous"></script>
     </body>
 
 </html>

@@ -7,6 +7,10 @@
     position: relative;
 }
 
+.storybook .text {
+    margin-block: max(3vh, 1rem) max(5vh, 2.5rem);
+}
+
 @media only screen and (width >=768px) {
     .storybook .image {
         height: auto;
