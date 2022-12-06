@@ -14,8 +14,8 @@ footer .social-links {
     grid-auto-columns: 1fr;
 }
 
-footer .social-links .fa-solid.fa-cirlce {
-    filter: var(--filter);
+footer .social-links .fa-solid.fa-circle.fa-stack-2x {
+    filter: var(--filter-drop-shadow);
 }
 
 footer .copyright {

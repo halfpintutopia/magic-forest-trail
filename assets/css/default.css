@@ -36,6 +36,7 @@
     0px 1px 10px 0px rgba(0, 0, 0, 0.12),
     0px 2px 4px -1px rgba(0, 0, 0, 0.2);
     --filter-drop-shadow: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.14));
+    --body-background-color: var(--pampas);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,6 +47,7 @@
         --font-color-body: var(--pampas);
         --icon-social-color: var(--shark);
         --icon-social-hover-color: var(--pampas);
+        --body-background-color: var(--shark);
     }
 }
 
@@ -69,6 +71,7 @@ html {
 
 body {
     min-height: 100vh;
+    background-color: var(--body-background-color);
 }
 
 img, 
