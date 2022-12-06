@@ -144,3 +144,8 @@ footer a:active i.fa-brands {
     color: var(--icon-social-hover-color);
 }
 
+#trail-details div.trail-stats > div span {
+    font-family: var(--font-family-permanent-marker);
+    font-size: clamp(1.3125rem, calc(1.12rem + 0.98vw), 1.875rem);
+    color: var(--trail-stats-font-color);
+}

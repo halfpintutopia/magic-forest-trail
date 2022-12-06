@@ -90,23 +90,23 @@ section.trails {
 
 .trail-stats {
     display: flex;
-    border-left: 4px solid var(--pampas);
-    border-right: 4px solid var(--pampas);
-    border-bottom: 4px solid var(--pampas);
+    border-left: var(--trail-stats-border);
+    border-right: var(--trail-stats-border);
+    border-bottom: var(--trail-stats-border);
 }
 
-.trail-stats>div {
+.trail-stats > div {
     width: 100%;
     text-align: center;
     padding-block: max(3vh, 1rem);
 }
 
 .trail-stats .duration {
-    border-right: 4px solid var(--pampas);
+    border-right: var(--trail-stats-border);
 }
 
 .trail-stats .level {
-    border-left: 4px solid var(--pampas);
+    border-left: var(--trail-stats-border);
 }
 
 #trail-details .trail-overview {
