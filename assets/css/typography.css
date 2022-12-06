@@ -62,7 +62,7 @@ small strong {
     font-family: var(--font-family-body);
     font-weight: 700;
     font-size: clamp(0.88rem, calc(0.83rem + 0.22vw), 1rem);
-    color: var(--font-color-body);
+    color: var(--pampas);
 }
 
 small {
