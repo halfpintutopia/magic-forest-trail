@@ -1,7 +1,10 @@
 (function () {
+    window.addEventListener("load", (event) => {
+        console.log("page is fully loaded");
+    });
     const ICON = {
-        LOCATION: './assets/media/Character.png',
-        SIZE: [38, 95],
+        LOCATION: '../assets/media/Character.png',
+        SIZE: [38, 38],
         ANCHOR: [22, 94],
         POPUP_ANCHOR: [-3, -76]
     }
@@ -44,13 +47,13 @@
      * @returns 
      */
     const createCustomMarker = (iconLocation) => {
-     return L.icon({
-         iconUrl: iconLocation,
+        return L.icon({
+            iconUrl: iconLocation,
 
-         iconSize: ICON.SIZE,
-         iconAnchor: ICON.ANCHOR,
-         popupAnchor: ICON.POPUP_ANCHOR
-     });
+            iconSize: ICON.SIZE,
+            iconAnchor: ICON.ANCHOR,
+            popupAnchor: ICON.POPUP_ANCHOR
+        });
     }
 
     /**
@@ -95,88 +98,101 @@
         })
     }
 
-    initMap(
-        'map-full',
-        LOCATION.AREA,
-        MAP.ZOOM,
-        ICON.LOCATION,
-        [
-            LOCATION.GUMEN,
-            LOCATION.BRAUNWALDALP_OBERSTAFEL,
-            LOCATION.ZWERGENSCHLOSS,
-            LOCATION.EDELSTEINPLATTE,
-            LOCATION.ZWERGENHOEHLE,
-            LOCATION.RINDENHUETTI,
-            LOCATION.GROTZENBUEEL,
-            LOCATION.ZWERGENTURM,
-            LOCATION.WASSERSPEILPLATZ,
-            LOCATION.TIDIS_HUESLI,
-            LOCATION.MUSIKTRUHE_BRAUNWALD
-        ]
-    );
+    if (document.getElementById('map-full')) {
+        initMap(
+            'map-full',
+            LOCATION.AREA,
+            MAP.ZOOM,
+            ICON.LOCATION,
+            [
+                LOCATION.GUMEN,
+                LOCATION.BRAUNWALDALP_OBERSTAFEL,
+                LOCATION.ZWERGENSCHLOSS,
+                LOCATION.EDELSTEINPLATTE,
+                LOCATION.ZWERGENHOEHLE,
+                LOCATION.RINDENHUETTI,
+                LOCATION.GROTZENBUEEL,
+                LOCATION.ZWERGENTURM,
+                LOCATION.WASSERSPEILPLATZ,
+                LOCATION.TIDIS_HUESLI,
+                LOCATION.MUSIKTRUHE_BRAUNWALD
+            ]
+        );
+    }
 
-    initMap(
-        'map-variation-1',
-        LOCATION.AREA,
-        MAP.ZOOM,
-        ICON.LOCATION,
-        [
-            LOCATION.GUMEN,
-            LOCATION.ZWERGENSCHLOSS,
-            LOCATION.EDELSTEINPLATTE,
-            LOCATION.ZWERGENHOEHLE,
-            LOCATION.RINDENHUETTI,
-            LOCATION.GROTZENBUEEL,
-        ]
-    );
 
-    initMap(
-        'map-variation-2',
-        LOCATION.AREA,
-        MAP.ZOOM,
-        ICON.LOCATION,
-        [
-            LOCATION.GROTZENBUEEL,
-            LOCATION.ZWERGENTURM,
-            LOCATION.WASSERSPEILPLATZ,
-            LOCATION.TIDIS_HUESLI,
-            LOCATION.MUSIKTRUHE_BRAUNWALD
-        ]
-    );
+    if (document.getElementById('map-variation-1')) {
+        initMap(
+            'map-variation-1',
+            LOCATION.AREA,
+            MAP.ZOOM,
+            ICON.LOCATION,
+            [
+                LOCATION.GUMEN,
+                LOCATION.ZWERGENSCHLOSS,
+                LOCATION.EDELSTEINPLATTE,
+                LOCATION.ZWERGENHOEHLE,
+                LOCATION.RINDENHUETTI,
+                LOCATION.GROTZENBUEEL,
+            ]
+        );
+    }
 
-    initMap(
-        'map-variation-3',
-        LOCATION.AREA,
-        MAP.ZOOM,
-        ICON.LOCATION,
-        [
-            LOCATION.GROTZENBUEEL,
-            LOCATION.RINDENHUETTI,
-            LOCATION.EDELSTEINPLATTE
-        ]
-    );
+    if (document.getElementById('map-variation-2')) {
+        initMap(
+            'map-variation-2',
+            LOCATION.AREA,
+            MAP.ZOOM,
+            ICON.LOCATION,
+            [
+                LOCATION.GROTZENBUEEL,
+                LOCATION.ZWERGENTURM,
+                LOCATION.WASSERSPEILPLATZ,
+                LOCATION.TIDIS_HUESLI,
+                LOCATION.MUSIKTRUHE_BRAUNWALD
+            ]
+        );
+    }
 
-    initMap(
-        'map-variation-4',
-        LOCATION.AREA,
-        MAP.ZOOM,
-        ICON.LOCATION,
-        [
-            LOCATION.GROTZENBUEEL,
-            LOCATION.ZWERGENTURM,
-            LOCATION.MUSIKTRUHE_BRAUNWALD
-        ]
-    );
+    if (document.getElementById('map-variation-3')) {
+        initMap(
+            'map-variation-3',
+            LOCATION.AREA,
+            MAP.ZOOM,
+            ICON.LOCATION,
+            [
+                LOCATION.GROTZENBUEEL,
+                LOCATION.RINDENHUETTI,
+                LOCATION.EDELSTEINPLATTE
+            ]
+        );
+    }
 
-    initMap(
-        'map-variation-5',
-        LOCATION.AREA,
-        MAP.ZOOM,
-        ICON.LOCATION,
-        [
-            LOCATION.TIDIS_HUESLI,
-            LOCATION.WASSERSPEILPLATZ,
-            LOCATION.ZWERGENSCHLOSS
-        ]
-    );
+    if (document.getElementById('map-variation-4')) {
+        initMap(
+            'map-variation-4',
+            LOCATION.AREA,
+            MAP.ZOOM,
+            ICON.LOCATION,
+            [
+                LOCATION.GROTZENBUEEL,
+                LOCATION.ZWERGENTURM,
+                LOCATION.MUSIKTRUHE_BRAUNWALD
+            ]
+        );
+    }
+
+    if (document.getElementById('map-variation-5')) {
+        initMap(
+            'map-variation-5',
+            LOCATION.AREA,
+            MAP.ZOOM,
+            ICON.LOCATION,
+            [
+                LOCATION.TIDIS_HUESLI,
+                LOCATION.WASSERSPEILPLATZ,
+                LOCATION.ZWERGENSCHLOSS
+            ]
+        );
+    }
 })();
