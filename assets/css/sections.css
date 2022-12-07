@@ -4,3 +4,20 @@
     object-fit: cover;
     margin-bottom: max(3vh, 1rem);
 }
+
+.form-success-message {
+    height: 100vh;
+    display: grid;
+}
+
+.form-success-message .thank-you-message {
+    place-self: center;
+}
+
+.form-success-message .button {
+    place-self: start center;
+}
+
+.form-success-message p {
+    text-align: center;
+}
