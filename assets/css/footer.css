@@ -2,6 +2,10 @@ footer {
     background-color: var(--concrete);
     box-shadow: var(--box-shadow);
     margin-top: 3vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 footer .footer-bottom {
@@ -26,31 +30,18 @@ footer .copyright {
 }
 
 footer .social-links .social-link {
-    margin-top: var(--standard-margin);
-    margin-bottom: var(--standard-margin);
     text-align: center;
 }
 
 footer .copyright {
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 1rem;
+    row-gap: .5rem;
     padding-block: max(1vh, .5rem);
 }
 
-footer .copyright .clause {
+footer .copyright .clause,
+footer .copyright .website-name {
     flex: 0 0 100%;
     text-align: center;
-    border-bottom: 1px solid var(--pampas);
-    padding-bottom: .5rem;
-}
-
-footer .copyright .website-name,
-footer .copyright .webwork {
-    color: var(--pampas);
-    flex: 0 0 50%;
-}
-
-footer .copyright .webwork {
-    text-align: right;
 }
