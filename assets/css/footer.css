@@ -1,11 +1,7 @@
 footer {
-    background-color: var(--concrete);
+    background-color: var(--pampas);
     box-shadow: var(--box-shadow);
     margin-top: 3vh;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 footer .footer-bottom {
@@ -19,7 +15,7 @@ footer .social-links {
     grid-auto-columns: 1fr;
 }
 
-footer .social-links .fa-solid.fa-circle.fa-stack-2x {
+footer .social-links .fa-solid.fa-circle.fa-stack-1x {
     filter: var(--filter-drop-shadow);
 }
 
