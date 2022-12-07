@@ -102,11 +102,18 @@ header nav .active i.fa-solid {
 
 .hero-section > .footprints {
     place-self: end center;
-    margin-bottom: 3rem;
+    margin-bottom: clamp(1.00rem, calc(0.30rem + 3.48vw), 3.00rem);
 }
 
 .hero-title {
     width: min-content;
+}
+
+@media (orientation: landscape) {
+    .hero-title {
+        margin-bottom: 8rem;
+        width: fit-content;
+    }
 }
 
 @media only screen and (width >=768px) {
@@ -116,7 +123,7 @@ header nav .active i.fa-solid {
 }
 
 .footprints img {
-    height: 179px;
+    height: clamp(4.75rem, calc(2.49rem + 11.30vw), 11.25rem);
     margin-inline: auto;
 }
 
