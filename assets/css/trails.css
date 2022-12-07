@@ -115,6 +115,6 @@ section.trails {
      scroll-snap-align: start;
 }
 
-.trail-details .map-wrapper > div#map {
+.trail-details .map-wrapper > div[id^='map'] {
     height: 50vh;
 }
