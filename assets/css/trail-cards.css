@@ -1,0 +1,53 @@
+.trail-cards {
+    display: grid;
+    gap: 1rem;
+    padding-block: max(3vh, 1rem);
+}
+
+
+@media only screen and (width >=768px) {
+    .trail-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .trail-cards h1 {
+        grid-column: 1 / span 3;
+    }
+}
+
+.trail-cards article:hover .trail {
+    box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+        0px 3px 14px 2px rgba(0, 0, 0, 0.12),
+        0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.trail-cards .trail {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    grid-auto-columns: 1fr;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    transition: transform .4s ease-in;
+}
+
+@media only screen and (width >=871) {
+    .trail-cards .trail {
+        grid-auto-flow: row;
+    }
+}
+
+.trail-cards .trail-summary {
+    display: grid;
+    place-items: center start;
+    gap: 1rem;
+    padding: max(1vh, 1rem) max(2vh, 1rem);
+}
+
+.trail-cards .trail-summary h4 {
+    place-self: end start;
+}
+
+.trail-cards .trail-summary p {
+    place-self: start;
+}
