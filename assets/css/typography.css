@@ -116,7 +116,7 @@ a:active {
 }
 
 header a i.fa-solid {
-    font-size: 48px;
+    font-size: clamp(2.13rem, calc(1.82rem + 1.52vw), 3.00rem);
     color: var(--pampas);
 }
 
