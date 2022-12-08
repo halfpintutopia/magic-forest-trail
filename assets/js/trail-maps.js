@@ -1,11 +1,8 @@
 (function () {
-    window.addEventListener("load", (event) => {
-        console.log("page is fully loaded");
-    });
     const ICON = {
         LOCATION: '../assets/media/Character.png',
-        SIZE: [38, 38],
-        ANCHOR: [22, 94],
+        SIZE: [90, 90],
+        ANCHOR: [45, 45],
         POPUP_ANCHOR: [-3, -76]
     }
 
@@ -28,6 +25,15 @@
         ZOOM: 15
     }
 
+    const ID = {
+        FULL_TRAIL: 'map-full',
+        VARIATION_1: 'map-variation-1',
+        VARIATION_2: 'map-variation-2',
+        VARIATION_3: 'map-variation-3',
+        VARIATION_4: 'map-variation-4',
+        VARIATION_5: 'map-variation-5'
+    }
+
     /**
      * 
      * @param {string} id ID of map container
@@ -36,9 +42,7 @@
      * @returns 
      */
     const createMap = (id, mapCoordinates, zoom) => {
-        return L.map(id, {
-            scrollWheelZoom: false
-        }).setView(mapCoordinates, zoom);
+        return L.map(id).setView(mapCoordinates, zoom);
     }
 
     /**
@@ -98,9 +102,9 @@
         })
     }
 
-    if (document.getElementById('map-full')) {
+    if (document.getElementById(ID.FULL_TRAIL)) {
         initMap(
-            'map-full',
+            ID.FULL_TRAIL,
             LOCATION.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
@@ -121,9 +125,9 @@
     }
 
 
-    if (document.getElementById('map-variation-1')) {
+    if (document.getElementById(ID.VARIATION_1)) {
         initMap(
-            'map-variation-1',
+            ID.VARIATION_1,
             LOCATION.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
@@ -138,9 +142,9 @@
         );
     }
 
-    if (document.getElementById('map-variation-2')) {
+    if (document.getElementById(ID.VARIATION_2)) {
         initMap(
-            'map-variation-2',
+            ID.VARIATION_2,
             LOCATION.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
@@ -154,9 +158,9 @@
         );
     }
 
-    if (document.getElementById('map-variation-3')) {
+    if (document.getElementById(ID.VARIATION_3)) {
         initMap(
-            'map-variation-3',
+            ID.VARIATION_3,
             LOCATION.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
@@ -168,9 +172,9 @@
         );
     }
 
-    if (document.getElementById('map-variation-4')) {
+    if (document.getElementById(ID.VARIATION_4)) {
         initMap(
-            'map-variation-4',
+            ID.VARIATION_4,
             LOCATION.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
@@ -182,9 +186,9 @@
         );
     }
 
-    if (document.getElementById('map-variation-5')) {
+    if (document.getElementById(ID.VARIATION_5)) {
         initMap(
-            'map-variation-5',
+            ID.VARIATION_5,
             LOCATION.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
