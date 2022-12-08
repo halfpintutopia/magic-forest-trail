@@ -5,11 +5,10 @@
     cursive;
     --font-family-overpass: 'Overpass',
     sans-serif;
-    --shark: hsl(228, 7%, 14%);
+    --shark: rgb(33, 34, 38);
     --verdun-green-light: hsl(79, 96%, 18%);
     --verdun-green-dark: hsl(79, 97%, 13%);
-    --chestnut: hsl(0, 48%, 52%);
-    /* --limeade: hsl(79, 96%, 28%); */
+    --chestnut: rgb(191, 74, 74);
     --pampas: hsl(60, 21%, 94%);
     --svg-fill: var(--chestnut);
     --verdun-green-dark-opacity: hsla(79, 97%, 13%, 70%);
@@ -18,6 +17,7 @@
     --standard-margin: 1rem;
     --standard-gap: 1rem;
     --header-height: 78px;
+    /* --header-height: clamp(2.81rem, calc(2.10rem + 3.59vw), 4.88rem); */
     --nav-item-width: var(--header-height);
     --nav-item-height: var(--header-height);
     --font-family-heading: var(--font-family-permanent-marker);
@@ -99,6 +99,18 @@ select {
 .container {
     width: min(100% - var(--container-padding), var(--container-max-width));
     margin-inline: auto;
+}
+
+.container[data-type="regular"] {
+    --container-max-width: 87.5rem;
+    --container-padding: calc(var(--standard-padding) * 2);
+}
+
+@media only screen and (width >=768px) {
+    .container[data-type="regular"] {
+        --container-max-width: 75rem;
+        --container-padding: calc(var(--standard-padding) * 2);
+    }
 }
 
 .container[data-type="wide"] {
