@@ -3,6 +3,7 @@ h1.hero-title {
     font-family: var(--font-family-heading);
     font-size: clamp(3.75rem, calc(3.13rem + 2.74vw), 5.25rem);
     color: var(--font-color-hero-title);
+    line-height: clamp(4.88rem, calc(4.20rem + 3.37vw), 6.81rem);
 }
 
 h1 {
@@ -10,18 +11,21 @@ h1 {
     font-size: clamp(3.15rem, calc(2.68rem + 2.35vw), 4.5rem);
     color: var(--font-color-heading);
     text-align: center;
+    line-height: clamp(4.13rem, calc(3.54rem + 2.93vw), 5.81rem);
 }
 
 h2 {
     font-family: var(--font-family-heading);
     font-size: clamp(2.625rem, calc(2.23rem + 1.96vw), 3.75rem);
     color: var(--font-color-heading);
+    line-height: clamp(3.44rem, calc(2.94rem + 2.50vw), 4.88rem);
 }
 
 h3 {
     font-family: var(--font-family-heading);
     font-size: clamp(2.1rem, calc(1.79rem + 1.57vw), 3rem);
     color: var(--font-color-heading);
+    line-height: clamp(2.75rem, calc(2.36rem + 1.96vw), 3.88rem);
 }
 
 h4 {
@@ -29,18 +33,21 @@ h4 {
     font-weight: 600;
     font-size: clamp(1.575rem, calc(1.34rem + 1.17vw), 2.25rem);
     color: var(--font-color-heading);
+    line-height: clamp(2.06rem, calc(1.76rem + 1.52vw), 2.94rem);
 }
 
 h5 {
     font-family: var(--font-family-heading);
     font-size: clamp(1.3125rem, calc(1.12rem + 0.98vw), 1.875rem);
     color: var(--font-color-heading);
+    line-height: clamp(1.69rem, calc(1.43rem + 1.30vw), 2.44rem);
 }
 
 h6 {
     font-family: var(--font-family-heading);
     font-size: clamp(1.05rem, calc(0.89rem + 0.78vw), 1.5rem);
     color: var(--font-color-heading);
+    line-height: clamp(1.38rem, calc(1.18rem + 0.98vw), 1.94rem);
 }
 
 
@@ -48,14 +55,28 @@ p {
     font-family: var(--font-family-body);
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     font-weight: 300;
+    line-height: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
     color: var(--font-color-body);
     margin-bottom: .5rem;
+}
+
+p.subtitle {
+    font-size: clamp(1.13rem, calc(0.82rem + 1.52vw), 2.00rem);
+    line-height: clamp(1.69rem, calc(1.23rem + 2.28vw), 3.00rem);
+}
+
+p.stage-text {
+    font-size: clamp(0.88rem, calc(0.74rem + 0.65vw), 1.25rem);
+    font-weight: 400;
+    line-height: lamp(1.31rem, calc(1.12rem + 0.98vw), 1.88rem);
+    margin-bottom: 0;
 }
 
 strong {
     font-family: var(--font-family-body);
     font-weight: 700;
-    font-size: calc(18px + 0.390625vw);
+    font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
+    line-height: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
     color: var(--font-color-body);
 }
 
@@ -90,6 +111,9 @@ a:active {
     color: var(--verdun-green-light);
 }
 
+.back a {
+    font-weight: 400;
+}
 
 header a i.fa-solid {
     font-size: 48px;
@@ -123,7 +147,7 @@ header .nav-title {
 
 .footprints .scroll-hint {
     font-family: var(--font-family-permanent-marker);
-    font-size: clamp(1.575rem, calc(1.34rem + 1.17vw), 2.25rem);
+    font-size: clamp(0.88rem, calc(0.40rem + 2.39vw), 2.25rem);
     color: var(--pampas);
 }
 
@@ -134,7 +158,7 @@ footer a:active {
 }
 
 footer a i.fa-brands {
-    font-size: clamp(2.00rem, calc(1.83rem + 0.87vw), 2.50rem);
+    font-size: clamp(0.88rem, calc(0.66rem + 1.09vw), 1.50rem);
     color: var(--icon-social-color);
 }
 
@@ -144,8 +168,13 @@ footer a:active i.fa-brands {
     color: var(--icon-social-hover-color);
 }
 
-#trail-details div.trail-stats > div span {
+footer .copyright .website-name small {
+    font-family: var(--font-family-permanent-marker);
+}
+
+.trail-overview div.trail-stats > div span {
     font-family: var(--font-family-permanent-marker);
     font-size: clamp(1.3125rem, calc(1.12rem + 0.98vw), 1.875rem);
     color: var(--trail-stats-font-color);
 }
+
