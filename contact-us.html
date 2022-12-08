@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,24 +11,25 @@
         <title>Magic Forest Trail</title>
         <link rel="icon" type="image/x-icon" href="assets/media/images/logo.ico">
         <link rel="stylesheet" href="assets/css/main.css">
-        
+
     </head>
+
     <body>
         <header>
             <a class="skip-nav-link" href="#main-story">Skip to main content</a>
 
             <nav aria-label="primary navigation">
                 <ul class="menu container" data-type="wide">
-                    <li>
+                    <li class="nav-item-home">
                         <a href="index.html" target="_self" aria-label="Home page"><span class="nav-icon"><i
                                     class="fa-solid fa-house-chimney"></i></span><span class="nav-title">Home</span></a>
                     </li>
-                    <li>
-                        <a href="trails.html" target="_self" aria-label="Trail description list page"><span
+                    <li class="nav-item-trails">
+                        <a href="#trails" target="_self" aria-label="Trail description list page"><span
                                 class="nav-icon"><i class="fa-solid fa-signs-post"></i></span><span
                                 class="nav-title">Trails</span></a>
                     </li>
-                    <li class="active">
+                    <li class="nav-item-storybook">
                         <a href="storybook.html" target="_self" aria-label="Story of Bartli page"><span
                                 class="nav-icon"><i class="fa-solid fa-book"></i></span><span
                                 class="nav-title">Storybook</span></a>
@@ -35,37 +37,114 @@
                 </ul>
             </nav>
         </header>
+        <main>
+            <section class="booking-form container" data-type="wide">
+                <form action="success.html">
+                    <div class="form-field">
+                        <label for="first-name">
+                            <span>First Name</span> 
+                            <strong><span aria-label="required">*</span></strong>
+                        </label>
+                        <input type="text" name="first-name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="last-name">
+                            <span>Last Name</span>
+                            <strong><span aria-label="required">*</span></strong>
+                        </label>
+                        <input type="text" name="last-name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">
+                            <span>Email Address</span>
+                            <strong><span aria-label="required">*</span></strong>
+                        </label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="telephone">Telephone number (optional)</label>
+                        <input type="telephone" name="telephone">
+                    </div>
+                    <div class="form-field select-field">
+                        <label for="number-of-adults">Adults</label>
+                        <select name="number-of-adults" id="number-of-adults">
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+                            <option value="1">3</option>
+                            <option value="1">4</option>
+                            <option value="1">5</option>
+                            <option value="1">6</option>
+                            <option value="1">7</option>
+                            <option value="1">8</option>
+                            <option value="1">9</option>
+                            <option value="1">10</option>
+                        </select>
+                    </div>
+
+                    <div class="form-field select-field">
+                        <label for="number-of-children">Adults</label>
+                        <select name="number-of-children" id="number-of-children">
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+                            <option value="1">3</option>
+                            <option value="1">4</option>
+                            <option value="1">5</option>
+                            <option value="1">6</option>
+                            <option value="1">7</option>
+                            <option value="1">8</option>
+                            <option value="1">9</option>
+                            <option value="1">10</option>
+                        </select>
+                    </div>
+
+                    <div class="form-field">
+                        <input type="checkbox" name="with-travelcard">
+                        <label for="with-travelcard">With SBB Half Fare Travelcard</label>
+                    </div>
+                    <div class="form-field">
+                        <input type="checkbox" name="with-travelcard">
+                        <label for="with-lunch">With lunch included</label>
+                    </div>
+                    <div class="form-field">
+                        <label for="comments">Additional comments</label>
+                        <input type="textarea">
+                    </div>
+                    <button type="submit">Book Now</button>
+
+                </form>
+            </section>
+        </main>
         <footer>
             <div class="footer-top">
-                <div class="social-links container" data-type="wide">
+                <div class="social-links container" data-type="full">
                     <div class="social-link social-link-twitter">
                         <a href="https://twiiter.com" target="_blank" aria-label="Twitter">
                             <span class="fa-stack fa-2x">
-                                <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                <i class="fa-solid fa-circle fa-stack-1x"></i>
                                 <i class="fa-brands fa-twitter fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </div>
-                    <div class="social-link social-link-instagram" target="_blank" aria-label="Instagram">
-                        <a href="https://facebook.com">
+                    <div class="social-link social-link-instagram">
+                        <a href="https://facebook.com" target="_blank" aria-label="Instagram">
                             <span class="fa-stack fa-2x">
-                                <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                <i class="fa-solid fa-circle fa-stack-1x"></i>
                                 <i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </div>
-                    <div class="social-link social-link-youtube" target="_blank" aria-label="YouTube">
-                        <a href="https://youtube.com">
+                    <div class="social-link social-link-youtube">
+                        <a href="https://youtube.com" target="_blank" aria-label="YouTube">
                             <span class="fa-stack fa-2x">
-                                <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                <i class="fa-solid fa-circle fa-stack-1x"></i>
                                 <i class="fa-brands fa-youtube fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </div>
-                    <div class="social-link social-link-facebook" target="_blank" aria-label="Facebook">
-                        <a href="https://instagram.com">
+                    <div class="social-link social-link-facebook">
+                        <a href="https://instagram.com" target="_blank" aria-label="Facebook">
                             <span class="fa-stack fa-2x">
-                                <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                <i class="fa-solid fa-circle fa-stack-1x"></i>
                                 <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
@@ -74,13 +153,14 @@
             </div>
             <div class="footer-bottom">
                 <div class="copyright container" data-type="wide">
-                    <div class="clause"><small>This website is only for educational purpose.</small></div>
-                    <div class="website-name"><small>Magic Forest Trail 2022</small></div>
-                    <div class="webwork"><small><strong>website by:</strong>S Richardson</small></div>
+                    <small class="clause">This website is only for educational purpose.</small>
+                    <small class="website-name">Magic Forest Trail 2022</small>
                 </div>
             </div>
         </footer>
         <!-- Font awesome script -->
         <script src="https://kit.fontawesome.com/28847961b6.js" rel="preconnect" crossorigin="anonymous"></script>
+        <script src="assets/js/navigation.js"></script>
     </body>
+
 </html>
