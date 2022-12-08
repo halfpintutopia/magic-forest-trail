@@ -24,12 +24,12 @@
 
             <nav aria-label="primary navigation">
                 <ul class="menu container" data-type="wide">
-                    <li class="active">
+                    <li>
                         <a href="../index.html" target="_self" aria-label="Home page"><span class="nav-icon"><i
                                     class="fa-solid fa-house-chimney"></i></span><span class="nav-title">Home</span></a>
                     </li>
-                    <li>
-                        <a href="../trails.html" target="_self" aria-label="Trail description list page"><span
+                    <li class="active">
+                        <a href="../index.html#trails" target="_self" aria-label="Trail description list page"><span
                                 class="nav-icon"><i class="fa-solid fa-signs-post"></i></span><span
                                 class="nav-title">Trails</span></a>
                     </li>
@@ -63,23 +63,31 @@
                     <div class="distance"><span>3 hrs 30 mins</span></div>
                     <div class="level"><span>Easy</span></div>
                 </div>
+                
                 <div class="trail-summary container" data-type="wide">
-                    <h2>Full Trail</h2>
-                    <div class="trail-spots">
-                        Gumen <i class="fa-solid fa-arrow-right-long"></i> Braunwaldalp Oberstafel <i
-                            class="fa-solid fa-arrow-right-long"></i> Zwergenschloss <i
-                            class="fa-solid fa-arrow-right-long"></i> Edelsteinspalte <i
-                            class="fa-solid fa-arrow-right-long"></i> Zwergenhöhle <i
-                            class="fa-solid fa-arrow-right-long"></i>
-                        Rindenhüttli <i class="fa-solid fa-arrow-right-long"></i> Grotzenbüel <i
-                            class="fa-solid fa-arrow-right-long"></i> Zwergenturm <i
-                            class="fa-solid fa-arrow-right-long"></i> Wasserspielplatz <i
-                            class="fa-solid fa-arrow-right-long"></i> Tiidis Hüsli <i
-                            class="fa-solid fa-arrow-right-long"></i> Musiktruhe
-                        Braunwald
+                    <div class="back">
+                        <a href="../index.html#trails"><i class="fa-solid fa-arrow-left-long"></i> Back to Trail
+                            List</a>
+                    </div>
+                    <h1>Full Trail</h2>
+                    <p class="subtitle">Explore the full area on this easy trail. Starting from Gumen, slowly make your descent back to the Braunwald Funicular Station. Stop at the places Bartli visits.</p>
+                </div>
+                <div class="trail-stages container" data-type="regular">
+                    <div class="stage">
+                        <h3>Stage 1</h3>
+                        <p class="stage-text">Gumen - Braunwaldalp Oberstafel - Zwergenschloss</p>
+                    </div>
+                    <div class="stage">
+                        <h3>Stage 2</h3>
+                        <p class="stage-text">Edelsteinspalte - Zwergenhöhle - Rindenhüttli - Grotzenbüel</p>
+                    </div>
+                    <div class="stage">
+                        <h3>Stage 3</h3>
+                        <p class="stage-text">Zwergenturm - Wasserspielplatz - Tiidis Hüsli - Musiktruhe Braunwald
+                        </p>
                     </div>
                 </div>
-                <div class="map-wrapper">
+                <div class="map-wrapper container" data-type="full">
                     <div id="map-full"></div>
                 </div>
             </section>
@@ -131,6 +139,8 @@
         <!-- Font awesome script -->
         <script src="https://kit.fontawesome.com/28847961b6.js" rel="preconnect" crossorigin="anonymous"></script>
         <script src="../assets/js/trail-maps.js"></script>
+        <script src="../assets/js/navigation.js"></script>
+
     </body>
 
 </html>
