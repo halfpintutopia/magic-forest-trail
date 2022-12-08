@@ -1,6 +1,6 @@
 (function () {
     const ICON = {
-        LOCATION: '../assets/media/Character.png',
+        LOCATION: '../assets/media/images/Character.png',
         SIZE: [90, 90],
         ANCHOR: [45, 45],
         POPUP_ANCHOR: [-3, -76]
