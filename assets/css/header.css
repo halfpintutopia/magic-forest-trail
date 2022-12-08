@@ -1,10 +1,8 @@
 header {
-    background-color: var(--verdun-green-dark-opacity);
-    position: fixed;
+    background-color: var(--verdun-green-dark);
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
-    z-index: 2;
+    z-index: 1100;
     box-shadow: var(--box-shadow);
 }
 
