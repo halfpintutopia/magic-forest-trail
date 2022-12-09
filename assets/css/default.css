@@ -16,7 +16,7 @@
     --standard-padding: 1rem;
     --standard-margin: 1rem;
     --standard-gap: 1rem;
-    --header-height: 78px;
+    --header-height: clamp(3rem, calc(2.30rem + 3.48vw), 5rem);
     /* --header-height: clamp(2.81rem, calc(2.10rem + 3.59vw), 4.88rem); */
     --nav-item-width: var(--header-height);
     --nav-item-height: var(--header-height);
@@ -93,7 +93,21 @@ textarea,
 button,
 select {
     font: inherit;
+    border: none;
+    background-color: var(--pampas);
 }
+
+input:focus-visible,
+textarea:focus-visible {
+    border: none;
+}
+
+ input:focus,
+ textarea:focus,
+ select:focus {
+     outline: none;
+ }
+
 /* end Reset default */
 
 .container {

@@ -1,0 +1,16 @@
+.booking-form .form-field {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.booking-form form {
+    display: grid;
+    gap: 1rem;
+}
+
+.booking-form .form-field input {
+    border-bottom: 1px solid var(--shark);
+}
