@@ -43,3 +43,36 @@ button[data-type='narrow'],
     --button-text-hover: var(--pampas);
     --button-background-color-hover: var(--chestnut);
 }
+
+.book-now-button {
+    width: 300px;
+    aspect-ratio: 1;
+    background-color: var(--pampas);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    border: 2rem solid hsl(0, 48%, 52%);
+    transition: all .4s;
+}
+
+.book-now-button:hover,
+.book-now-button:focus {
+    border-color: hsl(0, 48%, 21%);
+    transform: translateY(-1rem);
+}
+
+.book-now-button:active {
+     inset: 0 0 .1em rgba(0, 0, 0, .3);
+     transform: translateY(.05em)
+}
+
+.book-now-button::before {
+    content: '';
+    display: inline-block; 
+    vertical-align: middle; 
+    padding-top: 100%;
+}
+
+.book-now-button * {
+    margin: auto;
+}
