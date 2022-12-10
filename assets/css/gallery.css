@@ -10,13 +10,16 @@
         grid-template-columns: repeat(4, 1fr);
         padding-block: 2rem;
     }
-}
 
-@media only screen and (width >=768px) {
     .gallery-image {
         border: 1px solid black;
     }
 
+    .gallery-image picture,
+    .gallery-image img {
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 /* Utility classes */
