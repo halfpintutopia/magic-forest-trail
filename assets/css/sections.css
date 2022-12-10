@@ -1,3 +1,7 @@
+section {
+    padding-block: max(3vh, 1rem);
+}
+
 .section-header .section-header-image img {
     width: 100%;
     height: 40vh;
@@ -20,4 +24,56 @@
 
 .form-success-message p {
     text-align: center;
+}
+
+.text-image {
+    display: grid;
+}
+
+.text-image .image {
+    height: 25vh;
+    position: relative;
+}
+
+.text-image .text {
+    margin-block: max(3vh, 1rem) max(5vh, 2.5rem);
+}
+
+.text-image .image img {
+    height: 25vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media only screen and (width >=768px) {
+    .text-image .image img {
+        width: 100%;
+    }
+}
+
+@media only screen and (width >=768px) {
+    .text-image-part {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+        grid-gap: 1rem;
+    }
+}
+
+.text-image-container {
+    width: min(100% - var(--container-padding), var(--container-max-width));
+}
+
+.text-image-container[data-type="wide"] {
+    --container-max-width: calc(var(--container-width-wide) / 2);
+    --container-padding: var(--standard-padding);
+
+}
+
+.text-image .content-left {
+    margin-left: auto;
+}
+
+.text-image .content-right {
+    margin-right: auto;
 }
