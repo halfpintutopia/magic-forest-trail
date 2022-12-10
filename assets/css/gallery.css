@@ -1,0 +1,31 @@
+/* CSS taken from Kevin Powell's https://www.youtube.com/watch?v=rg7Fvvl3taU&t=1306s */
+.gallery {
+    display: grid;
+    gap: 1.5rem;
+}
+
+@media only screen and (width >=768px) {
+    .gallery {
+        grid-auto-columns: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        padding-block: 2rem;
+    }
+}
+
+@media only screen and (width >=768px) {
+    .gallery-image {
+        border: 1px solid black;
+    }
+
+}
+
+/* Utility classes */
+@media only screen and (width >=768px) {
+    .grid-col-span-2 {
+        grid-column: span 2;
+    }
+
+    .grid-row-span-2 {
+        grid-row: span 2;
+    }
+}

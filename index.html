@@ -11,12 +11,11 @@
         <title>Magic Forest Trail</title>
         <link rel="icon" type="image/x-icon" href="assets/media/images/logo.ico">
         <link rel="stylesheet" href="assets/css/main.css">
-
     </head>
 
     <body>
         <header>
-            <a class="skip-nav-link" href="#main-story">Skip to main content</a>
+            <a class="skip-nav-link" href="#main-story"><span class="visually-hidden">Skip to main content</span></a>
 
             <nav aria-label="primary navigation">
                 <ul class="menu container" data-type="wide">
@@ -63,6 +62,40 @@
                         <img src="assets/media/images/bootprints-light_down.svg" alt="">
                     </div>
                 </div>
+            </section>
+            <section class="text-image">
+                <h1 class="news-title">News</h1>
+                <article class="text-image-part">
+                    <div class="image">
+                        <picture>
+                            <source media="(min-width: 900px)" srcset="assets/media/images/storybook/part-1/lg/hike-1-lg_1x.webp 1x,
+                            assets/media/images/storybook/part-1/lg/hike-1-lg_2x.webp 2x" type="image/webp" />
+                            <source media="(min-width: 601px)" srcset="assets/media/images/storybook/part-1/md/hike-1-md_1x.webp 1x,
+                            assets/media/images/storybook/part-1/md/hike-1-md_2x.webp 2x" type="image/webp" />
+                            <source srcset="assets/media/images/storybook/part-1/sm/hike-1-sm_1x.webp 1x,
+                            assets/media/images/storybook/part-1/sm/hike-1-sm_2x.webp 2x" type="image/webp" />
+                            <img srcset="assets/media/images/storybook/part-1/sm/hike-1-sm_1x.jpg 600w,
+                            assets/media/images/storybook/part-1/md/hike-1-md_1x.jpg 900w,
+                            assets/media/images/storybook/part-1/lg/hike-1-lg_1x.jpg 1440w"
+                                src="assets/media/images/storybook/part-1/lg/hike-1-lg_1x.jpg" type="image/jpeg"
+                                alt="The valley down towards Bartl's house" />
+                        </picture>
+                    </div>
+                    <div class="content-right text-image-container" data-type="wide">
+                        <div class="text">
+                            <p>Bartli lives in Braunwald. He know all the mountains, forests and streams.</p>
+                            <p>He is the guardian of a precious stone. The crystal helps sick or injured animals. It is
+                                Barli's duty to look after the animals in the moutain.</p>
+                            <p>The job was appointed to him be the Dwarf King, who resides on the top of a rocky plateau
+                                in
+                                his castle.</p>
+                            <p>To see the trails that lead to this location, click the links below.</p>
+                            <div class="quick-links">
+                            </div>
+                        </div>
+
+                    </div>
+                </article>
             </section>
             <section aria-labelledby="trails" class="trail-cards container" data-type="full">
                 <h1 id="trails">Trails</h1>
@@ -217,6 +250,46 @@
                     </a>
                 </article>
             </section>
+            <section class="text-image">
+                <h1 class="news-title">News</h1>
+                <article class="text-image-part">
+                    <div class="content-left text-image-container" data-type="wide">
+                        <div class="text">
+                            <p>Bartli lives in Braunwald. He know all the mountains, forests and streams.</p>
+                            <p>He is the guardian of a precious stone. The crystal helps sick or injured animals. It is
+                                Barli's duty to look after the animals in the moutain.</p>
+                            <p>The job was appointed to him be the Dwarf King, who resides on the top of a rocky plateau
+                                in
+                                his castle.</p>
+                            <p>To see the trails that lead to this location, click the links below.</p>
+                            <div class="quick-links">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <picture>
+                            <source media="(min-width: 900px)" srcset="assets/media/images/storybook/part-1/lg/hike-1-lg_1x.webp 1x,
+                            assets/media/images/storybook/part-1/lg/hike-1-lg_2x.webp 2x" type="image/webp" />
+                            <source media="(min-width: 601px)" srcset="assets/media/images/storybook/part-1/md/hike-1-md_1x.webp 1x,
+                            assets/media/images/storybook/part-1/md/hike-1-md_2x.webp 2x" type="image/webp" />
+                            <source srcset="assets/media/images/storybook/part-1/sm/hike-1-sm_1x.webp 1x,
+                            assets/media/images/storybook/part-1/sm/hike-1-sm_2x.webp 2x" type="image/webp" />
+                            <img srcset="assets/media/images/storybook/part-1/sm/hike-1-sm_1x.jpg 600w,
+                            assets/media/images/storybook/part-1/md/hike-1-md_1x.jpg 900w,
+                            assets/media/images/storybook/part-1/lg/hike-1-lg_1x.jpg 1440w"
+                                src="assets/media/images/storybook/part-1/lg/hike-1-lg_1x.jpg" type="image/jpeg"
+                                alt="The valley down towards Bartl's house" />
+                        </picture>
+                    </div>
+                </article>
+            </section>
+            <section class="gallery container" data-type="wide"> 
+                <div class="gallery-image grid-col-span-2">Hi</div>
+                <div class="gallery-image ">Cheers</div>
+                <div class="gallery-image grid-row-span-2">Hoi</div>
+                <div class="gallery-image green">Hola</div>
+                <div class="gallery-image  grid-col-span-2">Hola</div>
+            </section>
         </main>
         <footer>
             <div class="footer-top">
@@ -262,9 +335,12 @@
                 </div>
             </div>
         </footer>
+
         <!-- Font awesome script -->
         <script src="https://kit.fontawesome.com/28847961b6.js" rel="preconnect" crossorigin="anonymous"></script>
         <script src="assets/js/navigation.js"></script>
+            <script src="assets/js/loader.js"></script>
+
     </body>
 
 </html>
