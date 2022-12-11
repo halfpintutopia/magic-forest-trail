@@ -14,6 +14,10 @@ h1 {
     line-height: clamp(4.13rem, calc(3.54rem + 2.93vw), 5.81rem);
 }
 
+.redirect-message-text h1 {
+    color: var(--pampas);
+}
+
 h2 {
     font-family: var(--font-family-heading);
     font-size: clamp(2.625rem, calc(2.23rem + 1.96vw), 3.75rem);
