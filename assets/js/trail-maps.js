@@ -92,10 +92,10 @@
         const map = createMap(id, mapCoordinates, zoom)
         const marker = createCustomMarker(iconLocation)
 
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }).addTo(map);
+        L.tileLayer('https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.swissimage/default/current/3857/{z}/{x}/{y}.jpeg', {
+            attribution: '&copy; <a href="https://www.swisstopo.admin.ch/">swisstopo</a>',
+            maxZoom: 19
+	}).addTo(map);
 
 
         locations.forEach((location) => {
