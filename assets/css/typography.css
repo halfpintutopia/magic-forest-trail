@@ -36,6 +36,10 @@ h4 {
     line-height: clamp(2.06rem, calc(1.76rem + 1.52vw), 2.94rem);
 }
 
+.sticky-button h4 {
+    color: var(--pampas);
+}
+
 h5 {
     font-family: var(--font-family-heading);
     font-size: clamp(1.3125rem, calc(1.12rem + 0.98vw), 1.875rem);
@@ -50,6 +54,9 @@ h6 {
     line-height: clamp(1.38rem, calc(1.18rem + 0.98vw), 1.94rem);
 }
 
+.sticky-button h6 {
+    color: var(--pampas);
+}
 
 p {
     font-family: var(--font-family-body);
@@ -72,6 +79,7 @@ p.stage-text {
     margin-bottom: 0;
 }
 
+form label, 
 strong {
     font-family: var(--font-family-body);
     font-weight: 700;
@@ -91,6 +99,15 @@ small {
     font-family: var(--font-family-body);
     font-size: clamp(0.88rem, calc(0.83rem + 0.22vw), 1rem);
     color: var(--font-color-body);
+    display: block;
+}
+
+summary {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: clamp(0.88rem, calc(0.83rem + 0.22vw), 1rem);
+    color: var(--shark);
+    cursor: pointer;
 }
 
 footer small {
