@@ -13,6 +13,7 @@ button,
     color: var(--button-text, white);
     background-color: var(--button-background, red);
     margin-bottom: var(--button-margin-bottom, 0);
+    margin-block: var(--button-margin-block);
 }
 
 button:hover,
@@ -31,6 +32,7 @@ button[data-type='wide'],
     --button-background: var(--pampas);
     --button-text-hover: var(--pampas);
     --button-background-color-hover: var(--chestnut);
+    --button-margin-block: 1rem;
 }
 
 button[data-type='narrow'],
