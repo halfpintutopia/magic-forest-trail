@@ -1,5 +1,25 @@
-section:not(:first-child) {
+/* section:not(:first-child) {
     padding-block: max(3vh, 1rem);
+} */
+
+section.section-header {
+    display: grid;
+    place-items: center;
+    isolation: isolate;
+}
+
+section.section-header>* {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+section.section-header .section-header-image {
+    display: grid;
+    width: 100vw;
+    /* height: calc(50vh - var(--header-height)); */
+    position: relative;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .section-header .section-header-image img {
