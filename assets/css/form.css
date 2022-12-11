@@ -3,12 +3,22 @@
     flex-direction: column;
 }
 
+.booking-form .form-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.booking-form .form-group .form-field {
+    flex: 1 1 auto;
+}
+
 .booking-form .form-group:not(:last-child) {
     margin-bottom: 2rem;
 }
 
-.booking-form input {
+.booking-form .form-group input {
     padding: 1.5rem 2rem;
+    border-bottom: 1px solid var(--shark);
     transition: all .4s;
 }
 
@@ -17,7 +27,7 @@
 }
 
 .booking-form input:focus:invalid {
-     border-bottom: 1px solid var(--chestnut);
+    background-color: var(--chestnut);
 }
 
 .booking-form input::-webkit-input-placeholder {
