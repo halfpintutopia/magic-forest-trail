@@ -57,43 +57,52 @@
             </section>
             <section class="booking-form container" data-type="regular">
                 <h1>Book your family pass</h1>
-                <article>
-                    <div class="price-table table">
-                        <div class="table-header">From Linthal, GL train station</div>
-                        <div class="table-row">
-                            <div class="table-row-field">With lunch</div>
-                            <div class="table-row-field">CHF 140.-</div>
-                        </div>
-                        <div class="table-row">
-                            <div class="table-row-field">Without lunch</div>
-                            <div class="table-row-field">CHF 140.-</div>
-                        </div>
-                    </div>
-                    <div class="price-table table">
-                        <div class="table-header">From Linthal, GL train station</div>
-                        <div class="table-row">
-                            <div class="table-row-field">With lunch</div>
-                            <div class="table-row-field">CHF 140.-</div>
-                        </div>
-                        <div class="table-row">
-                            <div class="table-row-field">Without lunch</div>
-                            <div class="table-row-field">CHF 140.-</div>
-                        </div>
-                    </div>
-                    <div class="price-table table">
-                        <div class="table-header">From Linthal, GL train station</div>
-                        <div class="table-row">
-                            <div class="table-row-field">With lunch</div>
-                            <div class="table-row-field">CHF 140.-</div>
-                        </div>
-                        <div class="table-row">
-                            <div class="table-row-field">Without lunch</div>
-                            <div class="table-row-field">CHF 140.-</div>
-                        </div>
-                    </div>
-                </article>
+                
                 <article>
                     <p class="subtitle">The family pass includes free rides on all cablecars in Braunwald.</p>
+                    <details>
+                        <summary>Prices</summary>
+                        <div class="price-table table">
+                            <div class="table-header">
+                                <h6>From Linthal, GL train station</h6>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-row-field">With lunch</div>
+                                <div class="table-row-field">CHF 140.-</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-row-field">Without lunch</div>
+                                <div class="table-row-field">CHF 140.-</div>
+                            </div>
+                        </div>
+                        <div class="price-table table">
+                            <div class="table-header">
+                                <h6>Ab Linthal mit Halbtax</h6>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-row-field">With lunch</div>
+                                <div class="table-row-field">CHF 140.-</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-row-field">Without lunch</div>
+                                <div class="table-row-field">CHF 140.-</div>
+                            </div>
+                        </div>
+                        <div class="price-table table">
+                            <div class="table-header">
+                                <h6>Ab Braunwald</h6>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-row-field">With lunch</div>
+                                <div class="table-row-field">CHF 140.-</div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-row-field">Without lunch</div>
+                                <div class="table-row-field">CHF 140.-</div>
+                            </div>
+                        </div>
+                    </details>
+
                     <form action="success.html">
                         <div class="form-group">
                             <div class="form-field">
@@ -123,10 +132,12 @@
                                 </label>
                             </div>
                         </div>
-                        <small>The price of the family pass is for 1 - 2 adults and up to 5 children. Family passes are only
-                            valid for the summer season. Multiple family passes will be issued if the number exceeds 2
-                            adults and / or 5 children.</small>
-                        <small>Please feel free to leave a comment if you have any questions.</small>
+                        <details>
+                            <summary>The price of the family pass is for 1 - 2 adults and up to 5 children. Please feel
+                                free to leave a comment if you have any questions.</summary>
+                            Family passes are only valid for the summer season. Multiple family passes will be issued if the number exceeds 2
+                            adults and / or 5 children.
+                        </details>
                         <div class="form-group">
                             <div class="form-field select-field">
                                 <label for="number-of-adults">

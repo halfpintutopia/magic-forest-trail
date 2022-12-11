@@ -71,3 +71,54 @@
     gap: 0;
     margin-left: 2rem;
 }
+
+.booking-form .button-group button {
+    margin-inline: auto;
+}
+
+.booking-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.booking-form h1 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+/* .booking-form article:first-child {
+    flex: 0 0 auto;
+    width: calc(100% / 3);
+}
+
+.booking-form article:last-child {
+    flex: 0 0 auto;
+    width: calc((100% / 3) * 2);
+} */
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.table .table-header,
+.table .table-row {
+    padding-inline: 2rem;
+}
+
+.table .table-header {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.table .table-row {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 auto;
+}
+
+.table .table-row:nth-child(even) {
+    background-color: hsla(79, 96%, 18%, 40%);
+}
