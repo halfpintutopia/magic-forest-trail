@@ -1,16 +1,38 @@
 .booking-form .form-field {
     display: flex;
     flex-direction: column;
-    display: flex;
-    flex-direction: column;
-    row-gap: .5rem;
 }
 
-.booking-form form {
-    display: grid;
-    gap: 1rem;
+.booking-form .form-group:not(:last-child) {
+    margin-bottom: 2rem;
 }
 
-.booking-form .form-field input {
-    border-bottom: 1px solid var(--shark);
+.booking-form input {
+    padding: 1.5rem 2rem;
+    transition: all .4s;
+}
+
+.booking-form input:focus {
+    outline: none;
+}
+
+.booking-form input:focus:invalid {
+     border-bottom: 1px solid var(--chestnut);
+}
+
+.booking-form input::-webkit-input-placeholder {
+    color: var(--shark);
+}
+
+.booking-form label {
+    margin-left: 2rem;
+    margin-top: .7rem;
+    transition: all .4s;
+    order: -1;
+}
+
+.booking-form input:placeholder-shown + label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4rem);
 }

@@ -38,65 +38,89 @@
             </nav>
         </header>
         <main>
+            <section class="section-header">
+                <div class="section-header-image">
+                    <picture>
+                        <source media="(min-width: 900px)" srcset="assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_1x.webp 1x,
+                            assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_2x.webp 2x" type="image/webp" />
+                        <source media="(min-width: 601px)" srcset="assets/media/images/storybook/bartli/md/Sitting_On_Rock-md_1x.webp 1x,
+                            assets/media/images/storybook/bartli/md/Sitting_On_Rock-md_2x.webp 2x" type="image/webp" />
+                        <source srcset="assets/media/images/storybook/bartli/sm/Sitting_On_Rock-sm_1x.webp 1x,
+                            assets/media/images/storybook/bartli/sm/Sitting_On_Rock-sm_2x.webp 2x" type="image/webp" />
+                        <img loading="lazy" srcset="assets/media/images/storybook/bartli/sm/Sitting_On_Rock-sm_1x.jpg 600w,
+                            assets/media/images/storybook/bartli/md/Sitting_On_Rock-md_1x.jpg 900w,
+                            assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_1x.jpg 1440w"
+                            src="assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_1x.jpg" type="image/jpeg"
+                            alt="The valley down towards Bartl's house" />
+                    </picture>
+                </div>
+            </section>
             <section class="booking-form container" data-type="wide">
                 <form action="success.html">
-                    <div class="form-field">
-                        <label for="first-name">
-                            <span>First Name</span> 
-                            <strong><span aria-label="required">*</span></strong>
-                        </label>
-                        <input type="text" name="first-name" required>
+                    <div class="form-group">
+                        <div class="form-field">
+                            <input type="text" name="first-name" placeholder="First name *" required>
+                            <label for="first-name">First name <strong><span aria-label="required">*</span></strong>
+                            </label>
+                       </div>
+                        <div class="form-field">
+                            <input type="text" name="last-name" placeholder="Last name *" required>
+                            <label for="last-name">
+                                Last name <strong><span aria-label="required">*</span></strong>
+                            </label>
+                        </div>
                     </div>
-                    <div class="form-field">
-                        <label for="last-name">
-                            <span>Last Name</span>
-                            <strong><span aria-label="required">*</span></strong>
-                        </label>
-                        <input type="text" name="last-name" required>
+                    <div class="form-group">
+                        <div class="form-field">
+                            <input type="email" name="email" placeholder="Email Address *" required>
+                            <label for="email">
+                                Email Address <strong><span aria-label="required">*</span></strong>
+                            </label>
+                            
+                        </div>
+                        <div class="form-field">
+                            <input type="telephone" name="telephone" placeholder="Telephone number (optional)">
+                            <label for="telephone">
+                                Telephone number (optional)
+                            </label>
+                        </div>
                     </div>
-                    <div class="form-field">
-                        <label for="email">
-                            <span>Email Address</span>
-                            <strong><span aria-label="required">*</span></strong>
-                        </label>
-                        <input type="email" name="email" required>
+                    <div class="form-group">
+                        <div class="form-field select-field">
+                            <label for="number-of-adults">
+                                <span>Adults</span> 
+                            </label>
+                            <select name="number-of-adults" id="number-of-adults">
+                                <option value="1">1</option>
+                                <option value="1">2</option>
+                                <option value="1">3</option>
+                                <option value="1">4</option>
+                                <option value="1">5</option>
+                                <option value="1">6</option>
+                                <option value="1">7</option>
+                                <option value="1">8</option>
+                                <option value="1">9</option>
+                                <option value="1">10</option>
+                            </select>
+                        </div>
+                        <div class="form-field select-field">
+                            <label for="number-of-children">
+                                <span>Children</span>
+                            </label>
+                            <select name="number-of-children" id="number-of-children">
+                                <option value="1">1</option>
+                                <option value="1">2</option>
+                                <option value="1">3</option>
+                                <option value="1">4</option>
+                                <option value="1">5</option>
+                                <option value="1">6</option>
+                                <option value="1">7</option>
+                                <option value="1">8</option>
+                                <option value="1">9</option>
+                                <option value="1">10</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="form-field">
-                        <label for="telephone">Telephone number (optional)</label>
-                        <input type="telephone" name="telephone">
-                    </div>
-                    <div class="form-field select-field">
-                        <label for="number-of-adults">Adults</label>
-                        <select name="number-of-adults" id="number-of-adults">
-                            <option value="1">1</option>
-                            <option value="1">2</option>
-                            <option value="1">3</option>
-                            <option value="1">4</option>
-                            <option value="1">5</option>
-                            <option value="1">6</option>
-                            <option value="1">7</option>
-                            <option value="1">8</option>
-                            <option value="1">9</option>
-                            <option value="1">10</option>
-                        </select>
-                    </div>
-
-                    <div class="form-field select-field">
-                        <label for="number-of-children">Adults</label>
-                        <select name="number-of-children" id="number-of-children">
-                            <option value="1">1</option>
-                            <option value="1">2</option>
-                            <option value="1">3</option>
-                            <option value="1">4</option>
-                            <option value="1">5</option>
-                            <option value="1">6</option>
-                            <option value="1">7</option>
-                            <option value="1">8</option>
-                            <option value="1">9</option>
-                            <option value="1">10</option>
-                        </select>
-                    </div>
-
                     <div class="form-field">
                         <input type="checkbox" name="with-travelcard">
                         <label for="with-travelcard">With SBB Half Fare Travelcard</label>
@@ -106,8 +130,10 @@
                         <label for="with-lunch">With lunch included</label>
                     </div>
                     <div class="form-field">
-                        <label for="comments">Additional comments</label>
-                        <input type="textarea">
+                        <label for="comments">
+                            <span>Additional comments</span>
+                            <input type="textarea">
+                        </label>
                     </div>
                     <button type="submit">Book Now</button>
 
