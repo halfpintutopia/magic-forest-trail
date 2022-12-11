@@ -9,6 +9,7 @@
         grid-auto-columns: 1fr;
         grid-template-columns: repeat(4, 1fr);
         padding-block: 2rem;
+        grid-template-rows: repeat(2, 400px);
     }
 
     .gallery-image {
@@ -18,6 +19,7 @@
     .gallery-image picture,
     .gallery-image img {
         height: 100%;
+        width: 100%;
         object-fit: cover;
     }
 }

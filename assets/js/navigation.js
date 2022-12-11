@@ -33,11 +33,12 @@
             htmlElementMap.menuItems.forEach((item) => {
                 item.classList.remove(CLASS.ACTIVE)
             })
-            htmlElementMap.navItemTrails.classList.toggle(CLASS.ACTIVE)
+            htmlElementMap.navItemTrails.classList.add(CLASS.ACTIVE)
+        } else {
+            htmlElementMap.navItemTrails.classList.remove(CLASS.ACTIVE)
         }
     }
 
     initHTMLElements()
     initEvents()
 })();
-

@@ -146,14 +146,14 @@ I initially created two differently stlyed landing pages. This was to try out st
 
 #### Trails
 
-![Screenshot of the trail (list) feature](docs/media/images/trails.png)
+![Screenshot of the trail (list) feature](./docs/media/images/trails.png)
 *Screenshot of the trails (list) feature*
 
 ---
 
 #### Gallery
 
-![Screenshot of the gallery feature](docs/media/images/gallery.png)
+![Screenshot of the gallery feature](./docs/media/images/gallery.png)
 *Screenshot of the gallery feature*
 
 Images used for the gallery page:

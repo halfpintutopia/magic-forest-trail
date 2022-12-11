@@ -56,7 +56,7 @@ section.section-header .section-header-image {
 }
 
 .text-image .text {
-    margin-block: max(3vh, 1rem) max(5vh, 2.5rem);
+    margin-block: max(1vh, 1rem) max(3vh, 1.5rem);
 }
 
 .text-image .image img {
@@ -71,12 +71,14 @@ section.section-header .section-header-image {
     }
 }
 
+.text-image-part {
+    display: grid;
+}
+
 @media only screen and (width >=768px) {
     .text-image-part {
-        display: grid;
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
-        grid-gap: 1rem;
     }
 }
 
@@ -84,8 +86,30 @@ section.section-header .section-header-image {
     margin-left: auto;
 }
 
+.text-image .content-left + .image,
+.text-image .content-left + .map-wrapper {
+    order: -1;
+}
+
+@media only screen and (width >=768px) {
+    .text-image .content-left+.image,
+    .text-image .content-left+.map-wrapper {
+        order: 1;
+    }
+}
+
+.text-image .content-left .text {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
 .text-image .content-right {
     margin-right: auto;
+}
+
+.text-image .content-right .text {
+    margin-right: auto;
+    margin-left: 1rem;
 }
 
 .text-image-container {

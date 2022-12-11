@@ -27,6 +27,7 @@
 
     const ID = {
         FULL_TRAIL: 'map-full',
+        FULL_TRAIL_HALF: 'map-full-half',
         VARIATION_1: 'map-variation-1',
         VARIATION_2: 'map-variation-2',
         VARIATION_3: 'map-variation-3',
@@ -123,7 +124,6 @@
             ]
         );
     }
-
 
     if (document.getElementById(ID.VARIATION_1)) {
         initMap(
