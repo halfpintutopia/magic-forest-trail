@@ -55,7 +55,8 @@
                     </picture>
                 </div>
             </section>
-            <section class="booking-form container" data-type="wide">
+            <section class="booking-form container" data-type="regular">
+                <h1>Book your family pass</h1>
                 <form action="success.html">
                     <div class="form-group">
                         <div class="form-field">
@@ -121,19 +122,23 @@
                             </select>
                         </div>
                     </div>
-                    <div class="form-field">
-                        <input type="checkbox" name="with-travelcard">
-                        <label for="with-travelcard">With SBB Half Fare Travelcard</label>
+                    <div class="form-group radio-group">
+                        <div class="form-field radio-field">
+                            <input type="checkbox" name="with-travelcard">
+                            <label for="with-travelcard">With SBB Half Fare Travelcard</label>
+                        </div>
+                        <div class="form-field radio-field">
+                            <input type="checkbox" name="with-travelcard">
+                            <label for="with-lunch">With lunch included</label>
+                        </div>
                     </div>
-                    <div class="form-field">
-                        <input type="checkbox" name="with-travelcard">
-                        <label for="with-lunch">With lunch included</label>
-                    </div>
-                    <div class="form-field">
-                        <label for="comments">
-                            <span>Additional comments</span>
-                            <input type="textarea">
-                        </label>
+                    <div class="form-group">
+                        <div class="form-field">
+                            <input name="comments" type="textarea" placeholder="Additional comments">
+                            <label for="comments">
+                                Additional comments
+                            </label>
+                        </div>
                     </div>
                     <button type="submit">Book Now</button>
 

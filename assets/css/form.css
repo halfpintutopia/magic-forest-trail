@@ -1,15 +1,21 @@
-.booking-form .form-field {
-    display: flex;
-    flex-direction: column;
-}
-
 .booking-form .form-group {
     display: flex;
     flex-wrap: wrap;
 }
 
+@media only screen and (width >=768px) {
+    .booking-form .form-group {
+        gap: clamp(1.13rem, calc(-1.96rem + 15.43vw), 10.00rem);
+    }
+}
+
 .booking-form .form-group .form-field {
+    display: flex;
     flex: 1 1 auto;
+}
+
+.booking-form .form-group .form-field:not(.select-field):not(.radio-field) {
+    flex-direction: column;
 }
 
 .booking-form .form-group:not(:last-child) {
@@ -20,6 +26,7 @@
     padding: 1.5rem 2rem;
     border-bottom: 1px solid var(--shark);
     transition: all .4s;
+    margin-top: .7rem;
 }
 
 .booking-form input:focus {
@@ -34,10 +41,14 @@
     color: var(--shark);
 }
 
-.booking-form label {
-    margin-left: 2rem;
+.booking-form .form-field label {
     margin-top: .7rem;
     transition: all .4s;
+    margin-left: 2rem;
+}
+
+.booking-form .form-field:not(.radio-field) label {
+    margin-left: 2rem;
     order: -1;
 }
 
@@ -45,4 +56,18 @@
     opacity: 0;
     visibility: hidden;
     transform: translateY(4rem);
+}
+
+.booking-form .form-field.select-field select {
+    margin-top: .7rem;
+    width: 50%;
+    text-align: right;
+    margin-left: 2rem;
+    border-bottom: 1px solid var(--shark);
+}
+
+.booking-form .radio-group {
+    flex-direction: column;
+    gap: 0;
+    margin-left: 2rem;
 }
