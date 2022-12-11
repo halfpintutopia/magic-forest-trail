@@ -24,7 +24,7 @@ section.section-header .section-header-image {
 
 .section-header .section-header-image img {
     width: 100%;
-    height: 40vh;
+    height: 25vh;
     object-fit: cover;
     margin-bottom: max(3vh, 1rem);
 }
