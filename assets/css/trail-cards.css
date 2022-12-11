@@ -29,6 +29,7 @@
     box-shadow: var(--box-shadow);
     position: relative;
     transition: transform .4s ease-in;
+    min-height: 200px;
 }
 
 @media only screen and (width >=871) {
@@ -50,4 +51,16 @@
 
 .trail-cards .trail-summary p {
     place-self: start;
+}
+
+.trail-cards .trail-image {
+    position: relative;
+}
+
+.trail-cards .trail-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    top: 0;
 }
