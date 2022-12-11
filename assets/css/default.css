@@ -76,11 +76,14 @@
 html {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    height: 100%;
 }
 
 body {
-    min-height: 100vh;
+    min-height: 100%;
     background-color: var(--body-background-color);
+    display: flex;
+    flex-direction: column;
 }
 
 img, 
