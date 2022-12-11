@@ -60,6 +60,14 @@ section:not(:first-child) {
     }
 }
 
+.text-image .content-left {
+    margin-left: auto;
+}
+
+.text-image .content-right {
+    margin-right: auto;
+}
+
 .text-image-container {
     width: min(100% - var(--container-padding), var(--container-max-width));
 }
@@ -70,10 +78,8 @@ section:not(:first-child) {
 
 }
 
-.text-image .content-left {
-    margin-left: auto;
-}
-
-.text-image .content-right {
-    margin-right: auto;
+@media only screen and (width >=768px) {
+    .text-image-container {
+        margin-block: auto
+    }
 }
