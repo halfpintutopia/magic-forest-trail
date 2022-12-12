@@ -149,7 +149,7 @@ header nav .active i.fa-solid {
     .hero-section .hero-background-image {
         background-image: url(../media/images/home/md/hero-image-md_2x.jpg);
         background-image: -webkit-image-set(url(../media/images/home/md/hero-image-md_1x.webp) 1x,
-                url(../media/images/home/md/hero-image-md.webp) 2x);
+                url(../media/images/home/md/hero-image-md_2x.webp) 2x);
     }
 }
 
