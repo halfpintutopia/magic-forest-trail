@@ -38,7 +38,21 @@ The website has been created solely for the course, but inpsired by an actual hi
 * Schools
 
 ---
-
+* ## User stories
+* Client Goals
+    * Create content that is child appropriate
+    * Create content for adults or parents with children
+    * Provide easy access to routes
+        * Show terrain (whether steep or steady climbs)
+        * Show distances
+        * Show approximate times to hike
+        * Show difficulty level
+    * Provide details of how to get to Braunwald by car or train
+    * Provide a form
+        * For people to book family passes in advance
+        * To ask questions about the trail 
+        * To ask about other activities in the area
+    * Provide a platform that boosts in tourism in the area
 * First Time Visitor Goals
     * Find information about the trails
     * Find the out how to get to the start of the trails
@@ -57,20 +71,8 @@ The website has been created solely for the course, but inpsired by an actual hi
     * Refer their friends, families and associates about the trail. 
     
 
-* ## User stories
-* Create content that is child appropriate
-* Create content for adults or parents with children
-* Provide easy access to routes
-    * Show terrain (whether steep or steady climbs)
-    * Show distances
-    * Show approximate times to hike
-    * Show difficulty level
-* Provide details of how to get to Braunwald by car or train
-* Provide a form
-    * For people to book family passes in advance
-    * To ask questions about the trail 
-    * To ask about other activities in the area
-* Provide a platform that boosts in tourism in the area
+
+
 
 
 ## Design
@@ -218,6 +220,32 @@ https://utopia.fyi/
 [Modern Fluid Typography Using CSS Clamp]: (https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/)
 [RFS]: (https://github.com/twbs/rfs#installation)
 
+### Resources
+
+* Fonts 
+    * [](https://matthewjamestaylor.com/responsive-font-size)
+    * [Font Awesome](https://fontawesome.com)
+* Flexbox
+    * [](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* Styles
+
+
+
+[](https://www.cssmatic.com/box-shadow)
+[](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-picture)
+[](https://web.dev/browser-level-image-lazy-loading/)
+[](https://www.editorx.com/shaping-design/article/font-size)
+[](https://utopia.fyi)
+[](https://css-tricks.com/early-days-of-container-style-queries/)
+[](https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/)
+[](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862)
+[](https://zoomadmin.com/HowToInstall/UbuntuPackage/graphicsmagick)
+[](https://developer.chrome.com/en/docs/lighthouse/performance/uses-long-cache-ttl/)
+[Inkscape](https://inkscape.org/)
+[GIMP](https://www.gimp.org/)
+[Font Awesome](https://fontawesome.com)
+[SVGator](https://app.svgator.com)
+
 ## Future ideas
 * Add SwissMobility API to show the ascent and descent
 * Connect Instagram feed
@@ -242,7 +270,7 @@ Photo by <a href="https://unsplash.com/@planetlb?utm_source=unsplash&utm_medium=
 
 
 
-  ## Deployment
+# Deployment
   
 
 https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-9212-0e119214ff22.mov
@@ -262,13 +290,67 @@ https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-
 *Screenshot of branch option*
 
 6. Click save
-7. It may take more than a few minutes, but when the page has been created, you will see the following success message
-
-[]()
+7. It may take more than a few minutes, but when the page has been created, you will see the following success message ![Successful deployed](./docs/media/images/successful_page.png)
 *Screenshot of success message*
 
 # Code
 ## Forking 
+To contribute to my code, you can fork the repository. 
+
+1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
+2. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork.png)
+
+
+# Testing
+## User experience
+
+| Client goal | Implementation | Tested | Successful |
+| ------------- |:-------------:|:-----:|:-----:|
+| Provide content that is child appropriate | Text  | Yes | Yes |
+| Provide content for adults or parents with children | Text  | Yes | Yes |
+| Provide easy access to routes | Text  | Yes | Yes |
+| Inform visitors of terrain (whether steep or steady climbs) | Text  | Yes | Yes |
+| Inform visitors of trail distances | Text  | Yes | Yes |
+| Inform visitors of approximate times to hike trail | Text  | Yes | Yes |
+| Inform visitors of difficulty levels | Text  | Yes | Yes |
+| Inform visitors of how to get to Braunwald by car or train | Text  | Yes | Yes |
+| Provide a booking form | Text  | Yes | Yes |
+| Provide a form which allows users to book family passes in advance | Text | Yes | Yes |
+| Provide a form for users to ask question about the trail | Text | Yes | Yes |
+| Provide a form for users to ask about other activities in the area | Text | Yes | Yes |
+| Provide a platform that boosts in tourism in the area | Text | Yes | Yes |
+
+| First Time Visitor Goals | Implementation | Tested | Successful |
+| ------------- |:-------------:|:-----:|:-----:|
+| Find information about the trails | Text  | Yes | Yes |
+| Find the out how to get to the start of the trails | Text  | Yes | Yes |
+| Find information about the distance of the trails | Text  | Yes | Yes |
+| Find variations of the trial | Text  | Yes | Yes |
+| Find the difficulty / suitability of the trails | Text  | Yes | Yes |
+| Be able to contact Braunwaldbahn, the company that provides the cable car sevice | Text  | Yes | Yes |
+| See images of the trail | Text  | Yes | Yes |
+| Share their photos on social media | Text  | Yes | Yes |
+
+| Return Vistor Goals | Implementation | Tested | Successful |
+| ------------- |:-------------:|:-----:|:-----:|
+| Try alternative routes | Text  | Yes | Yes |
+| Try other activities provided in the area | Text  | Yes | Yes |
+| Stay overnight in the accommodation provided in the area | Text  | Yes | Yes |
+| Try other recommended activities in the local area | Text  | Yes | Yes |
+| Find the difficulty / suitability of the trails | Text  | Yes | Yes |
+| Be able to contact Braunwaldbahn, the company that provides the cable car sevice | Text  | Yes | Yes |
+| See images of the trail | Text  | Yes | Yes |
+| Share their photos on social media | Text  | Yes | Yes |
+
+| Frequent Vistor Goals | Implementation | Tested | Successful |
+| ------------- |:-------------:|:-----:|:-----:|
+| Refer their friends, families and associates about the trail | Text  | Yes | Yes |
+
+## Lighthouse
+
+## Validator Testing
+
+
 
 
 Hiking images
@@ -278,29 +360,24 @@ Photo by <a href="https://unsplash.com/@msafwat?utm_source=unsplash&utm_medium=r
 Photo by <a href="https://unsplash.com/@chris_regg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christian Regg</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 Photo by <a href="https://unsplash.com/@mamuej?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 Photo by <a href="https://unsplash.com/@allphotobangkok?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Paul Szewczyk</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
 
-Testing
+
+
+
+
+## Bugs and fixes
+
+| Bugs / Errors        | Fix           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 Font sizing was not being responsive, used clamp()
 Color scheme fitting the 70/20/10 ratio, there were too much 
 Slow loading images use loading lazy and https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
 
-https://matthewjamestaylor.com/responsive-font-size
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-https://www.cssmatic.com/box-shadow
-https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-picture
-https://web.dev/browser-level-image-lazy-loading/
-https://www.editorx.com/shaping-design/article/font-size
-https://utopia.fyi
-https://css-tricks.com/early-days-of-container-style-queries/
-https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
-https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862
-https://zoomadmin.com/HowToInstall/UbuntuPackage/graphicsmagick
-https://developer.chrome.com/en/docs/lighthouse/performance/uses-long-cache-ttl/
-https://inkscape.org/
-https://www.gimp.org/
-https://fontawesome.com
-https://app.svgator.com
+
 
 
   
