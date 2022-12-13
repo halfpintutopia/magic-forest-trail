@@ -20,6 +20,10 @@ footer .social-links .fa-solid.fa-circle.fa-stack-1x {
     filter: var(--filter-drop-shadow);
 }
 
+footer .social-links .fa-solid.fa-circle.fa-stack-1x::before {
+    border-radius: 50%;
+}
+
 footer .copyright {
     display: flex;
     align-items: center;
@@ -28,7 +32,7 @@ footer .copyright {
 
 footer .social-links .social-link {
     text-align: center;
-}
+}               
 
 footer .copyright {
     justify-content: space-between;
