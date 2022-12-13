@@ -59,9 +59,8 @@
                 <h1>Book your family pass</h1>
                 
                 <article>
-                    <p class="subtitle">The family pass includes free rides on all cablecars in Braunwald.</p>
-                    <details class="table-container">
-                        <summary>Prices</summary>
+                    <p class="subtitle"></p>
+                    <div class="table-container">
                         <div class="price-table table">
                             <div class="table-header">
                                 <h6>From Linthal, GL train station</h6>
@@ -101,7 +100,7 @@
                                 <div class="table-row-field">CHF 140.-</div>
                             </div>
                         </div>
-                    </details>
+                    </div>
 
                     <form action="success.html">
                         <div class="form-group">
@@ -133,45 +132,21 @@
                             </div>
                         </div>
                         <details>
-                            <summary>The price of the family pass is for 1 - 2 adults and up to 5 children. Please feel
-                                free to leave a comment if you have any questions.</summary>
-                            Family passes are only valid for the summer season. Multiple family passes will be issued if the number exceeds 2
-                            adults and / or 5 children.
+                            <summary></summary>
+                            
                         </details>
                         <div class="form-group">
                             <div class="form-field select-field">
                                 <label for="number-of-adults">
                                     <span>Adults</span>
                                 </label>
-                                <select name="number-of-adults" id="number-of-adults">
-                                    <option value="1">1</option>
-                                    <option value="1">2</option>
-                                    <option value="1">3</option>
-                                    <option value="1">4</option>
-                                    <option value="1">5</option>
-                                    <option value="1">6</option>
-                                    <option value="1">7</option>
-                                    <option value="1">8</option>
-                                    <option value="1">9</option>
-                                    <option value="1">10</option>
-                                </select>
+                                <input type="number" min="1" max="10" name="number-of-adults" id="number-of-adults">
                             </div>
                             <div class="form-field select-field">
                                 <label for="number-of-children">
                                     <span>Children</span>
                                 </label>
-                                <select name="number-of-children" id="number-of-children">
-                                    <option value="1">1</option>
-                                    <option value="1">2</option>
-                                    <option value="1">3</option>
-                                    <option value="1">4</option>
-                                    <option value="1">5</option>
-                                    <option value="1">6</option>
-                                    <option value="1">7</option>
-                                    <option value="1">8</option>
-                                    <option value="1">9</option>
-                                    <option value="1">10</option>
-                                </select>
+                                <input type="number" min="1" max="10" name="number-of-children" id="number-of-children">
                             </div>
                         </div>
                         <div class="form-group radio-group">
@@ -186,7 +161,8 @@
                         </div>
                         <div class="form-group">
                             <div class="form-field">
-                                <input name="comments" type="textarea" placeholder="Additional comments">
+                                <textarea name="comments" id="comments" cols="30" rows="10"
+                                    >Additional comments</textarea>
                                 <label for="comments">
                                     Additional comments
                                 </label>
@@ -196,6 +172,12 @@
                         <div class="form-group button-group">
                             <button type="submit button" data-type="wide">Book Now</button>
                         </div>
+                        <small>* The family pass includes free rides on all cablecars in Braunwald.</small>
+                        <small>** The price of the family pass is for 1 - 2 adults and up to 5 children. Please feel
+                            free to leave a comment if you have any questions.</small>
+                        <small>***Family passes are only valid for the summer season. Multiple family passes will be issued
+                            if the number exceeds 2
+                            adults and / or 5 children.</small>
                     </form>
                 </article>
                 

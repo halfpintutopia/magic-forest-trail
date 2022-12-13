@@ -27,14 +27,17 @@
     border-bottom: 1px solid var(--shark);
     transition: all .4s;
     margin-top: .7rem;
+    background-color: var(--form-input-bg);
+    border-bottom: 1px solid var(--form-input-border);
 }
 
 .booking-form input:focus {
     outline: none;
 }
 
-.booking-form input:focus:invalid {
-    background-color: var(--chestnut);
+.booking-form .form-group input:focus:invalid {
+    --form-input-border-focus: var(--chestnut);
+    border-color: var(--form-input-border-focus);
 }
 
 .booking-form input::-webkit-input-placeholder {
@@ -87,15 +90,9 @@
     width: 100%;
 }
 
-/* .booking-form article:first-child {
-    flex: 0 0 auto;
-    width: calc(100% / 3);
+.booking-form .form-group .form-field.select-field {
+    flex-direction: column;
 }
-
-.booking-form article:last-child {
-    flex: 0 0 auto;
-    width: calc((100% / 3) * 2);
-} */
 
 .table-container .table {
     display: flex;
@@ -122,21 +119,3 @@
 .table-container .table .table-row:nth-child(even) {
     background-color: hsla(79, 96%, 18%, 40%);
 }
-
-/* .table-container details > summary {
-    list-style: none;
-}
-
-.table-container summary::marker
-.table-container summary::-webkit-details-marker {
-    content: none;
-}
-
-.table-container summary::after {
-    content: '\uf105';
-
-}
-
-.table-container details[open] summary:after {
-    content: "\uf107";
-} */
