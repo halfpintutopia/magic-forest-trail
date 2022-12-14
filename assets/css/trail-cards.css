@@ -2,8 +2,8 @@
 h1#trails::before {
     display: block;
     content: " ";
-    margin-top: -78px;
-    height: 78px;
+    margin-top: clamp(-6.30rem, calc(2.68rem + 2.35vw), -9rem);
+    height: clamp(6.30rem, calc(2.68rem + 2.35vw), 9rem);
     visibility: hidden;
 }
 
@@ -32,6 +32,7 @@ h1#trails::before {
         0px 5px 5px -3px rgba(0, 0, 0, 0.2);
 }
 
+
 .trail-cards .trail {
     display: grid;
     grid-auto-flow: column;
@@ -47,6 +48,19 @@ h1#trails::before {
     .trail-cards .trail {
         grid-auto-flow: row;
     }
+}
+
+.trail-cards .trail .overlay {
+    --black-dk-opacity: rgba(0, 0, 0, .65);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: var(--black-dk-opacity);
+    transition: background-color .4s;
+}
+
+.trail-cards article:hover .overlay {
+    background-color: transparent;
 }
 
 .trail-cards .trail-summary {
