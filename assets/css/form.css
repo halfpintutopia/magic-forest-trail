@@ -14,7 +14,7 @@
     flex: 1 1 auto;
 }
 
-.booking-form .form-group .form-field:not(.select-field):not(.radio-field) {
+.booking-form .form-group .form-field:not(.select-field):not(.checkbox-field) {
     flex-direction: column;
 }
 
@@ -22,7 +22,8 @@
     margin-bottom: 2rem;
 }
 
-.booking-form .form-group input {
+.booking-form .form-group input,
+.booking-form .form-group textarea {
     padding: 1.5rem 2rem;
     border-bottom: 1px solid var(--shark);
     transition: all .4s;
@@ -31,7 +32,8 @@
     border-bottom: 1px solid var(--form-input-border);
 }
 
-.booking-form input:focus {
+.booking-form input:focus,
+.booking-form .form-group textarea:focus {
     outline: none;
 }
 
@@ -47,15 +49,19 @@
 .booking-form .form-field label {
     margin-top: .7rem;
     transition: all .4s;
+}
+
+.booking-form .form-field:not(.checkbox-field) label {
     margin-left: 2rem;
 }
 
-.booking-form .form-field:not(.radio-field) label {
+.booking-form .form-field:not(.checkbox-field) label {
     margin-left: 2rem;
     order: -1;
 }
 
-.booking-form input:placeholder-shown + label {
+.booking-form input:placeholder-shown + label,
+.booking-form textarea:placeholder-shown+label {
     opacity: 0;
     visibility: hidden;
     transform: translateY(4rem);
@@ -69,10 +75,19 @@
     border-bottom: 1px solid var(--shark);
 }
 
-.booking-form .radio-group {
+.booking-form .checkbox-group {
     flex-direction: column;
     gap: 0;
     margin-left: 2rem;
+}
+
+.booking-form .checkbox-group label {
+    display: flex;
+    align-items: center;
+}
+
+.booking-form .checkbox-group label input {
+    margin-right: 1rem;
 }
 
 .booking-form .button-group button {
@@ -92,6 +107,46 @@
 
 .booking-form .form-group .form-field.select-field {
     flex-direction: column;
+}
+
+.booking-form textarea {
+    border: 1px solid var(--form-input-border);
+    border-radius: 4px;
+}
+
+/* https://moderncss.dev/pure-css-custom-checkbox-style/ */
+.booking-form input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--form-background);
+    margin: 0;
+
+    font: inherit;
+    color: currentColor;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    transform: translateY(-0.075em);
+
+    display: grid;
+    place-content: center;
+}
+
+.booking-form input[type="checkbox"]::before {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    background-color: CanvasText;
+}
+
+.booking-form input[type="checkbox"]:checked::before {
+    transform: scale(1);
 }
 
 .table-container .table {
