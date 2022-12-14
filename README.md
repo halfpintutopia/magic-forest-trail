@@ -1,30 +1,46 @@
 # Magic Forest Trail
 
+![Screenshot of the site on the Am I Responsive site](./docs/media/images/am_i_responsive.png)
+
 [View the live project here.](https://halfpintutopia.github.io/magic-forest-trail/)
 
 The website has been created solely for the course, but inpsired by an actual hiking trail based in Braunwald, Glarus-Süd in the North East of Switzerland. "Zwerg Bartli", a moutain dwelling drawf, is an affectionately well know character in this area. A fictitious character   made famous by a children's book.  The idea of the website came about, when a colleague, Hermina, enthused about the trail and taking her children to it. She is very motivated in breathing a new breath of life into this attraction and wanted and I thought it would be a win-win to provide a basic website to get her personal project started.
 
-![Bartli sleeping](./assets/media/images/Winter_Sleep.jpg)
-
 ---
 
 ## Table of contents
-* [User Experience (UX)](#user-experience-ux)
-    * [Intended Audience](#intended-audience)
-    * [User stories](#user-stories)
+* [User Experience](#user-experience-ux)
+  * [Intended Audience](#user-audience)
+  * [User Stories](#user-stories)
+
 * [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+
+* [Features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+
 * [Technologies Used](#technologies-used)
-    * [Languages Used](#languages-used)
-    * [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
-* [Credit](#credit)
-    * [Code](#code)
-    * [Content](#content)
-    * [Media](#media)
-        * [For leaf collage in the "Idea 2 - Landing page"](#for-leaf-collage-in-the-idea-2---landing-page)
-    * [Acknowledgements](#acknowledgements)
-    * [List of references](#list-of-references)
-    * [References](#references)
-* [Future ideas](#future-ideas)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+
+* [Testing](#testing)
+
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
 
 
 ---
@@ -50,7 +66,7 @@ The website has been created solely for the course, but inpsired by an actual hi
     * Provide details of how to get to Braunwald by car or train
     * Provide a form
         * For people to book family passes in advance
-        * To ask questions about the trail 
+        * To ask questions about the trail
         * To ask about other activities in the area
     * Provide a platform that boosts in tourism in the area
 * First Time Visitor Goals
@@ -65,47 +81,101 @@ The website has been created solely for the course, but inpsired by an actual hi
 * Return Vistor Goals
     * Try alternative routes
     * Try other activities provided in the area
-    * Stay overnight in the accommodation provided in the area 
+    * Stay overnight in the accommodation provided in the area
     * Try other recommended activities in the local area
 * Frequent Vistor Goals
-    * Refer their friends, families and associates about the trail. 
-    
-
-
-
+    * Refer their friends, families and associates about the trail.
 
 
 ## Design
-Wireframes were created for the site with [Figma](https://www.figma.com). 
+Wireframes were created for the site with [Figma](https://www.figma.com).
 
-![Figma Wireframe of landing page for mobile](./docs/media/images/mobile_view.png)
+![Figma Wireframe for mobile and desktop](./docs/media/images/wireframes/wireframe.png)
 
-*[Landing page - mobile view](https://color.adobe.com/create/image)*
+*Wireframe for mobile and desktop*
 
---- 
+<details>
+<summary>Home page for mobile and desktop</summary>
+<br>
 
-![Figma Wireframe of landing page for desktop](./docs/media/images/desktop_view.png)
+![Figma Wireframe of home page for mobile and desktop](./docs/media/images/wireframes/home.png)
 
-*[Landing page - desktop view](https://color.adobe.com/create/image)*
+*Landing page - mobile and desktop*
+</details>
+<br>
+
+<details>
+<summary>Trail list for mobile and desktop</summary>
+<br>
+
+![Figma Wireframe of trail list for mobile and desktop](./docs/media/images/wireframes/trail_list.png)
+
+*Trail list section - mobile and desktop*
+</details>
+<br>
+
+<details>
+<summary>Trail page for mobile and desktop</summary>
+<br>
+
+![Figma Wireframe of trail page for mobile and desktop](./docs/media/images/wireframes/trail.png)
+
+*Trail page - mobile and desktop*
+</details>
+<br>
+
+<details>
+<summary>Form view for mobile and desktop</summary>
+<br>
+
+![Figma Wireframe of the form for mobile and desktop](./docs/media/images/wireframes/form.png)
+
+*Form - mobile and desktop*
+</details>
+<br>
+
+<details>
+<summary>Form success page for mobile and desktop</summary>
+<br>
+
+![Figma Wireframe of the form success page for mobile and desktop](./docs/media/images/wireframes/form_success.png)
+
+*Form success page - mobile and desktop*
+</details>
+<br>
+
+<details>
+<summary>Header navigation and footer for mobile and desktop</summary>
+<br>
+
+![Figma Wireframe of the form for mobile and desktop](./docs/media/images/wireframes/navigation.png)
+
+*Header navigation and footer - mobile and desktop*
+</details>
+<br>
+
+<details>
+<summary>Page not found page for mobile and desktop</summary>
+<br>
+
+![Figma Wireframe of page not found for mobile and desktop](./docs/media/images/wireframes/page_not_found.png)
+
+*Page not found page - mobile and desktop*
+</details>
+<br>
 
 To see the full wireframe, view it [here](https://www.figma.com/file/mY6L1TpxKS6PupGlHRLvVF/PP1-Wireframe?node-id=0%3A1&t=29queejCZUsKPnX9-1).
 
-The wireframes are set for light mode but plan to implement dark mode.
+--- 
 
-Building from mobile first, I focused on swiping gestures. There are a couple prototype ideas I was playing with but the main idea was to create the landing page with horizontal scrolling. Taking into account new user experiences such as streaming channels like Netflix and phone apps like Tinder, swiping has become quite an expected experience for user.
+### Colour Scheme
 
-> Gestures are the new clicks. ...gestures are very effective as they are very natural. With an increasing amount of content on the screens, it is really hard to balance what to have on the screen and what to hide. Using gestures, we can hide the buttons and elements and drive the user to focus more on the content.[[1]][How gestures are shaping the future of UX]
-
-My prototype evolved further when Hermian agreed to provide some beautiful illustration. From the initial image I created the color scheme, the look and feel fo the site.
-
-I initially created two differently stlyed landing pages. This was to try out styles but also to get a feeling about which would be more suitable. Tested the reaction on my partner, and I felt that it did not suit the user story brief. The idea was created as I wanted a synergy between the hand-drawn images, and the illustrated story boook and the content on the page. ["Idea 2 - Landing page"](https://www.figma.com/proto/6KQhxGl6q3N0ccFwV6UxXw/PP1?node-id=0%3A1&scaling=scale-down&starting-point-node-id=99%3A137&show-proto-sidebar=1).
-
-![Adobe Color - Color theme from image](./docs/media/images/adobe_color_palette.png)
+![Adobe Color - Color theme from image](./docs/media/images/design/adobe_color_palette.png)
 
 *[Adobe Color](https://color.adobe.com/create/image)*
 
 ---
-![Coolors - Color theme from image](./docs/media/images/coolors_color-palette.png) 
+![Coolors - Color theme from image](./docs/media/images/design/coolors_color-palette.png)
 
     ```
     --black-olive: hsla(45, 7%, 22%, 1);
@@ -116,11 +186,106 @@ I initially created two differently stlyed landing pages. This was to try out st
     ```
 *Color Palette created from the Image Picker function on the [coolors.co](https://coolors.co/image-picker) website*
 
-# Technologies Used
+### Typography
 
-## Languages Used
+Permanent Marker and Overpass Fonts chosen from [Google Fonts](https://fonts.google.com)
+
+![Permanent Marker 400](./docs/media/images/typography/permanent_400.png)
+
+![Overpass 200](./docs/media/images/typography/overpass_200.png)
+
+![Overpass 400](./docs/media/images/typography/overpass_400.png)
+
+![Overpass 600](./docs/media/images/typography/overpass_600.png)
+
+The font was chosen to be playful and clear. 
+
+### Imagery
+
+The images match the theme of the site, hiking. Families with children on hiking activites.
+
+## Features
+
+### Specific features
+
+<details>
+<summary>Trail List</summary>
+<br>
+
+![Screenshot of the trail (lists) feature](./docs/media/images/features/trail-list/trail_list_mobile.png)
+
+*Screenshot of the trail (lists) feature for mobile*
+
+<br>
+
+![Screenshot of the trail (lists) feature](./docs/media/images/features/trail-list/trail_list_desktop.png)
+
+*Screenshot of the trail (lists) feature for desktop*
+
+</details>
+<br>
+
+<details>
+<summary>Gallery</summary>
+<br>
+
+![Screenshot of the gallery feature for mobile](./docs/media/images/features/gallery/gallery_mobile.png)
+
+*Screenshot of the gallery feature for mobile*
+
+<br>
+
+![Screenshot of the gallery feature for desktop](./docs/media/images/features/gallery/gallery_desktop.png)
+
+*Screenshot of the gallery feature for desktop*
+
+</details>
+<br>
+
+
+### General features 
+
+<details>
+<summary>Call to action</summary>
+<br>
+
+![Screenshot of the gallery feature for mobile](./docs/media/images/features/cta/cta_button_mobile.png)
+
+*Screenshot of the cta feature for mobile*
+
+<br>
+
+![Screenshot of the cta feature for desktop](./docs/media/images/features/cta/cta_button_desktop.png)
+
+*Screenshot of the cta feature for desktop*
+
+</details>
+
+
+
+### Future implementations
+
+1. Add SwissMobility API to show:
+    * Show actual height
+    * Show real distances
+    * Show declines and inclines
+    *  the ascent and descent
+2. Connect Instagram to enable hikers to share images
+
+
+### Assessiblity
+
+#### Fonts
+#### Colours
+#### Icons
+#### Movement with keyboard tab
+
+## Technologies Used
+
+### Languages Used
 * HTML5
 * CSS3
+* JavaScript
 
 ## Frameworks, Libraries and Programs Used
 * Google Fonts
@@ -131,55 +296,221 @@ I initially created two differently stlyed landing pages. This was to try out st
     * Git was used for version control by utilising the Gitpod terminal to commit to git and push to GitHub.
 * GitHub
     * Github was used to store the project's code after being pushed from Git.
-* LeafletJS - [Use of GeoJSON with Leaflet](https://leafletjs.com/examples/geojson/) 
+* LeafletJS - [Use of GeoJSON with Leaflet](https://leafletjs.com/examples/geojson/)
 * Figma
 
+<br>
 
-# Credit
+## Remote and Local Deployment
 
-## Code
+https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-9212-0e119214ff22.mov
 
 
-* 
+*Screencast of deployment*
 
-## Content
+<br>
 
-### Features
 
-#### Trails
+1. Go to repository
+2. Click Settings tab
+3. Click on Pages in the left hand menu, under Code and automation ![Click Pages](./docs/media/images/deployment/deployment_pages.png)
+   *Screenshot of how to get the Pages section*
 
-![Screenshot of the trail (list) feature](./docs/media/images/trails.png)
-*Screenshot of the trails (list) feature*
+4. Under Build and deployment > Source ensure Deploy from a branch is selected ![Choose Source](./docs/media/images/deployment/deployment_pages_source.png)
+   *Screenshot of source option*
 
----
+5. Under Build and deploment > Branch select main branch ![Choose Branch](./docs/media/images/deployment/deployment_pages_branch.png)
+   *Screenshot of branch option*
 
-#### Gallery
+6. Click save
+7. It may take more than a few minutes, but when the page has been created, you will see the following success message ![Successful deployed](./docs/media/images/deployment/successful_page.png)
+   *Screenshot of success message*
 
-![Screenshot of the gallery feature](./docs/media/images/gallery.png)
-*Screenshot of the gallery feature*
+### How to Fork
+To contribute to my code, you can fork the repository.
 
-Images used for the gallery page:
-* Photo by <a href="https://unsplash.com/@greg_rosenke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rosenke</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
----
+1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
+2. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork/fork.png)
+
+### How to Clone
+
+
+To run the application type the following into your terminal:
+
+```bash
+python3 -m http.server
+```
+<br>
+
+## Testing
+### User experience
+
+<details>
+<summary>Client Goals Testing</summary>
+<br>
+
+| Client goal | Implementation | Tested | Successful |
+| ------------- |:-------------:|:-----:|:-----:|
+| Provide content that is child appropriate | Text  | Yes | Yes |
+| Provide content for adults or parents with children | Text  | Yes | Yes |
+| Provide easy access to routes | Text  | Yes | Yes |
+| Inform visitors of terrain (whether steep or steady climbs) | Text  | Yes | Yes |
+| Inform visitors of trail distances | Text  | Yes | Yes |
+| Inform visitors of approximate times to hike trail | Text  | Yes | Yes |
+| Inform visitors of difficulty levels | Text  | Yes | Yes |
+| Inform visitors of how to get to Braunwald by car or train | Text  | Yes | Yes |
+| Provide a booking form | Text  | Yes | Yes |
+| Provide a form which allows users to book family passes in advance | Text | Yes | Yes |
+| Provide a form for users to ask question about the trail | Text | Yes | Yes |
+| Provide a form for users to ask about other activities in the area | Text | Yes | Yes |
+| Provide a platform that boosts in tourism in the area | Text | Yes | Yes |
+
+</details>
+<br>
+
+<details>
+<summary>First Time Visitor Goals</summary>
+<br>
+
+| First Time Visitor Goals | Implementation | Tested | Successful |
+| ------------- |:-------------:|:-----:|:-----:|
+| Find information about the trails | Text  | Yes | Yes |
+| Find the out how to get to the start of the trails | Text  | Yes | Yes |
+| Find information about the distance of the trails | Text  | Yes | Yes |
+| Find variations of the trial | Text  | Yes | Yes |
+| Find the difficulty / suitability of the trails | Text  | Yes | Yes |
+| Be able to contact Braunwaldbahn, the company that provides the cable car sevice | Text  | Yes | Yes |
+| See images of the trail | Text  | Yes | Yes |
+| Share their photos on social media | Text  | Yes | Yes |
+
+</details>
+<br>
+
+<details>
+<summary>Return Visitor Goals</summary>
+<br>
+
+| Return Vistor Goals | Implementation | Tested | Successful |
+| ------------- |:-------------:|:-----:|:-----:|
+| Try alternative routes | Text  | Yes | Yes |
+| Try other activities provided in the area | Text  | Yes | Yes |
+| Stay overnight in the accommodation provided in the area | Text  | Yes | Yes |
+| Try other recommended activities in the local area | Text  | Yes | Yes |
+| Find the difficulty / suitability of the trails | Text  | Yes | Yes |
+| Be able to contact Braunwaldbahn, the company that provides the cable car sevice | Text  | Yes | Yes |
+| See images of the trail | Text  | Yes | Yes |
+| Share their photos on social media | Text  | Yes | Yes |
+
+</details>
+<br>
+
+<details>
+<summary>Frequent Vistor Goals</summary>
+<br>
+
+| Frequent Vistor Goals | Implementation | Tested | Successful |
+| ------------- |:-------------:|:-----:|:-----:|
+| Refer their friends, families and associates about the trail | Text  | Yes | Yes |
+
+</details>
+<br>
+
+<details>
+<summary>Bugs and fixes</summary>
+<br>
+
+| Bugs / Errors | Cause | Fixed  |
+| ------------- |:-------------:| -----:|
+| Footer assessibility | Color of footer icons, on hover were the same as the color of the background color of the footer | Yes |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+</details>
+<br>
+
+
+### Lighthouse
+
+#### Light Mode
+
+#### Dark
+
+### Validator Testing
+
+#### HTML W3 Validator
+
+#### CSS Validator
+
+## Credits
+
+### Code Used
+
+### Content
+
+### Media
 
 #### Storybook
 
-![To be added]()
+<details>
+<summary>Images used for the Storybook page</summary>
+<br>
 
-Images used for the storybook page:
 * Photo by <a href="https://unsplash.com/@greg_rosenke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rosenke</a> on <a href="https://unsplash.com/s/photos/free-hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * Photo by <a href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Wheeler</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * Photo by <a href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Wheeler</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * Photo by <a href="https://unsplash.com/@morganddl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Morgan David de Lossy</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-* [Visit Glarnerland](https://glarnerland.ch/de/map/detail/zwerg-bartli-erlebnisweg-9ff632fe-5eaf-45d9-a6ea-4d743635148f.html) 
+</details>
+<br>
+
+<details>
+<summary>Images used for the Gallery page</summary>
+<br>
+
+* Photo by <a href="https://unsplash.com/@greg_rosenke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rosenke</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+</details>
+<br>
+
+
+### Acknowledgements
+
+#### List of references
+[How gestures are shaping the future of UX
+](https://uxdesign.cc/how-gestures-are-shaping-the-future-of-ux-ce2c9e6d7a9f)
+
+#### References
+[How gestures are shaping the future of UX
+]: https://uxdesign.cc/how-gestures-are-shaping-the-future-of-ux-ce2c9e6d7a9f
+[min(), max(), and clamp(): three logical CSS functions to use today]: (https://web.dev/min-max-clamp/)
+[Modern Fluid Typography Using CSS Clamp]: (https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/)
+[RFS]: (https://github.com/twbs/rfs#installation)
+* [Visit Glarnerland](https://glarnerland.ch/de/map/detail/zwerg-bartli-erlebnisweg-9ff632fe-5eaf-45d9-a6ea-4d743635148f.html)
 * Character based on Der Zwerg Bartli by Lorly Jenny
+
+#### Resources
+
+* Fonts
+    * [](https://matthewjamestaylor.com/responsive-font-size)
+    * [Font Awesome](https://fontawesome.com)
+* Flexbox
+    * [](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* Styles
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -189,45 +520,20 @@ Images used for the storybook page:
 * [An image format for the Web](https://developers.google.com/speed/webp)
 * [A Guide to Responsive Images with Ready-to-Use Templates](https://medium.com/free-code-camp/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433)
 
-Wanted to use webp images due to the size which if too large would slow down the site. Also, added the ```lazy-loading``` attribute. 
+Wanted to use webp images due to the size which if too large would slow down the site. Also, added the ```lazy-loading``` attribute.
 
 Font sizes, margins and paddings were calculated using ```clamp()```, to make the site responsive without having to create media queries.[[2]][[[3]]]
 
 https://utopia.fyi/
 
-* Images kindly provided by Hermina 
+* Images kindly provided by Hermina
 * Footprint by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">Pixabay</a>
 * [Photo by Nouman Raees from Pexels](https://www.pexels.com/photo/green-trees-on-brown-soil-3670681/)
 * [Photo by Josh Willink](https://www.pexels.com/photo/shallow-focus-on-blond-haired-woman-in-white-long-sleeve-shirt-carrying-a-baby-on-her-back-701016/)
 * [Photo by Susanne Jutzeler, suju-foto](https://www.pexels.com/photo/two-girls-sitting-on-brown-bench-near-body-of-water-1292006/)
 * [Photo by Allan Mas](https://www.pexels.com/photo/child-drawing-picture-on-concrete-block-in-grassy-yard-5623752/)
 
-* #### For leaf collage in the ["Idea 2 - Landing page"](https://www.figma.com/proto/6KQhxGl6q3N0ccFwV6UxXw/PP1?node-id=0%3A1&scaling=scale-down&starting-point-node-id=99%3A137&show-proto-sidebar=1)
-    * [Photo by Michael Hauer](https://www.pexels.com/photo/photo-of-chestnuts-on-a-tree-during-autumn-11263797/) 
-    * [Photo by Daria Andrievskaya](https://www.pexels.com/photo/yellow-tree-in-autumn-11066638/) 
-    * [Photo by Min An](https://www.pexels.com/photo/photography-of-leaves-under-the-sky-1131458/) 
 
-## Acknowledgements
-
-## List of references
-[How gestures are shaping the future of UX
-](https://uxdesign.cc/how-gestures-are-shaping-the-future-of-ux-ce2c9e6d7a9f)
-
-### References
-[How gestures are shaping the future of UX
-]: https://uxdesign.cc/how-gestures-are-shaping-the-future-of-ux-ce2c9e6d7a9f
-[min(), max(), and clamp(): three logical CSS functions to use today]: (https://web.dev/min-max-clamp/)
-[Modern Fluid Typography Using CSS Clamp]: (https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/)
-[RFS]: (https://github.com/twbs/rfs#installation)
-
-### Resources
-
-* Fonts 
-    * [](https://matthewjamestaylor.com/responsive-font-size)
-    * [Font Awesome](https://fontawesome.com)
-* Flexbox
-    * [](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* Styles
 
 
 
@@ -246,22 +552,20 @@ https://utopia.fyi/
 [Font Awesome](https://fontawesome.com)
 [SVGator](https://app.svgator.com)
 
-## Future ideas
-* Add SwissMobility API to show the ascent and descent
-* Connect Instagram feed
+
 
 Photo by <a href="https://unsplash.com/@planetlb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Juha Lakaniemi</a> on <a href="https://unsplash.com/s/photos/pine-tree-branch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  Photo by <a href="https://unsplash.com/@lapunin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergey Lapunin</a> on <a href="https://unsplash.com/s/photos/pine-tree-branch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  Photo by <a href="https://unsplash.com/@sergidolcet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergi Dolcet Escrig</a> on <a href="https://unsplash.com/s/photos/pine-tree-branch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/pine-tree-branch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  Photo by <a href="https://unsplash.com/@hans_isaacson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hans Isaacson</a> on <a href="https://unsplash.com/s/photos/pine-tree-branch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  Image by <a href="https://pixabay.com/users/janeb13-725943/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1177545">Welcome to All ! ツ</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1177545">Pixabay</a>
-  Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=36730">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=36730">Pixabay</a>
+Photo by <a href="https://unsplash.com/@lapunin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergey Lapunin</a> on <a href="https://unsplash.com/s/photos/pine-tree-branch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@sergidolcet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergi Dolcet Escrig</a> on <a href="https://unsplash.com/s/photos/pine-tree-branch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/pine-tree-branch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@hans_isaacson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hans Isaacson</a> on <a href="https://unsplash.com/s/photos/pine-tree-branch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Image by <a href="https://pixabay.com/users/janeb13-725943/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1177545">Welcome to All ! ツ</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1177545">Pixabay</a>
+Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=36730">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=36730">Pixabay</a>
 
 
 
-  By choosing to use the top tabbed menus, it makes it easier to see everything available on the site at a glance. As there less then 5 nav items.
-  As it is visible it should also stimulate the user to discover more.
+By choosing to use the top tabbed menus, it makes it easier to see everything available on the site at a glance. As there less then 5 nav items.
+As it is visible it should also stimulate the user to discover more.
 
 []()
 *Quick link video for trails*
@@ -270,85 +574,7 @@ Photo by <a href="https://unsplash.com/@planetlb?utm_source=unsplash&utm_medium=
 
 
 
-# Deployment
-  
 
-https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-9212-0e119214ff22.mov
-
-
-*Screencast of deployment*
-
-1. Go to repository
-2. Click Settings tab
-3. Click on Pages in the left hand menu, under Code and automation ![Click Pages](./docs/media/images/deployment_pages.png)
-*Screenshot of how to get the Pages section*
-
-4. Under Build and deployment > Source ensure Deploy from a branch is selected ![Choose Source](./docs/media/images/deployment_pages_source.png)
-*Screenshot of source option*
-
-5. Under Build and deploment > Branch select main branch ![Choose Branch](./docs/media/images/deployment_pages_branch.png)
-*Screenshot of branch option*
-
-6. Click save
-7. It may take more than a few minutes, but when the page has been created, you will see the following success message ![Successful deployed](./docs/media/images/successful_page.png)
-*Screenshot of success message*
-
-# Code
-## Forking 
-To contribute to my code, you can fork the repository. 
-
-1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
-2. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork.png)
-
-
-# Testing
-## User experience
-
-| Client goal | Implementation | Tested | Successful |
-| ------------- |:-------------:|:-----:|:-----:|
-| Provide content that is child appropriate | Text  | Yes | Yes |
-| Provide content for adults or parents with children | Text  | Yes | Yes |
-| Provide easy access to routes | Text  | Yes | Yes |
-| Inform visitors of terrain (whether steep or steady climbs) | Text  | Yes | Yes |
-| Inform visitors of trail distances | Text  | Yes | Yes |
-| Inform visitors of approximate times to hike trail | Text  | Yes | Yes |
-| Inform visitors of difficulty levels | Text  | Yes | Yes |
-| Inform visitors of how to get to Braunwald by car or train | Text  | Yes | Yes |
-| Provide a booking form | Text  | Yes | Yes |
-| Provide a form which allows users to book family passes in advance | Text | Yes | Yes |
-| Provide a form for users to ask question about the trail | Text | Yes | Yes |
-| Provide a form for users to ask about other activities in the area | Text | Yes | Yes |
-| Provide a platform that boosts in tourism in the area | Text | Yes | Yes |
-
-| First Time Visitor Goals | Implementation | Tested | Successful |
-| ------------- |:-------------:|:-----:|:-----:|
-| Find information about the trails | Text  | Yes | Yes |
-| Find the out how to get to the start of the trails | Text  | Yes | Yes |
-| Find information about the distance of the trails | Text  | Yes | Yes |
-| Find variations of the trial | Text  | Yes | Yes |
-| Find the difficulty / suitability of the trails | Text  | Yes | Yes |
-| Be able to contact Braunwaldbahn, the company that provides the cable car sevice | Text  | Yes | Yes |
-| See images of the trail | Text  | Yes | Yes |
-| Share their photos on social media | Text  | Yes | Yes |
-
-| Return Vistor Goals | Implementation | Tested | Successful |
-| ------------- |:-------------:|:-----:|:-----:|
-| Try alternative routes | Text  | Yes | Yes |
-| Try other activities provided in the area | Text  | Yes | Yes |
-| Stay overnight in the accommodation provided in the area | Text  | Yes | Yes |
-| Try other recommended activities in the local area | Text  | Yes | Yes |
-| Find the difficulty / suitability of the trails | Text  | Yes | Yes |
-| Be able to contact Braunwaldbahn, the company that provides the cable car sevice | Text  | Yes | Yes |
-| See images of the trail | Text  | Yes | Yes |
-| Share their photos on social media | Text  | Yes | Yes |
-
-| Frequent Vistor Goals | Implementation | Tested | Successful |
-| ------------- |:-------------:|:-----:|:-----:|
-| Refer their friends, families and associates about the trail | Text  | Yes | Yes |
-
-## Lighthouse
-
-## Validator Testing
 
 
 
@@ -365,22 +591,16 @@ Photo by <a href="https://unsplash.com/@allphotobangkok?utm_source=unsplash&utm_
 
 
 
-## Bugs and fixes
 
-| Bugs / Errors        | Fix           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 Font sizing was not being responsive, used clamp()
-Color scheme fitting the 70/20/10 ratio, there were too much 
+Color scheme fitting the 70/20/10 ratio, there were too much
 Slow loading images use loading lazy and https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
 
 
 
 
-  
 
-  https://www.youtube.com/watch?v=jDDaOFr9nqQ
+
+https://www.youtube.com/watch?v=jDDaOFr9nqQ
 
