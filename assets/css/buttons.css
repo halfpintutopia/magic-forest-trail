@@ -51,13 +51,24 @@ button[data-type='narrow'],
 
 .sticky-button {
     position: sticky;
-    width: fit-content;
+    width: 100%;
     background-color: var(--chestnut);
     padding: 1rem 3rem;
-    border-radius: 4px;
-    margin-left: auto;
-    margin-right: 1rem;
-    bottom: 1rem;
+    border-radius: 4px 4px 0 0;
+    margin: 0;
+    bottom: 0;
     box-shadow: var(--box-shadow);
     z-index: 1100;
+
+}
+
+/* Higher z-index because of the leaflet map */
+@media only screen and (width >=768px) {
+    .sticky-button {
+        width: fit-content;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: 1rem;
+        bottom: 1rem;
+    }
 }
