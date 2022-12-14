@@ -174,3 +174,20 @@
 .table-container .table .table-row:nth-child(even) {
     background-color: hsla(79, 96%, 18%, 40%);
 }
+
+.form-success-message {
+    height: 100vh;
+    display: grid;
+}
+
+.form-success-message .thank-you-message {
+    place-self: center;
+}
+
+.form-success-message .button {
+    place-self: start center;
+}
+
+.form-success-message p {
+    text-align: center;
+}
