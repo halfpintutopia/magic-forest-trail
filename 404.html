@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="color-scheme" content="light dark">
         <meta name="description" content="Magic Forest Trail - Bartli's Adventure Trail in Braunwald">
-        <meta http-equiv="Cache-Control" content="max-age=31536000" />
         <title>Magic Forest Trail</title>
         <link rel="icon" type="image/x-icon" href="assets/media/images/logo.ico">
         <link rel="stylesheet" href="assets/css/main.css">
-
     </head>
 
     <body>
@@ -20,19 +17,21 @@
                 <picture>
                     <source media="(min-width: 900px)"
                         srcset="assets/media/images/not-found/lg/Winter_Sleep-lg_1x.webp 1x, assets/media/images/not-found/lg/Winter_Sleep-lg_2x.webp 2x"
-                        type="image/webp" />
+                        type="image/webp">
                     <source media="(min-width: 601px)" srcset="assets/media/images/not-found/md/Winter_Sleep-md_1x.webp 1x,
-                            assets/media/images/not-found/md/Winter_Sleep-md_2x.webp 2x" type="image/webp" />
+                            assets/media/images/not-found/md/Winter_Sleep-md_2x.webp 2x" type="image/webp">
                     <source srcset="assets/media/images/not-found/sm/Winter_Sleep-sm_1x.webp 1x,
-                            assets/media/images/not-found/sm/Winter_Sleep-sm_2x.webp 2x" type="image/webp" />
+                            assets/media/images/not-found/sm/Winter_Sleep-sm_2x.webp 2x" type="image/webp">
                     <img class="Winter_Sleep"
                         srcset="assets/media/images/not-found/sm/Winter_Sleep-sm_1x.jpg 600w, assets/media/images/not-found/md/Winter_Sleep-md_1x.jpg 900w, assets/media/images/not-found/lg/Winter_Sleep-lg_1x.jpg 1440w"
-                        src="assets/media/images/not-found/lg/Winter_Sleep-lg_1x.jpg" type="image/jpeg"
-                        alt="Bartli hibernating" />
+                        src="assets/media/images/not-found/lg/Winter_Sleep-lg_1x.jpg"
+                        sizes="(min-width: 768px) 100vw"
+                        alt="Bartli hibernating">
                 </picture>
+                <div class="overlay"></div>
                 <div class="redirect-message-text container" data-type="wide">
                     <h1>Shhh, don't wake up Bartli</h1>
-                    <a href="index.html"><button class="back" data-type="wide">Back home</button></a>
+                    <a href="index.html" class="button back" data-type="wide">Back home</a>
                 </div>
 
             </div>
