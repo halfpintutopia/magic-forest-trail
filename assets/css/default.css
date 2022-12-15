@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;600;700&family=Permanent+Marker&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;600&family=Permanent+Marker&display=swap');
+/* https://getbootstrap.com/docs/5.2/layout/containers/ */
 :root {
+    --xx-large-container: 1400px;
+    --x-large-container: 1200px;
+    --large-container: 992px;
+    --medium-container: 768px;
+    --small-container: 576px;
+    --extra-container: 576px; /* use with less than */
     --font-family-permanent-marker: 'Permanent Marker',
     cursive;
     --font-family-overpass: 'Overpass',
@@ -8,8 +14,8 @@
     --shark: hsl(228, 7%, 14%);
     --verdun-green-light: hsl(79, 96%, 18%);
     --verdun-green-dark: hsl(79, 97%, 13%);
-    --chestnut: hsl(0, 48%, 52%);
-    --pampas: hsl(60, 21%, 94%);
+    --chestnut: #9D3B3B;
+    --pampas: #f3f3ec;
     --svg-fill: var(--chestnut);
     --verdun-green-dark-opacity: hsla(79, 97%, 13%, 70%);
     --pampas-opacity: hsla(60, 21%, 94%, 20%);
@@ -25,13 +31,13 @@
     --font-family-weight-light: 300;
     --font-family-weight-regular: 400;
     --font-family-weight-semi-bold: 600;
-    --font-family-weight-bold: 700;
+    --font-family-weight-bold: 600;
     --font-color-hero-title: var(--pampas);
     --font-color-heading: var(--shark);
     --font-color-body: var(--shark);
     --trail-list-item-hover-bg: var(--verdun-green-light);
     --icon-social-color: var(--pampas);
-    --icon-social-hover-color: var(--shark);
+    --icon-social-hover-color: var(--pampas);
     --box-shadow: 0px 2px 5px 0px hsla(0, 0%, 0%, 0.14),
     0px 1px 10px 0px hsla(0, 0%, 0%, 0.12),
     0px 2px 4px -1px hsla(0, 0%, 0%, 0.2);
@@ -43,6 +49,9 @@
     --container-width-wide: 87.5rem;
     --container-width-regular: 75rem;
     --container-width-full: 100%;
+    --footer-small-font-color: var(--shark);
+    --form-input-bg: var(--pampas);
+    --form-input-border: var(--shark);
     }
 
 @media (prefers-color-scheme: dark) {
@@ -52,10 +61,11 @@
         --font-color-heading: var(--pampas);
         --font-color-body: var(--pampas);
         --icon-social-color: var(--shark);
-        --icon-social-hover-color: var(--pampas);
         --body-background-color: var(--shark);
         --trail-stats-border: 4px solid var(--pampas);
         --trail-stats-font-color: var(--pampas);
+        --form-input-bg: var(--shark);
+        --form-input-border: var(--pampas);
     }
 }
 

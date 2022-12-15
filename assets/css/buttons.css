@@ -5,9 +5,8 @@ button,
     display: var(--button-display, inline);
     cursor: pointer;
     text-decoration: none;
-    text-overflow: uppercase;
     padding: var(--button-padding, 1rem 2rem);
-    font-weight: var(--button-font-weight, 700);
+    font-weight: var(--button-font-weight, 600);
     border: var(--button-border, none);
     border-radius: var(--button-border-radius, 10px);
     color: var(--button-text, white);
@@ -62,6 +61,10 @@ button[data-type='narrow'],
 
 }
 
+div.book-now-button.sticky-button a.family-pass-button span.book-now-button-text i.fa-solid.fa-arrow-right-long {
+    margin-left: .5rem;
+}
+
 /* Higher z-index because of the leaflet map */
 @media only screen and (width >=768px) {
     .sticky-button {
@@ -72,3 +75,4 @@ button[data-type='narrow'],
         bottom: 1rem;
     }
 }
+
