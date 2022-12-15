@@ -181,7 +181,7 @@
 }
 
 .form-success-message .thank-you-message {
-    place-self: center;
+    place-self: end center;
 }
 
 .form-success-message .button {
