@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="color-scheme" content="light dark">
         <meta name="description" content="Magic Forest Trail - Bartli's Adventure Trail in Braunwald">
-        <meta http-equiv="Cache-Control" content="max-age=31536000" />
         <title>Magic Forest Trail</title>
         <link rel="icon" type="image/x-icon" href="assets/media/images/logo.ico">
         <link rel="stylesheet" href="assets/css/main.css">
-
     </head>
 
     <body>
@@ -38,32 +35,33 @@
             </nav>
         </header>
         <main>
-            <section class="section-header">
+            <div class="section-header">
                 <div class="section-header-image">
                     <picture>
                         <source media="(min-width: 900px)" srcset="assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_1x.webp 1x,
-                            assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_2x.webp 2x" type="image/webp" />
+                            assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_2x.webp 2x" type="image/webp">
                         <source media="(min-width: 601px)" srcset="assets/media/images/storybook/bartli/md/Sitting_On_Rock-md_1x.webp 1x,
-                            assets/media/images/storybook/bartli/md/Sitting_On_Rock-md_2x.webp 2x" type="image/webp" />
+                            assets/media/images/storybook/bartli/md/Sitting_On_Rock-md_2x.webp 2x" type="image/webp">
                         <source srcset="assets/media/images/storybook/bartli/sm/Sitting_On_Rock-sm_1x.webp 1x,
-                            assets/media/images/storybook/bartli/sm/Sitting_On_Rock-sm_2x.webp 2x" type="image/webp" />
+                            assets/media/images/storybook/bartli/sm/Sitting_On_Rock-sm_2x.webp 2x" type="image/webp">
                         <img loading="lazy" srcset="assets/media/images/storybook/bartli/sm/Sitting_On_Rock-sm_1x.jpg 600w,
                             assets/media/images/storybook/bartli/md/Sitting_On_Rock-md_1x.jpg 900w,
                             assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_1x.jpg 1440w"
-                            src="assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_1x.jpg" type="image/jpeg"
-                            alt="The valley down towards Bartl's house" />
+                            src="assets/media/images/storybook/bartli/lg/Sitting_On_Rock-lg_1x.jpg"
+                            sizes="(min-width: 768px) 100vw"
+                            alt="The valley down towards Bartl's house">
                     </picture>
                 </div>
-            </section>
+            </div>
             <section class="booking-form container" data-type="regular">
                 <h1>Book your family pass</h1>
                 
-                <article>
+                <div>
                     <p class="subtitle"></p>
                     <div class="table-container">
                         <div class="price-table table">
                             <div class="table-header">
-                                <h6>From Linthal, GL train station</h6>
+                                <span class="table-heading">From Linthal, GL train station</span>
                             </div>
                             <div class="table-row">
                                 <div class="table-row-field">With lunch</div>
@@ -76,7 +74,7 @@
                         </div>
                         <div class="price-table table">
                             <div class="table-header">
-                                <h6>Ab Linthal mit Halbtax</h6>
+                                <span class="table-heading">Ab Linthal mit Halbtax</span>
                             </div>
                             <div class="table-row">
                                 <div class="table-row-field">With lunch</div>
@@ -89,7 +87,7 @@
                         </div>
                         <div class="price-table table">
                             <div class="table-header">
-                                <h6>Ab Braunwald</h6>
+                                <span class="table-heading">Ab Braunwald</span>
                             </div>
                             <div class="table-row">
                                 <div class="table-row-field">With lunch</div>
@@ -105,28 +103,31 @@
                     <form action="success.html">
                         <div class="form-group">
                             <div class="form-field">
-                                <input type="text" name="first-name" placeholder="First name *" required>
-                                <label for="first-name">First name <strong><span aria-label="required">*</span></strong>
+                                <input id="booking-first-name" type="text" name="booking-first-name"
+                                    placeholder="First name *"
+                                    required>
+                                <label for="booking-first-name">First name <strong><span>*</span></strong>
                                 </label>
                             </div>
                             <div class="form-field">
-                                <input type="text" name="last-name" placeholder="Last name *" required>
-                                <label for="last-name">
-                                    Last name <strong><span aria-label="required">*</span></strong>
+                                <input id="booking-last-name"  type="text" name="booking-last-name" placeholder="Last name *" required>
+                                <label for="booking-last-name">
+                                    Last name <strong><span>*</span></strong>
                                 </label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form-field">
-                                <input type="email" name="email" placeholder="Email Address *" required>
-                                <label for="email">
-                                    Email Address <strong><span aria-label="required">*</span></strong>
+                                <input id="booking-email" type="email" name="booking-email" placeholder="Email Address *" required>
+                                <label for="booking-email">
+                                    Email Address <strong><span>*</span></strong>
                                 </label>
 
                             </div>
                             <div class="form-field">
-                                <input type="telephone" name="telephone" placeholder="Telephone number (optional)">
-                                <label for="telephone">
+                                <input id="booking-telephone" type="tel" name="booking-telephone"
+                                    placeholder="Telephone number (optional)">
+                                <label for="booking-telephone">
                                     Telephone number (optional)
                                 </label>
                             </div>
@@ -140,41 +141,45 @@
                                 <label for="number-of-adults">
                                     <span>Adults</span>
                                 </label>
-                                <input type="number" min="1" max="10" name="number-of-adults" id="number-of-adults">
+                                <input id="number-of-adults" type="number" min="1" max="10" name="number-of-adults">
                             </div>
                             <div class="form-field select-field">
                                 <label for="number-of-children">
                                     <span>Children</span>
                                 </label>
-                                <input type="number" min="1" max="10" name="number-of-children" id="number-of-children">
+                                <input id="number-of-children"  type="number" min="1" max="10"
+                                    name="number-of-children">
                             </div>
                         </div>
                         <div class="form-group checkbox-group">
                             <div class="form-field checkbox-field">
-                                <label for="with-travelcard"><input type="checkbox" name="with-travelcard"> With SBB Half
+                                <label for="with-travelcard"><input id="with-travelcard" type="checkbox"
+                                        name="with-travelcard"> With SBB Half
                                     Fare Travelcard</label>
                             </div>
                             <div class="form-field checkbox-field">
-                                <label for="with-lunch"><input type="checkbox" name="with-travelcard">With lunch
+                                <label for="with-lunch"><input id="with-lunch" type="checkbox"
+                                        name="with-lunch">With lunch
                                     included</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form-field">
-                                <textarea name="comments" id="comments" cols="30" rows="10"
+                                <textarea id="booking-comments" name="booking-comments" cols="30"
+                                    rows="10"
                                     ></textarea>
-                                <label for="comments">
+                                <label for="booking-comments">
                                     Additional comments
                                 </label>
                             </div>
                         </div>
 
                         <div class="form-group button-group">
-                            <button type="submit button" data-type="wide">Book Now</button>
+                            <button type="submit" data-type="wide">Book Now</button>
                         </div>
                         <small>* The family pass includes free rides on all cablecars in Braunwald.</small>
                     </form>
-                </article>
+                </div>
                 
             </section>
         </main>
@@ -182,7 +187,7 @@
             <div class="footer-top">
                 <div class="social-links container" data-type="full">
                     <div class="social-link social-link-twitter">
-                        <a href="https://twiiter.com" target="_blank" aria-label="Twitter">
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
                             <span class="fa-stack fa-2x">
                                 <i class="fa-solid fa-circle fa-stack-1x"></i>
                                 <i class="fa-brands fa-twitter fa-stack-1x fa-inverse"></i>
