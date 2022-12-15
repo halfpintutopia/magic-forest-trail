@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="color-scheme" content="light dark">
-        <meta name="description" content="Magic Forest Trail - Bartli's Adventure Trail in Braunwald">
-        <meta http-equiv="Cache-Control" content="max-age=31536000" />
-        <title>Magic Forest Trail</title>
-        <link rel="icon" type="image/x-icon" href="../assets/media/images/logo.ico">
-        <link rel="stylesheet" href="../assets/css/main.css">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-            integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
-        <!-- Make sure you put this AFTER Leaflet's CSS -->
-        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-    </head>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="color-scheme" content="light dark">
+            <meta name="description" content="Magic Forest Trail - Bartli's Adventure Trail in Braunwald">
+            <title>Magic Forest Trail</title>
+            <link rel="icon" type="image/x-icon" href="../assets/media/images/logo.ico">
+            <link rel="stylesheet" href="../assets/css/main.css">
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+                integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="">
+            <!-- Make sure you put this AFTER Leaflet's CSS -->
+            <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+                integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+        </head>
 
     <body>
         <header>
@@ -47,15 +46,16 @@
                     <picture>
                         <source media="(min-width: 900px)"
                             srcset="../assets/media/images/variation-2/lg/variation-2-lg_1x.webp 1x, ../assets/media/images/variation-2/lg/variation-2-lg_2x.webp 2x"
-                            type="image/webp" />
+                            type="image/webp">
                         <source media="(min-width: 601px)" srcset="../assets/media/images/variation-2/md/variation-2-md_1x.webp 1x,
-                        ../assets/media/images/variation-2/md/variation-2-md_2x.webp 2x" type="image/webp" />
+                        ../assets/media/images/variation-2/md/variation-2-md_2x.webp 2x" type="image/webp">
                         <source srcset="../assets/media/images/variation-2/sm/variation-2-sm_1x.webp 1x,
-                        ../assets/media/images/variation-2/sm/variation-2-sm_2x.webp 2x" type="image/webp" />
+                        ../assets/media/images/variation-2/sm/variation-2-sm_2x.webp 2x" type="image/webp">
                         <img loading="lazy"
                             srcset="../assets/media/images/variation-2/sm/variation-2-sm_1x.jpg 600w, ../assets/media/images/variation-2/md/variation-2-md_1x.jpg 900w, ../assets/media/images/variation-2/lg/variation-2-lg_1x.jpg 1440w"
-                            src="../assets/media/images/variation-2/lg/variation-2-lg_1x.jpg" type="image/jpeg"
-                            alt="Top of the mountain, overview of the mountain ridge in summer" />
+                            src="../assets/media/images/variation-2/lg/variation-2-lg_1x.jpg"
+                            sizes="(min-width: 768px) 100vw"
+                            alt="Top of the mountain, overview of the mountain ridge in summer">
                     </picture>
                 </div>
                 <div class="trail-stats container" data-type="wide">
@@ -69,22 +69,22 @@
                         <a href="../index.html#trails"><i class="fa-solid fa-arrow-left-long"></i> Back to Trail
                             List</a>
                     </div>
-                    <h1>Variation Two</h2>
+                    <h1>Variation Two</h1>
                         <p class="subtitle">In this variation you walk on the lower half of Bartli the Dwarfs trail. If
                             you don't stop, this hike takes about 1hour55mins. If you stop at all the places Bartli
                             visits, you should plan to take half a day for this adventure. </p>
                 </div>
                 <div class="trail-stages container" data-type="regular">
                     <div class="stage">
-                        <h5>Stage 1</h5>
+                        <span class="stage-heading">Stage 1</span>
                         <p class="stage-text">Grotzenbüel - Dwarf Tower</p>
                     </div>
                     <div class="stage">
-                        <h5>Stage 2</h5>
+                        <span class="stage-heading">Stage 2</span>
                         <p class="stage-text">Dwarf Tower - Magical Forest - River Playground</p>
                     </div>
                     <div class="stage">
-                        <h5>Stage 3</h5>
+                        <span class="stage-heading">Stage 3</span>
                         <p class="stage-text">River Playground - Tiidis Hut - Music Chest at Braunwald Funicular Station
                         </p>
                     </div>
@@ -94,8 +94,9 @@
                 </div>
             </section>
             <div class="book-now-button  sticky-button container" data-type="">
-                <a href="../contact-us.html" class="family-pass-button">
-                    <h6>Book your family pass <i class="fa-solid fa-arrow-right-long"></i></h6>
+                <a href="contact-us.html" class="family-pass-button">
+                    <span class="book-now-button-text">Book your family pass <i
+                            class="fa-solid fa-arrow-right-long"></i></span>
                 </a>
             </div>
         </main>

@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="color-scheme" content="light dark">
-        <meta name="description" content="Magic Forest Trail - Bartli's Adventure Trail in Braunwald">
-        <meta http-equiv="Cache-Control" content="max-age=31536000" />
-        <title>Magic Forest Trail</title>
-        <link rel="icon" type="image/x-icon" href="../assets/media/images/logo.ico">
-        <link rel="stylesheet" href="../assets/css/main.css">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-            integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
-        <!-- Make sure you put this AFTER Leaflet's CSS -->
-        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-    </head>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="color-scheme" content="light dark">
+            <meta name="description" content="Magic Forest Trail - Bartli's Adventure Trail in Braunwald">
+            <title>Magic Forest Trail</title>
+            <link rel="icon" type="image/x-icon" href="../assets/media/images/logo.ico">
+            <link rel="stylesheet" href="../assets/css/main.css">
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+                integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="">
+            <!-- Make sure you put this AFTER Leaflet's CSS -->
+            <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+                integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+        </head>
 
     <body>
         <header>
@@ -47,15 +46,16 @@
                     <picture>
                         <source media="(min-width: 900px)"
                             srcset="../assets/media/images/full-trail/lg/full-trail-lg_1x.webp 1x, assets/media/images/full-trail/lg/full-trail-lg_2x.webp 2x"
-                            type="image/webp" />
+                            type="image/webp">
                         <source media="(min-width: 601px)" srcset="../assets/media/images/full-trail/md/full-trail-md_1x.webp 1x,
-                        assets/media/images/full-trail/md/full-trail-md_2x.webp 2x" type="image/webp" />
+                        assets/media/images/full-trail/md/full-trail-md_2x.webp 2x" type="image/webp">
                         <source srcset="../assets/media/images/full-trail/sm/full-trail-sm_1x.webp 1x,
-                        assets/media/images/full-trail/sm/full-trail-sm_2x.webp 2x" type="image/webp" />
+                        assets/media/images/full-trail/sm/full-trail-sm_2x.webp 2x" type="image/webp">
                         <img loading="lazy"
                             srcset="../assets/media/images/full-trail/sm/full-trail-sm_1x.jpg 600w, assets/media/images/full-trail/md/full-trail-md_1x.jpg 900w, assets/media/images/full-trail/lg/full-trail-lg_1x.jpg 1440w"
-                            src="../assets/media/images/full-trail/lg/full-trail-lg_1x.jpg" type="image/jpeg"
-                            alt="Stone marker with white-red-white flag on the trail" />
+                            src="../assets/media/images/full-trail/lg/full-trail-lg_1x.jpg"
+                            sizes="(min-width: 768px) 100vw"
+                            alt="Stone marker with white-red-white flag on the trail">
                     </picture>
                 </div>
                 <div class="trail-stats container" data-type="wide">
@@ -69,30 +69,30 @@
                         <a href="../index.html#trails"><i class="fa-solid fa-arrow-left-long"></i> Back to Trail
                             List</a>
                     </div>
-                    <h1>Full Trail</h2>
+                    <h1>Full Trail</h1>
                         <p class="subtitle">Explore the full area on this easy trail. Starting from Gumen, slowly make
                             your descent back to the Braunwald Funicular Station. Stop at the places Bartli visits.</p>
                 </div>
                 <div class="trail-stages container" data-type="regular">
                     <div class="stage">
-                        <h5>Stage 1</h5>
+                        <span class="stage-heading">Stage 1</span>
                         <p class="stage-text">Gumen - Braunwaldalp Upper Cottage - Castle of the Dwarf King - Gemstone
                             Cave</p>
                     </div>
                     <div class="stage">
-                        <h5>Stage 2</h5>
+                        <span class="stage-heading">Stage 2</span>
                         <p class="stage-text">Gemstone Cave - Dwarfs Earth Dwelling - Calve Cottage - Grotzenbüel</p>
                     </div>
                     <div class="stage">
-                        <h5>Stage 3</h5>
+                        <span class="stage-heading">Stage 3</span>
                         <p class="stage-text">Grotzenbüel - Dwarf Tower</p>
                     </div>
                     <div class="stage">
-                        <h5>Stage 4</h5>
+                        <span class="stage-heading">Stage 4</span>
                         <p class="stage-text">Dwarf Tower - River Playground - Tiidis Hut</p>
                     </div>
                     <div class="stage">
-                        <h5>Stage 5</h5>
+                        <span class="stage-heading">Stage 5</span>
                         <p class="stage-text">Tiidis Hut - Music Chest at Braunwald Funicular Station</p>
                     </div>
                 </div>
@@ -101,8 +101,9 @@
                 </div>
             </section>
             <div class="book-now-button  sticky-button container" data-type="">
-                <a href="../contact-us.html" class="family-pass-button">
-                    <h6>Book your family pass <i class="fa-solid fa-arrow-right-long"></i></h6>
+                <a href="contact-us.html" class="family-pass-button">
+                    <span class="book-now-button-text">Book your family pass <i
+                            class="fa-solid fa-arrow-right-long"></i></span>
                 </a>
             </div>
         </main>
@@ -110,7 +111,7 @@
             <div class="footer-top">
                 <div class="social-links container" data-type="full">
                     <div class="social-link social-link-twitter">
-                        <a href="https://twiiter.com" target="_blank" aria-label="Twitter">
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
                             <span class="fa-stack fa-2x">
                                 <i class="fa-solid fa-circle fa-stack-1x"></i>
                                 <i class="fa-brands fa-twitter fa-stack-1x fa-inverse"></i>

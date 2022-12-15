@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="color-scheme" content="light dark">
-        <meta name="description" content="Magic Forest Trail - Bartli's Adventure Trail in Braunwald">
-        <meta http-equiv="Cache-Control" content="max-age=31536000" />
-        <title>Magic Forest Trail</title>
-        <link rel="icon" type="image/x-icon" href="../assets/media/images/logo.ico">
-        <link rel="stylesheet" href="../assets/css/main.css">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-            integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
-        <!-- Make sure you put this AFTER Leaflet's CSS -->
-        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-    </head>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="color-scheme" content="light dark">
+            <meta name="description" content="Magic Forest Trail - Bartli's Adventure Trail in Braunwald">
+            <title>Magic Forest Trail</title>
+            <link rel="icon" type="image/x-icon" href="../assets/media/images/logo.ico">
+            <link rel="stylesheet" href="../assets/css/main.css">
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+                integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="">
+            <!-- Make sure you put this AFTER Leaflet's CSS -->
+            <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+                integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+        </head>
 
     <body>
         <header>
@@ -47,15 +46,16 @@
                     <picture>
                         <source media="(min-width: 900px)"
                             srcset="../assets/media/images/variation-3/lg/variation-3-lg_1x.webp 1x, ../assets/media/images/variation-3/lg/variation-3-lg_2x.webp 2x"
-                            type="image/webp" />
+                            type="image/webp">
                         <source media="(min-width: 601px)" srcset="../assets/media/images/variation-3/md/variation-3-md_1x.webp 1x,
-                        ../assets/media/images/variation-3/md/variation-3-md_2x.webp 2x" type="image/webp" />
+                        ../assets/media/images/variation-3/md/variation-3-md_2x.webp 2x" type="image/webp">
                         <source srcset="../assets/media/images/variation-3/sm/variation-3-sm_1x.webp 1x,
-                        ../assets/media/images/variation-3/sm/variation-3-sm_2x.webp 2x" type="image/webp" />
+                        ../assets/media/images/variation-3/sm/variation-3-sm_2x.webp 2x" type="image/webp">
                         <img loading="lazy"
                             srcset="../assets/media/images/variation-3/sm/variation-3-sm_1x.jpg 600w, ../assets/media/images/variation-3/md/variation-3-md_1x.jpg 900w, ../assets/media/images/variation-3/lg/variation-3-lg_1x.jpg 1440w"
-                            src="../assets/media/images/variation-3/lg/variation-3-lg_1x.jpg" type="image/jpeg"
-                            alt="Overpass, view down into the valley" />
+                            src="../assets/media/images/variation-3/lg/variation-3-lg_1x.jpg"
+                            sizes="(min-width: 768px) 100vw"
+                            alt="Overpass, view down into the valley">
                     </picture>
                 </div>
                 <div class="trail-stats container" data-type="wide">
@@ -69,7 +69,7 @@
                         <a href="../index.html#trails"><i class="fa-solid fa-arrow-left-long"></i> Back to Trail
                             List</a>
                     </div>
-                    <h1>Variation Three</h2>
+                    <h1>Variation Three</h1>
                         <p class="subtitle">In this very easy variation your kids don't have to walk very far. Explore
                             the close but exciting locations Calve Cottage and Gemstone Cave and even find the hidden
                             Dwarfs Earth Dwelling if you are up for it. Ideal for small children and those who don't
@@ -77,16 +77,16 @@
                 </div>
                 <div class="trail-stages container" data-type="regular">
                     <div class="stage">
-                        <h5>Stage 1</h5>
+                        <span class="stage-heading">Stage 1</span>
                         <p class="stage-text">Grotzenbüel - Calve Cottage</p>
                     </div>
                     <div class="stage">
-                        <h5>Stage 2 (optional)</h5>
+                        <span class="stage-heading">Stage 2 (optional)</span>
                         <p class="stage-text">Calve Cottage - Dwarfs Earth Dwelling</p>
                     </div>
                     <div class="stage">
-                        <h5>Stage 3</h5>
-                        <p class="stage-text">Calve Cottage / Dwarfs Earth Dwelling - Gemstone Cave - Grotzenbüel
+                        <span class="stage-heading">Stage 3</span>
+                        <p class="stage-text">Calve Cottage Dwarfs Earth Dwelling - Gemstone Cave - Grotzenbüel
                         </p>
                     </div>
                 </div>
@@ -95,8 +95,9 @@
                 </div>
             </section>
             <div class="book-now-button  sticky-button container" data-type="">
-                <a href="../contact-us.html" class="family-pass-button">
-                    <h6>Book your family pass <i class="fa-solid fa-arrow-right-long"></i></h6>
+                <a href="contact-us.html" class="family-pass-button">
+                    <span class="book-now-button-text">Book your family pass <i
+                            class="fa-solid fa-arrow-right-long"></i></span>
                 </a>
             </div>
         </main>
