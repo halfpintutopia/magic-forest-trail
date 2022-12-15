@@ -1,7 +1,3 @@
-/* section:not(:first-child) {
-    padding-block: max(3vh, 1rem);
-} */
-
 section.section-header {
     display: grid;
     place-items: center;
@@ -16,34 +12,20 @@ section.section-header>* {
 section.section-header .section-header-image {
     display: grid;
     width: 100vw;
-    /* height: calc(50vh - var(--header-height)); */
     position: relative;
     object-fit: cover;
     z-index: -1;
 }
 
+.section-header .section-header-image,
+.section-header .section-header-image img {
+    height: calc(50vh - var(--header-height));
+}
+
 .section-header .section-header-image img {
     width: 100%;
-    height: 25vh;
     object-fit: cover;
     margin-bottom: max(3vh, 1rem);
-}
-
-.form-success-message {
-    height: 100vh;
-    display: grid;
-}
-
-.form-success-message .thank-you-message {
-    place-self: center;
-}
-
-.form-success-message .button {
-    place-self: start center;
-}
-
-.form-success-message p {
-    text-align: center;
 }
 
 .text-image {
@@ -51,7 +33,6 @@ section.section-header .section-header-image {
 }
 
 .text-image .image {
-    height: 25vh;
     position: relative;
 }
 
@@ -59,8 +40,12 @@ section.section-header .section-header-image {
     margin-block: max(1vh, 1rem) max(3vh, 1.5rem);
 }
 
+.text-image .image picture,
 .text-image .image img {
-    height: 25vh;
+    height: 100%;
+} 
+
+.text-image .image img {
     object-fit: cover;
     width: 100%;
 }
@@ -79,6 +64,7 @@ section.section-header .section-header-image {
     .text-image-part {
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
+        grid-template-rows: repeat(auto-fit, minmax(auto, 600px));
     }
 }
 

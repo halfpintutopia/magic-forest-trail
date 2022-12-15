@@ -6,6 +6,8 @@
 
 The website has been created solely for the course, but inpsired by an actual hiking trail based in Braunwald, Glarus-Süd in the North East of Switzerland. "Zwerg Bartli", a moutain dwelling drawf, is an affectionately well know character in this area. A fictitious character   made famous by a children's book.  The idea of the website came about, when a colleague, Hermina, enthused about the trail and taking her children to it. She is very motivated in breathing a new breath of life into this attraction and wanted and I thought it would be a win-win to provide a basic website to get her personal project started.
 
+![GitHub forks](https://img.shields.io/github/forks/halfpintutopia/magic-forest-trail?style=social)
+![W3C Validation](https://img.shields.io/w3c-validation/html?style=social&targetUrl=https%3A%2F%2Fhalfpintutopia.github.io%2Fmagic-forest-trail%2F)
 ---
 
 ## Table of contents
@@ -279,6 +281,8 @@ The images match the theme of the site, hiking. Families with children on hiking
 #### Colours
 #### Icons
 #### Movement with keyboard tab
+
+[](https://www.youtube.com/watch?v=jDDaOFr9nqQ)
 
 ## Technologies Used
 

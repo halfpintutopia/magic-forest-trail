@@ -14,8 +14,8 @@
     --shark: hsl(228, 7%, 14%);
     --verdun-green-light: hsl(79, 96%, 18%);
     --verdun-green-dark: hsl(79, 97%, 13%);
-    --chestnut: #9D3B3B;
-    --pampas: #f3f3ec;
+    --chestnut: hsl(0, 45%, 42%);
+    --pampas: hsl(60, 23%, 94%);
     --svg-fill: var(--chestnut);
     --verdun-green-dark-opacity: hsla(79, 97%, 13%, 70%);
     --pampas-opacity: hsla(60, 21%, 94%, 20%);
@@ -23,7 +23,6 @@
     --standard-margin: 1rem;
     --standard-gap: 1rem;
     --header-height: clamp(3rem, calc(2.30rem + 3.48vw), 5rem);
-    /* --header-height: clamp(2.81rem, calc(2.10rem + 3.59vw), 4.88rem); */
     --nav-item-width: var(--header-height);
     --nav-item-height: var(--header-height);
     --font-family-heading: var(--font-family-permanent-marker);

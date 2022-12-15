@@ -15,20 +15,15 @@ h1 {
 }
 
 .redirect-message-text h1 {
-    color: var(--pampas);
+    color: var(--chestnut);
 }
 
 h2 {
     font-family: var(--font-family-heading);
-    font-size: clamp(3.15rem, calc(2.68rem + 2.35vw), 4.5rem);
-    color: var(--font-color-heading);
-    text-align: center;
-    line-height: clamp(4.13rem, calc(3.54rem + 2.93vw), 5.81rem);
-    /* font-family: var(--font-family-heading);
     font-size: clamp(2.625rem, calc(2.23rem + 1.96vw), 3.75rem);
     color: var(--font-color-heading);
     line-height: clamp(3.44rem, calc(2.94rem + 2.50vw), 4.88rem);
-    text-align: center; */
+    text-align: center;
 }
 
 h3 {
@@ -46,7 +41,8 @@ h4 {
     line-height: clamp(2.06rem, calc(1.76rem + 1.52vw), 2.94rem);
 }
 
-h5 {
+h5,
+span.stage-heading {
     font-family: var(--font-family-heading);
     font-size: clamp(1.3125rem, calc(1.12rem + 0.98vw), 1.875rem);
     color: var(--font-color-heading);

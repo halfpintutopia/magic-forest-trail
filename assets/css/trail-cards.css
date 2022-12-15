@@ -44,12 +44,6 @@ h2#trails::before {
     height: 100%;
 }
 
-/* @media only screen and (width >= 992px) {
-    .trail-cards .trail-list .trail {
-        grid-auto-flow: row;
-    }
-} */
-
 .trail-cards .trail-list .trail .overlay {
     --black-dk-opacity: rgba(0, 0, 0, .65);
     position: relative;
