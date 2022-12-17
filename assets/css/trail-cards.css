@@ -10,7 +10,6 @@ h2#trails::before {
 .trail-cards .trail-list {
     display: grid;
     gap: 1rem;
-    padding-block: max(3vh, 1rem);
 }
 
 

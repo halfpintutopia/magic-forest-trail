@@ -1,3 +1,7 @@
+section {
+    padding-block: max(3vh, 1rem);
+}
+
 section.section-header {
     display: grid;
     place-items: center;
@@ -34,10 +38,6 @@ section.section-header .section-header-image {
 
 .text-image .image {
     position: relative;
-}
-
-.text-image .text {
-    margin-block: max(1vh, 1rem) max(3vh, 1.5rem);
 }
 
 .text-image .image picture,

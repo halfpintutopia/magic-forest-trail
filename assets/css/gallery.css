@@ -8,7 +8,6 @@
     .gallery {
         grid-auto-columns: 1fr;
         grid-template-columns: repeat(4, 1fr);
-        padding-block: 2rem;
         grid-template-rows: repeat(2, 400px);
     }
 

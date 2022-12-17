@@ -23,6 +23,7 @@ h2 {
     font-size: clamp(2.625rem, calc(2.23rem + 1.96vw), 3.75rem);
     color: var(--font-color-heading);
     line-height: clamp(3.44rem, calc(2.94rem + 2.50vw), 4.88rem);
+    margin-bottom: clamp(1.31rem, calc(1.12rem + 0.98vw), 1.88rem);
     text-align: center;
 }
 

@@ -161,7 +161,6 @@ textarea:focus-visible {
 /* @see https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/style.css#L112 */
 .visually-hidden {
     border: 0;
-    clip: rect(0, 0, 0, 0);
     height: 1px;
     margin: -1px;
     overflow: hidden;
@@ -174,7 +173,6 @@ textarea:focus-visible {
 
 .visually-hidden.focusable:active,
 .visually-hidden.focusable:focus {
-    clip: auto;
     height: auto;
     margin: 0;
     overflow: visible;

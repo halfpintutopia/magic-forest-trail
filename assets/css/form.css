@@ -9,8 +9,17 @@
     }
 }
 
-.booking-form .form-group .form-field {
+.booking-form .form-group .form-field:not(.textarea-field),
+.booking-form .form-group .form-field.textarea-field {
     display: flex;
+}
+
+.booking-form .form-group .form-field.textarea-field {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.booking-form .form-group .form-field:not(.textarea-field) {
     flex: 1 1 auto;
 }
 
@@ -22,9 +31,12 @@
     margin-bottom: 2rem;
 }
 
+.booking-form .form-group input {
+    padding: 1.5rem 2rem;
+}
+
 .booking-form .form-group input,
 .booking-form .form-group textarea {
-    padding: 1.5rem 2rem;
     border-bottom: 1px solid var(--shark);
     transition: all .4s;
     margin-top: .7rem;
@@ -96,7 +108,7 @@
 
 .booking-form {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
 }
 
