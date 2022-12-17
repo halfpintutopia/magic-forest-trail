@@ -1,12 +1,3 @@
-/* https://css-tricks.com/hash-tag-links-padding/ */
-h2#trails::before {
-    display: block;
-    content: " ";
-    margin-top: clamp(-6.30rem, calc(2.68rem + 2.35vw), -9rem);
-    height: clamp(6.30rem, calc(2.68rem + 2.35vw), 9rem);
-    visibility: hidden;
-}
-
 .trail-cards .trail-list {
     display: grid;
     gap: 1rem;

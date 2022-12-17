@@ -86,6 +86,9 @@ html {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     height: 100%;
+    /* Fix error with scroll to content https://www.youtube.com/watch?v=iGUSTyG-CYw */
+    overflow: auto;
+    scroll-padding-top: var(--scroll-padding, 50px);
 }
 
 body {
