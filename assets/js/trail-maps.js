@@ -3,22 +3,55 @@
         LOCATION: '../assets/media/images/Character.png',
         SIZE: [90, 90],
         ANCHOR: [45, 45],
-        POPUP_ANCHOR: [-3, -76]
+        POPUP_ANCHOR: [-3, -35]
     }
 
     const LOCATION = {
-        AREA: [46.94896343969532, 8.983088829099756],
-        GUMEN: [46.956213832171656, 8.984484977695853],
-        BRAUNWALDALP_OBERSTAFEL: [46.98404183199923, 9.016448059683979],
-        ZWERGENSCHLOSS: [46.95121414799247, 8.979073183885601],
-        EDELSTEINPLATTE: [46.95048367533784, 8.986333333285385],
-        ZWERGENHOEHLE: [46.95349442171878, 8.991858625322976],
-        RINDENHUETTI: [46.95150984832085, 8.994210419569713],
-        GROTZENBUEEL: [46.93934468810683, 8.990759377441863],
-        ZWERGENTURM: [46.94823018809801, 8.988387950683775],
-        WASSERSPEILPLATZ: [46.94212593061035, 8.980563836834103],
-        TIDIS_HUESLI: [46.94221915504047, 8.981570927369418],
-        MUSIKTRUHE_BRAUNWALD: [46.938899, 8.998710]
+        AREA: [46.949986739165375, 8.993144532870112],
+        GUMEN: {
+            NAME: 'Gumen',
+            COORDINATES: [46.956213832171656, 8.984484977695853]
+        }, 
+        BRAUNWALDALP_OBERSTAFEL: {
+            NAME: 'Braunwaldalp Oberstafel',
+            COORDINATES: [46.98404183199923, 9.016448059683979]
+        },
+        ZWERGENSCHLOSS: {
+            NAME: 'Zwergenschloss',
+            COORDINATES: [46.95121414799247, 8.979073183885601]
+        }, 
+        EDELSTEINPLATTE: {
+            NAME: 'Edelsteinplatte',
+            COORDINATES: [46.95048367533784, 8.986333333285385]
+        }, 
+        ZWERGENHOEHLE: {
+            NAME: 'Zwergenhöhle',
+            COORDINATES: [46.95349442171878, 8.991858625322976]
+        }, 
+        RINDENHUETTI: {
+            NAME: 'Rindenhütti',
+            COORDINATES: [46.95150984832085, 8.994210419569713]
+        }, 
+        GROTZENBUEEL: {
+            NAME: 'Grotzenbüel',
+            COORDINATES: [46.93934468810683, 8.990759377441863]
+        }, 
+        ZWERGENTURM: {
+            NAME: 'Zwergenturm',
+            COORDINATES: [46.94823018809801, 8.988387950683775]
+        }, 
+        WASSERSPEILPLATZ: {
+            NAME: 'Wasserpeilplatz',
+            COORDINATES: [46.94212593061035, 8.980563836834103]
+        }, 
+        TIDIS_HUESLI: {
+            NAME: 'Tiidis Hüsli',
+            COORDINATES: [46.94221915504047, 8.981570927369418]
+        }, 
+        MUSIKTRUHE_BRAUNWALD: {
+            NAME: 'Musiktruhe',
+            COORDINATES: [46.938899, 8.998710]
+        }, 
     }
 
     const MAP = {
@@ -67,10 +100,10 @@
      * @param {object} marker Marker object
      * @param {object} map Map object
      */
-    const addMarkers = (markerCoordinates, marker, map) => {
-        L.marker(markerCoordinates, {
+    const addMarkers = (location, marker, map) => {
+        L.marker(location.COORDINATES, {
             icon: marker
-        }).addTo(map);
+        }).addTo(map).bindPopup(location.NAME);
     }
 
     /**
@@ -95,7 +128,7 @@
         L.tileLayer('https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.swissimage/default/current/3857/{z}/{x}/{y}.jpeg', {
             attribution: '&copy; <a href="https://www.swisstopo.admin.ch/">swisstopo</a>',
             maxZoom: 19
-	}).addTo(map);
+        }).addTo(map);
 
 
         locations.forEach((location) => {
