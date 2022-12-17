@@ -12,14 +12,14 @@ The website has been created solely for the course, but inpsired by an actual hi
 
 ## Table of contents
 * [User Experience](#user-experience-ux)
-  * [Intended Audience](#user-audience)
+  * [Intended Audience](#intended-audience)
   * [User Stories](#user-stories)
 
 * [Design](#design)
+  * [Wireframes](#wireframes)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
 
 * [Features](#features)
   * [General Features on Each Page](#general-features-on-each-page)
@@ -89,7 +89,9 @@ The website has been created solely for the course, but inpsired by an actual hi
     * Refer their friends, families and associates about the trail.
 
 
-## Design
+# Design
+
+## Wireframes
 Wireframes were created for the site with [Figma](https://www.figma.com).
 
 ![Figma Wireframe for mobile and desktop](./docs/media/images/wireframes/wireframe.png)
@@ -170,7 +172,7 @@ To see the full wireframe, view it [here](https://www.figma.com/file/mY6L1TpxKS6
 
 --- 
 
-### Colour Scheme
+## Colour Scheme
 
 ![Adobe Color - Color theme from image](./docs/media/images/design/adobe_color_palette.png)
 
@@ -188,7 +190,9 @@ To see the full wireframe, view it [here](https://www.figma.com/file/mY6L1TpxKS6
     ```
 *Color Palette created from the Image Picker function on the [coolors.co](https://coolors.co/image-picker) website*
 
-### Typography
+Due to assessibility, the 
+
+## Typography
 
 Permanent Marker and Overpass Fonts chosen from [Google Fonts](https://fonts.google.com)
 
@@ -202,13 +206,13 @@ Permanent Marker and Overpass Fonts chosen from [Google Fonts](https://fonts.goo
 
 The font was chosen to be playful and clear. 
 
-### Imagery
+## Imagery
 
 The images match the theme of the site, hiking. Families with children on hiking activites.
 
-## Features
+# Features
 
-### Specific features
+## Specific features
 
 <details>
 <summary>Trail List</summary>
@@ -223,6 +227,10 @@ The images match the theme of the site, hiking. Families with children on hiking
 ![Screenshot of the trail (lists) feature](./docs/media/images/features/trail-list/trail_list_desktop.png)
 
 *Screenshot of the trail (lists) feature for desktop*
+
+<br>
+
+The trail list are displayed as cards. The text description length of each card depends on the size of the device. A class was added to to shorten the text, so that the card heights were not too tall on mobile devices. 
 
 </details>
 <br>
@@ -241,17 +249,21 @@ The images match the theme of the site, hiking. Families with children on hiking
 
 *Screenshot of the gallery feature for desktop*
 
+<br>
+
+The gallery is in a grid layout masonry style. The gallery was to suit and demonstrate images that are meant to be viewed in potrait or landscape.
+
 </details>
 <br>
 
 
-### General features 
+## General features 
 
 <details>
 <summary>Call to action</summary>
 <br>
 
-![Screenshot of the gallery feature for mobile](./docs/media/images/features/cta/cta_button_mobile.png)
+![Screenshot of the cta feature for mobile](./docs/media/images/features/cta/cta_button_mobile.png)
 
 *Screenshot of the cta feature for mobile*
 
@@ -261,9 +273,55 @@ The images match the theme of the site, hiking. Families with children on hiking
 
 *Screenshot of the cta feature for desktop*
 
+<br>
+
+The button link for the contact form is a floating element on the page. This was changed from the original wireframe, as wanted the CTA button to be visible whereever the user was on the page. Floating it made it visible and accessible for visitors to easily click. 
+
 </details>
 
+<br>
 
+<details>
+<summary>Text Image Sections (with & without quicklinks</summary>
+<br>
+
+Version 1
+
+![Screenshot of the text image feature for mobile](./docs/media/images/features/text-image/feature_image-title-text_mobile.png)
+
+*Screenshot of the text image feature for mobile*
+
+<br>
+
+![Screenshot of the text image feature for desktop](./docs/media/images/features/text-image/feature_image-title-text.png)
+
+*Screenshot of the text image feature for desktop*
+
+<br>
+
+Version 2
+
+![Screenshot of the text image with quicklinks feature for mobile](./docs/media/images/features/text-image/feature_image-title-text-with-quicklinks_mobile.png)
+
+*Screenshot of the text image with quicklinks feature for mobile*
+
+<br>
+
+![Screenshot of the text image with quicklinks feature for desktop](./docs/media/images/features/text-image/feature_image-title-text-with-quicklinks.png)
+
+*Screenshot of the text image with quicklinks feature for desktop*
+
+<br>
+
+There are two version of the text-image feature. 
+
+The first one can be found on the home page. This is simple layout of image and text. When multiple image text sections are on the same page, they are set to be alternative sides. The text remains in a container and the image stretches to either the left or right side, dependendant on which side of the text it is positioned. This effect was to fill empty space on wider devices.
+
+The second version is seen on the storybook page. The layout is exactly the same. The content is slightly different, as under each text, there is a link which enables the visitor to quickly go the trail page if they are interested to visit the place mentioned in the story. 
+
+</details>
+
+<br>
 
 ### Future implementations
 
@@ -272,13 +330,15 @@ The images match the theme of the site, hiking. Families with children on hiking
     * Show real distances
     * Show declines and inclines
     *  the ascent and descent
-2. Connect Instagram to enable hikers to share images
+2. Connect Instagram API to enable hikers to share images
 
 
 ### Assessiblity
 
 #### Fonts
 #### Colours
+
+
 #### Icons
 #### Movement with keyboard tab
 
@@ -313,7 +373,6 @@ https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-
 *Screencast of deployment*
 
 <br>
-
 
 1. Go to repository
 2. Click Settings tab
@@ -355,9 +414,9 @@ python3 -m http.server
 
 | Client goal | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
-| Provide content that is child appropriate | Text  | Yes | Yes |
-| Provide content for adults or parents with children | Text  | Yes | Yes |
-| Provide easy access to routes | Text  | Yes | Yes |
+| Provide content that is child appropriate | The content was child-friendly | Yes | Yes |
+| Provide content for adults or parents with children | The content is descriptive yet simple  | Yes | Yes |
+| Provide easy access to routes |   | Yes | Yes |
 | Inform visitors of terrain (whether steep or steady climbs) | Text  | Yes | Yes |
 | Inform visitors of trail distances | Text  | Yes | Yes |
 | Inform visitors of approximate times to hike trail | Text  | Yes | Yes |
@@ -423,26 +482,20 @@ python3 -m http.server
 <summary>Bugs and fixes</summary>
 <br>
 
-| Bugs / Errors | Cause | Fixed  |
-| ------------- |:-------------:| -----:|
-| Footer assessibility | Color of footer icons, on hover were the same as the color of the background color of the footer | Yes |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-|Bug / Errors | Where / Location site | Browser | Device | Remarks | Mode (light / dark) | Fixed |
-|-------------|-----------------------|---------|--------|---------|:-------------------:|:-----:|
-| Fields in form not visible | contact form | Chrome, Firefox | Apple Laptop| | dark |
-| Only adults and kids visible (missing: first name, last name, email, telephone)| contact form | Chrome | Apple Laptop | | dark |
-| Arrows to add / sub adults / kids only visible on mouse over | contact form | Chrome | Apple Laptop | | dark |
-| Reference * not visible (bottom of the page) | contact form | Chrome | Apple Laptop | actually there are * but they are at form fields marking mandatory entries, slightly confusing | dark | Removed the reference as it was not relevant to the content |
-| Social media icons go white (on white) therefore not visible on mouse over everywhere / every page | Chrome, Firefox | Apple Laptop| | dark |
-| Twitter link typo - redirects to "twiiter" instead of "twitter" | everywhere / every page | Chrome, Firefox | Apple Laptop | | dark |
-| Text box / frame of text box not visible | contact form | Chrome, Firefox | Apple Laptop| | dark |
-| Image not loading | full trail | Chrome, Firefox | Apple Laptop| | dark |
-| Zoom / pan on map does not include all dwarfs only top half | every trail page | Chrome | Apple Laptop | | dark |
-| Shorten text on first story (size is off in comparison to the next story bits) not a bug, just looking off | storybook | Chrome, Firefox | Apple Laptop| | dark |
-| Links either labelled wrong or wrong links set (Trail option 3 leads to variation 1 etc.) | storybook | Chrome, Firefox | Apple Laptop | see sheet 2 for details | dark |
-| When going back from trail page to storybook, last chosen trail option is marked in green instead of red. nice but not sure if intentional. does not happen in Chrome only ff | storybook | Firefox | Apple Laptop | | dark |
+|Bug / Errors | Where / Location site | Browser | Device | Remarks | Mode (light / dark) | Fixed | Solution |
+|-------------|-----------------------|---------|--------|---------|:-------------------:|:-----:|----------|
+| Fields in form not visible | contact form | Chrome, Firefox | Apple Laptop| | dark | Yes | Change line colors for field. Applied color for dark and light mode |
+| Only adults and kids visible (missing: first name, last name, email, telephone)| contact form | Chrome | Apple Laptop | | dark | Yes | Change font color to suit dark and light mode |
+| Arrows to add / sub adults / kids only visible on mouse over | contact form | Chrome | Apple Laptop | | dark | | No | Arrow color are determined by the browser |
+| Reference * not visible (bottom of the page) | contact form | Chrome | Apple Laptop | actually there are * but they are at form fields marking mandatory entries, slightly confusing | dark | | Yes | Removed the reference as it was not relevant to the content |
+| Social media icons go white (on white) therefore not visible on mouse over everywhere / every page | Chrome, Firefox | Apple Laptop| | dark | | Yes | Changed the icon colors in the footer |
+| Twitter link typo - redirects to "twiiter" instead of "twitter" | everywhere / every page | Chrome, Firefox | Apple Laptop | | dark | Yes | Corrected typos |
+| Text box / frame of text box not visible | contact form | Chrome, Firefox | Apple Laptop| | dark | Yes | Added border to textarea field. Applied color for both dark and light mode |
+| Image not loading | full trail | Chrome, Firefox | Apple Laptop| | dark | Yes | Fixed the image path |
+| Zoom / pan on map does not include all dwarfs only top half | every trail page | Chrome | Apple Laptop | | dark | No | |
+| Shorten text on first story (size is off in comparison to the next story bits) not a bug, just looking off | storybook | Chrome, Firefox | Apple Laptop| | dark | Yes | The text remains the same, but changed spacing on the text image grid areas |
+| Links either labelled wrong or wrong links set (Trail option 3 leads to variation 1 etc.) | storybook | Chrome, Firefox | Apple Laptop | see sheet 2 for details | dark | Yes | Fixed links to suit the actual href |
+| When going back from trail page to storybook, last chosen trail option is marked in green instead of red. nice but not sure if intentional. does not happen in Chrome only ff | storybook | Firefox | Apple Laptop | | dark | No | |
 | Book your family pass blocks scroll down text and animation | home | Chrome | Android mobile | lots of room above magic forest trail | dark |
 | Book your family pass goes into hiding when scrolled to position of any header. nice but not sure if intentional | home | Chrome | Android mobile | | dark | 
 | Social media icon stays white when going back to home after clicking them | everywhere / every page | Chrome | Android mobile | | dark |
@@ -480,7 +533,72 @@ python3 -m http.server
 
 ### Content
 
+The content for 
+
 ### Media
+
+## Media
+### Compression
+
+
+Font sizes, margins and paddings were calculated using ```clamp()```, to make the site responsive without having to create media queries.[[2]][[[3]]]
+
+* Images kindly provided by Hermina
+
+
+
+
+
+
+
+
+
+
+Font sizing was not being responsive, used clamp()
+Color scheme fitting the 70/20/10 ratio, there were too much
+Slow loading images use loading lazy and https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
+
+
+
+
+
+
+[Kevin Powell - Most sites have a "hidden" link, and yours should too!](https://www.youtube.com/watch?v=jDDaOFr9nqQ)
+
+
+* [An image format for the Web](https://developers.google.com/speed/webp)
+* [A Guide to Responsive Images with Ready-to-Use Templates](https://medium.com/free-code-camp/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433)
+
+Wanted to use webp images due to the size which if too large would slow down the site. Also, added the ```lazy-loading``` attribute.
+
+#### Homepage
+
+<details>
+<summary>
+<br>
+
+* [Green Trees on Brown Soil photo by Nouman Raees from Pexels](https://www.pexels.com/photo/green-trees-on-brown-soil-3670681/)
+* Footprint by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">Pixabay</a>
+
+The footprints were created from using GIMP to manipulate the image, and then the SVG was created with Inkscape. 
+
+
+* [Two Girls Sitting on Brown Bench Near Body of Water photo by Susanne Jutzeler, suju-foto](https://www.pexels.com/photo/two-girls-sitting-on-brown-bench-near-body-of-water-1292006/)
+
+</summary>
+</details>
+<br>
+
+#### Trail list and Trail 
+
+<details>
+<summary>
+<br>
+
+
+</summary>
+</details>
+<br>
 
 #### Storybook
 
@@ -488,31 +606,30 @@ python3 -m http.server
 <summary>Images used for the Storybook page</summary>
 <br>
 
-* [Children and adults hiking on a trail in the mountains](https://unsplash.com/photos/FSdsaiuRNfc) by <a href="https://unsplash.com/@greg_rosenke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rosenke</a> on <a href="https://unsplash.com/s/photos/free-hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Sun rays beating down on mother and daughter walking in forest](https://unsplash.com/photos/RRZM3cwS1DU) by <a href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Wheeler</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Family and dog goind down the mountain](https://unsplash.com/photos/7MrXw_o7Eo4) by <a href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Wheeler</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Alpine hiking trail path](https://unsplash.com/photos/DgSRu6944ZQ) by <a href="https://unsplash.com/@morganddl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Morgan David de Lossy</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Grandmother with grandchildren hiking in a forest.](https://unsplash.com/photos/Pw7i-YVg5uM) by <a href="https://unsplash.com/@jule_42?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Juliane Liebermann</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Children and adults hiking on a trail in the mountains photo from Unsplash](https://unsplash.com/photos/FSdsaiuRNfc) by <a href="https://unsplash.com/@greg_rosenke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rosenke</a> on <a href="https://unsplash.com/s/photos/free-hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * [Girl journalling on a rocky surface](https://unsplash.com/photos/q-motCAvPBM) by <a href="https://unsplash.com/@nixcreative?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tyler Nix</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Mother and toddler walking a forest path](https://unsplash.com/photos/Mh0JvfFj_CM) by <a href="https://unsplash.com/@abdurahmanus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Abdur Ahmanus</a> on <a href="https://unsplash.com/photos/Pw7i-YVg5uM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Family and dog going down the mountain](https://unsplash.com/photos/7MrXw_o7Eo4) by <a href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Wheeler</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * [Boy climbing up rocky steps](https://unsplash.com/photos/t9VI_OSaErI) by <a href="https://unsplash.com/@mael_balland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mael BALLAND</a> on <a href="https://unsplash.com/s/photos/family-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-  
-  
+* [Sun rays beating down on mother and daughter walking in forest](https://unsplash.com/photos/RRZM3cwS1DU) by <a href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Wheeler</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Boy walking up alpine hiking trail path](https://unsplash.com/photos/DgSRu6944ZQ) by <a href="https://unsplash.com/@morganddl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Morgan David de Lossy</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+
+
+* Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+  
 </details>
 <br>
+
+#### Gallery
 
 <details>
 <summary>Images used for the Gallery page</summary>
 <br>
 
 * [Two boys hiking through tall trees in forest](https://unsplash.com/photos/e3PQpLM_SGo) by <a href="https://unsplash.com/@greg_rosenke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rosenke</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-*   Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Man carrying child](https://unsplash.com/photos/nzUHrjz4wu4) by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 
 </details>
 <br>
@@ -522,12 +639,13 @@ python3 -m http.server
 <summary>Images used for the Trail List and individual Trail Pages</0summary>
 <br>
 
-* Photo by <a href="https://unsplash.com/@giger_00?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Curdin Giger</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* Photo by <a href="https://unsplash.com/@bladeoftree?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marco Meyer</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* Photo by <a href="https://unsplash.com/@msafwat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mohammed Abdullatif</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* Photo by <a href="https://unsplash.com/@chris_regg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christian Regg</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* Photo by <a href="https://unsplash.com/@mamuej?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* Photo by <a href="https://unsplash.com/@allphotobangkok?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Paul Szewczyk</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [White-Red-White Hiking flag painted on rock](https://unsplash.com/photos/ZIFccT5-36Y) by <a href="https://unsplash.com/@giger_00?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Curdin Giger</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [View of the view with the mountain as the backdrop](https://unsplash.com/photos/FNaFLvbLFuk) by <a href="https://unsplash.com/@chris_regg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christian Regg</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [View from the path that leads to the lake](https://unsplash.com/photos/guc520jc0lk) by <a href="https://unsplash.com/@mamuej?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [View of mountain and valley below](https://unsplash.com/photos/NaEIPJ51EHE) by <a href="https://unsplash.com/@bladeoftree?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marco Meyer</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [View from the top of the mountain](https://unsplash.com/photos/NaEIPJ51EHE) by <a href="https://unsplash.com/@msafwat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mohammed Abdullatif</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Swiss Alps in the middle of summer on a sunny day](https://unsplash.com/photos/fZsIcej_bQA) by <a href="https://unsplash.com/@allphotobangkok?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Paul Szewczyk</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 </details>
 <br>
 
@@ -569,37 +687,4 @@ python3 -m http.server
 * Styles
 
 
-## Media
-### Compression
-* [An image format for the Web](https://developers.google.com/speed/webp)
-* [A Guide to Responsive Images with Ready-to-Use Templates](https://medium.com/free-code-camp/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433)
-
-Wanted to use webp images due to the size which if too large would slow down the site. Also, added the ```lazy-loading``` attribute.
-
-Font sizes, margins and paddings were calculated using ```clamp()```, to make the site responsive without having to create media queries.[[2]][[[3]]]
-
-* Images kindly provided by Hermina
-* Footprint by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">Pixabay</a>
-* [Photo by Nouman Raees from Pexels](https://www.pexels.com/photo/green-trees-on-brown-soil-3670681/)
-* [Photo by Josh Willink](https://www.pexels.com/photo/shallow-focus-on-blond-haired-woman-in-white-long-sleeve-shirt-carrying-a-baby-on-her-back-701016/)
-* [Photo by Susanne Jutzeler, suju-foto](https://www.pexels.com/photo/two-girls-sitting-on-brown-bench-near-body-of-water-1292006/)
-* [Photo by Allan Mas](https://www.pexels.com/photo/child-drawing-picture-on-concrete-block-in-grassy-yard-5623752/)
-
-
-
-
-
-
-
-
-Font sizing was not being responsive, used clamp()
-Color scheme fitting the 70/20/10 ratio, there were too much
-Slow loading images use loading lazy and https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
-
-
-
-
-
-
-[Kevin Powell - Most sites have a "hidden" link, and yours should too!](https://www.youtube.com/watch?v=jDDaOFr9nqQ)
 
