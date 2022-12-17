@@ -9,8 +9,7 @@
     }
 }
 
-.booking-form .form-group .form-field:not(.textarea-field),
-.booking-form .form-group .form-field.textarea-field {
+.booking-form .form-group .form-field {
     display: flex;
 }
 
@@ -124,6 +123,7 @@
 .booking-form textarea {
     border: 1px solid var(--form-input-border);
     border-radius: 4px;
+    padding: 1rem;
 }
 
 /* https://moderncss.dev/pure-css-custom-checkbox-style/ */
@@ -181,6 +181,7 @@
     display: flex;
     justify-content: space-between;
     flex: 0 0 auto;
+    padding-block: .5rem;
 }
 
 .table-container .table .table-row:nth-child(even) {
