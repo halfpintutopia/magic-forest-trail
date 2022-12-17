@@ -52,13 +52,14 @@ button[data-type='narrow'],
     --button-display: inline-flex;
     --button-margin-bottom: .5rem;
     box-shadow: var(--box-shadow);
+    margin-top: 1em;
 }
 
 .sticky-button {
     position: sticky;
     width: 100%;
     background-color: var(--chestnut);
-    padding: 1rem 3rem;
+    padding: max(1vh, 1rem) max(3vh, 1.5rem);
     border-radius: 4px 4px 0 0;
     margin: 0;
     bottom: 0;

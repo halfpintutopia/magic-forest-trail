@@ -58,10 +58,12 @@ section.section-header .section-header-image {
 
 .text-image-part {
     display: grid;
+    margin-block: max(1vh, 1rem) max(3vh, 1.5rem);
 }
 
 @media only screen and (width >=768px) {
     .text-image-part {
+        margin-block: unset;
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
         grid-template-rows: repeat(auto-fit, minmax(auto, 600px));
@@ -72,14 +74,14 @@ section.section-header .section-header-image {
     margin-left: auto;
 }
 
-.text-image .content-left + .image,
-.text-image .content-left + .map-wrapper {
+.text-image .text-image-part .content-left + .image,
+.text-image .text-image-part .content-left+.map-wrapper {
     order: -1;
 }
 
 @media only screen and (width >=768px) {
-    .text-image .content-left+.image,
-    .text-image .content-left+.map-wrapper {
+    .text-image .text-image-part .content-left+.image,
+    .text-image .text-image-part .content-left+.map-wrapper {
         order: 1;
     }
 }
