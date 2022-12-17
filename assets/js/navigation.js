@@ -30,6 +30,10 @@
     const initEvents = () => {
         window.addEventListener(EVENT.HASHCHANGE, toggleNavActiveCls)
         window.addEventListener(EVENT.RESIZE, setScrollPadding)
+
+        if (htmlElementMap.mainNavigation) {
+            setScrollPadding()
+        }
     }
 
 
@@ -52,5 +56,4 @@
 
     initHTMLElements()
     initEvents()
-    setScrollPadding()
 })();

@@ -100,7 +100,7 @@ header nav .active i.fa-solid {
 
 .hero-section > .footprints {
     place-self: end center;
-    margin-bottom: clamp(1.00rem, calc(0.30rem + 3.48vw), 3.00rem);
+    margin-bottom: 4rem;
 }
 
 .hero-title {
