@@ -49,8 +49,10 @@
     }
 
     const setScrollPadding = () => {
-        const mainNavigationHeight = htmlElementMap.mainNavigation.offsetHeight
-        document.documentElement.style.setProperty('--scroll-padding', `${mainNavigationHeight}px`)
+        if (htmlElementMap.mainNavigation) {
+            const mainNavigationHeight = htmlElementMap.mainNavigation.offsetHeight
+            document.documentElement.style.setProperty('--scroll-padding', `${mainNavigationHeight}px`)
+        }
     }
 
 
