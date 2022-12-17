@@ -132,7 +132,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: var(--verdun-green-light);
+    color: var(--chestnut);
 }
 
 .back a {

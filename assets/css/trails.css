@@ -35,17 +35,16 @@
 }
 
 .trail-overview .stage {
-    --black-opactiy: rgba(0, 0, 0, .2);
     display: grid;
     gap: clamp(0.50rem, calc(0.24rem + 1.30vw), 1.25rem);
-    border-top: 2px solid rgba(0, 0, 0, .2);
+    border-top: 2px solid var(--stage-border-color);
     padding-inline: clamp(1rem, calc(0.50rem + 2.50vw), 2rem);
     padding-block: 1rem;
 
 }
 
 .trail-overview .stage:last-child {
-    border-bottom: 2px solid rgba(0, 0, 0, .2);
+    border-bottom: 2px solid var(--stage-border-color);
 }
 
 @media only screen and (width >=768px) {

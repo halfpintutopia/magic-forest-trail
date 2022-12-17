@@ -19,6 +19,7 @@
     --svg-fill: var(--chestnut);
     --verdun-green-dark-opacity: hsla(79, 97%, 13%, 70%);
     --pampas-opacity: hsla(60, 21%, 94%, 20%);
+    --shark-opacity: hsla(228, 7%, 14%, 20%);
     --standard-padding: 1rem;
     --standard-margin: 1rem;
     --standard-gap: 1rem;
@@ -51,6 +52,7 @@
     --footer-small-font-color: var(--shark);
     --form-input-bg: var(--pampas);
     --form-input-border: var(--shark);
+    --stage-border-color: var(--shark-opacity);
     }
 
 @media (prefers-color-scheme: dark) {
@@ -65,6 +67,7 @@
         --trail-stats-font-color: var(--pampas);
         --form-input-bg: var(--shark);
         --form-input-border: var(--pampas);
+        --stage-border-color: var(--pampas-opacity);
     }
 }
 

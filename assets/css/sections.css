@@ -1,4 +1,4 @@
-section {
+section:not(:first-of-type) {
     padding-block: max(3vh, 1rem);
 }
 
