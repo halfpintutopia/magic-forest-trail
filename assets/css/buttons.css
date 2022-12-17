@@ -13,11 +13,15 @@ button,
     background-color: var(--button-background, var(--chestnut));
     margin-bottom: var(--button-margin-bottom, 0);
     margin-block: var(--button-margin-block);
+    /* Fix hover effect https://css-tricks.com/cool-hover-effects-using-background-properties/ */
+    background: linear-gradient(var(--chestnut) 0 0) left / var(--background-size, 0%) no-repeat;
+    transition: .4s, background-position 0s;
 }
 
 button:hover,
 .button:hover {
-    color: var(--button-text-hover, var(--chestnut));
+    --background-size: 100%;
+    color: var(--button-text-hover, var(--pampas));
     background-color: var(--button-background-color-hover, var(--pampas));
 }
 
@@ -32,6 +36,7 @@ button[data-type='wide'],
     --button-text-hover: var(--pampas);
     --button-background-color-hover: var(--chestnut);
     --button-margin-block: 1rem;
+    box-shadow: var(--box-shadow);
 }
 
 button[data-type='narrow'],
@@ -46,6 +51,7 @@ button[data-type='narrow'],
     --button-background-color-hover: var(--chestnut);
     --button-display: inline-flex;
     --button-margin-bottom: .5rem;
+    box-shadow: var(--box-shadow);
 }
 
 .sticky-button {
