@@ -177,7 +177,13 @@ a {
     font-weight: 300;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     text-decoration: none;
-    color: var(--font-color-body);
+    color: var(--chestnut);
+}
+
+@media only screen and (width >=768px) {
+    a {
+        color: var(--font-color-body);
+    }
 }
 
 a:hover,
