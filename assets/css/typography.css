@@ -82,13 +82,15 @@ p.stage-text {
     margin-bottom: 0;
 }
 
-form label, 
+form label,
+form input::placeholder,
 strong {
     font-family: var(--font-family-body);
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     line-height: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
     color: var(--font-color-body);
+    opacity: 1;
 }
 
 small strong {
