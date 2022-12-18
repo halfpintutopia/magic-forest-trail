@@ -30,8 +30,8 @@ The website is a fan website and has been created solely for the course, but inp
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
+* [Remote & Local Development](#remote-and-local-deployment)
+  * [Remote Deployment](#remote-deployment)
   * [Local Development](#local-development)
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
@@ -50,7 +50,7 @@ The website is a fan website and has been created solely for the course, but inp
 
 Designed and developed mobile first. 
 
-The idea of the website was inspired by a friend, Hermina ,Her family are very enthusiastic about the trail. She is very motivated in breathing a new breath of life into this attraction and wanted and I thought it would be a win-win to provide a basic website to get her personal project started.
+The idea of the website was inspired by a friend, Hermina Oláh Vass,Her family are very enthusiastic about the trail. She is very motivated in breathing a new breath of life into this attraction and wanted and I thought it would be a win-win to provide a basic website to get her personal project started.
 
 ## Intended Audience
 
@@ -73,21 +73,15 @@ The idea of the website was inspired by a friend, Hermina ,Her family are very e
         * For people to book family passes in advance
         * To ask questions about the trail
         * To ask about other activities in the area
-    * Provide a platform that boosts in tourism in the area
 * First Time Visitor Goals
     * Find information about the trails
     * Find the out how to get to the start of the trails
     * Find information about the distance of the trails
     * Find variations of the trial
     * Find the difficulty / suitability of the trails
-    * Be able to contact Braunwaldbahn, the company that provides the cable car sevice
     * See images of the trail
-    * Share their photos on social media
 * Return Vistor Goals
     * Try alternative routes
-    * Try other activities provided in the area
-    * Stay overnight in the accommodation provided in the area
-    * Try other recommended activities in the local area
 * Frequent Vistor Goals
     * Refer their friends, families and associates about the trail.
 
@@ -201,11 +195,49 @@ Permanent Marker and Overpass Fonts chosen from [Google Fonts](https://fonts.goo
 
 ## Imagery
 
-The images match the theme of the site, hiking. Families with children on hiking activites.
+Images are located on all pages. The top of the page under the navigation is the header image. All pages have the same thematic layout, the layout should be consistent on all pages except on the home page. 
+
+Hiking photos have been used from:
+
+* [Pexels](https://www.pexels.com/)
+* [Unsplash](https://unsplash.com/)
+
+
+Illustrated images, icons and favicon were generously provided by:
+
+* Hermina Oláh Vass
+
+
+All images should match the theme of the site, families with children on hiking activites. The hand-drawn illustrations were to support the theme of the trail being inspired from a illustrated storybook. 
+
+All images were compressed. To increase the speed of the website. Also, added the ```lazy-loading``` attribute to images showing below the fold.
+
+### References
+* [An image format for the Web](https://developers.google.com/speed/webp)
+* [A Guide to Responsive Images with Ready-to-Use Templates](https://medium.com/free-code-camp/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433)
+
+
+<br>
+
+Icons were used for social links and buttons. The icons used on the site were taken from:
+
+* [Font Awesome](https://fontawesome.com/)
+
+<br>
+
+The footprints svg was created using the svg from:
+
+* [Pixabay](https://pixabay.com)
+
+* [Footprint](https://pixabay.com/vectors/shoe-print-boot-mark-traces-36730/) by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">Pixabay</a>
+
+The footprints were created from using GIMP to manipulate the image, and then the SVG was created with Inkscape. 
 
 # Features
 
-## Specific features
+## General Features on Each Page 
+
+### Specific features
 
 <details>
 <summary>Trail List</summary>
@@ -249,8 +281,7 @@ The gallery is in a grid layout masonry style. The gallery was to suit and demon
 </details>
 <br>
 
-
-## General features 
+### Buttons
 
 <details>
 <summary>Call to action</summary>
@@ -273,6 +304,78 @@ The button link for the contact form is a floating element on the page. This was
 </details>
 
 <br>
+
+<details>
+<summary>Back to trails button</summary>
+<br>
+
+![Screenshot of the back button feature for mobile](./docs/media/images/features/back-btn/back-btn_mobile.png)
+
+*Screenshot of the back button feature for mobile*
+
+<br>
+
+![Screenshot of the back button feature for desktop](./docs/media/images/features/back-btn/back-btn_desktop.png)
+
+*Screenshot of the back button feature for desktop*
+
+<br>
+
+The back button is to enable visitors to go back to the trail list easily after viewing the trail page. On mobile the back link is always coloured red, but on the desktop there is a hover effect from white to red. 
+
+</details>
+
+<br>
+
+### Header image
+
+<details>
+<summary>With stats and back button</summary>
+<br>
+
+![Screenshot of the header image for trail page with statistics and back button feature for mobile](./docs/media/images/features/header-img/header-img_stats_back-btn_mobile.png)
+
+*Screenshot of the header image for trail page with statistics and back button feature for mobile*
+
+<br>
+
+![Screenshot of the header image for trail page with statistics and back button feature for desktop](./docs/media/images/features/header-img/header-img_stats_back-btn_desktop.png)
+
+*Screenshot of the header image for trail page with statistics and back button feature for desktop*
+
+<br>
+
+The header image, should be the first view of the landscape and also quick information about the trail. Showing the distance, approximate time to hike and the level of ease.  
+
+</details>
+
+<br>
+
+### Trail map
+
+<details>
+<summary>Map with leaflet.js</summary>
+<br>
+
+![Screenshot of the trail map on trail page feature for mobile](./docs/media/images/features/trail-map/trail-map_mobile.png)
+
+*Screenshot of the trail map on trail page feature for mobile*
+
+<br>
+
+![Screenshot of the trail map on trail page feature for desktop](./docs/media/images/features/trail-map/trail-map_desktop.png)
+
+*Screenshot of the trail map on trail page feature for desktop*
+
+<br>
+
+The trail map should show all the locations the trail encounters. The trail map markers are custom markers of Bartli.
+
+</details>
+
+<br>
+
+### Text and image
 
 <details>
 <summary>Text Image Sections (with & without quicklinks</summary>
@@ -316,7 +419,7 @@ The second version is seen on the storybook page. The layout is exactly the same
 
 <br>
 
-### Future implementations
+## Future Implementations
 
 1. Add SwissMobility API to show:
     * Show actual height
@@ -324,47 +427,66 @@ The second version is seen on the storybook page. The layout is exactly the same
     * Show declines and inclines
     *  the ascent and descent
 2. Connect Instagram API to enable hikers to share images
+    * Share their photos on social media
+    * Try other activities provided in the area
+3. Connect to other local companies
+    * Be able to contact Braunwaldbahn, the company that provides the cable car sevice
+    * Stay overnight in the accommodation provided in the area
+    * Try other recommended activities in the local area
+4. Provide a platform that boosts in tourism in the area
 
+## Assessiblity
 
-### Assessiblity
+### Fonts
+### Colours
+### Icons
 
-#### Fonts
-#### Colours
+#### Reference 
+* [Kevin Powell - Most sites have a "hidden" link, and yours should too!](https://www.youtube.com/watch?v=jDDaOFr9nqQ)
 
+# Technologies Used
 
-#### Icons
-#### Movement with keyboard tab
-
-[](https://www.youtube.com/watch?v=jDDaOFr9nqQ)
-
-## Technologies Used
-
-### Languages Used
+## Languages Used
 * HTML5
 * CSS3
 * JavaScript
 
 ## Frameworks, Libraries and Programs Used
-* Google Fonts
+* [Google Fonts](https://fonts.google.com)
     * Google fonts was used to import the font to the style.css which is used on all pages throughout the project.
-* Font Awesome
+* [Font Awesome](https://fontawesome.com/)
     * Font Awesome was used on all necessary pages throughout the website to add icons for aesthetic and UX purposes.
-* Git
+* [Git](https://git-scm.com/)
     * Git was used for version control by utilising the Gitpod terminal to commit to git and push to GitHub.
-* GitHub
+* [GitHub](https://github.com/)
     * Github was used to store the project's code after being pushed from Git.
-* LeafletJS - [Use of GeoJSON with Leaflet](https://leafletjs.com/examples/geojson/)
-* Figma
+* [Gitpod](https://www.gitpod.io/)
+* [Coolors](https://coolors.co/)
+* [Adobe Color](https://color.adobe.com/create/color-wheel)
+* [Pexels](https://www.pexels.com/)
+* [Unsplash](https://unsplash.com/)
+* Devtool
+    * [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/)
+    * [Chrome](https://developer.chrome.com/docs/devtools/)
+* [Browserstack](https://www.browserstack.com)
+* [LeafletJS](https://leafletjs.com/) - [Use of GeoJSON with Leaflet](https://leafletjs.com/examples/geojson/)
+* [Figma](https://www.figma.com/)
 
 <br>
 
-## Remote and Local Deployment
+# Remote and Local Deployment
+
+Git was used for version control. Version control was done locally and remotely. For remote version control, GitHub was used. Regular commits were made after each file change.
+
+## Remote deployment
+Github Pages was used to deploy the site remotely. 
 
 </details>
 <br>
 
 <details>
-<summary>Remote deployment</summary>
+<summary>Instructions</summary>
+
 <br>
 
 https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-9212-0e119214ff22.mov
@@ -392,13 +514,15 @@ https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-
 </details>
 <br>
 
+## Local Deployment
+
+### How to Fork
+To contribute to my code, you can fork the repository.
 
 <details>
-<summary>How to Clone</summary>
+<summary>Instructions</summary>
 
 <br>
-
-To contribute to my code, you can fork the repository.
 
 1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
 2. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork/fork.png)
@@ -415,12 +539,14 @@ python3 -m http.server
 </details>
 <br>
 
+### How to Clone
+To contribute to my code, you can fork the repository.
+
 <details>
-<summary>How to Fork</summary>
+<summary>Instructions</summary>
 
 <br>
 
-To contribute to my code, you can fork the repository.
 
 1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
 2. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork/fork.png)
@@ -436,7 +562,6 @@ python3 -m http.server
 
 </details>
 <br>
-
 
 # Testing
 
@@ -448,6 +573,7 @@ Browserstack was used for testing. Devices selected were:
     * Ventura Safari 16
 * Android
     * Chrome Galaxy S22
+    * Xiaomi Redmi Note 11 Chrome
 * Apple iOS
     * Safari iPHone SE 2022
 
@@ -569,7 +695,7 @@ Browserstack was used for testing. Devices selected were:
 | Little arrow above adults is not visible | contact form | Chrome | Apple Laptop | | dark |
 | Arrows to add / sub adults stops at ten (which is max). manual inputs does not automatically resets bigger numbers than 10 to 10 | contact form | Chrome | Apple Laptop | | dark |
 | Error form display in Chrome does not always notify about wrong inputs. Firefox tells you correctly which input is wrong | contact form | Chrome | Apple Laptop | | dark |
-| Neither the labels nor the placeholder texts are visible at the first name, last name, email and phone number inputs | contact form |  |  |  | dark | Yes | Make placeholders visible by changing the default opacity to 1 for input placeholders |
+| Neither the labels nor the placeholder texts are visible at the first name, last name, email and phone number inputs | contact form |  |  |  | dark | Yes | Make placeholders visible by changing the default opacity to 1 for input placeholders. Also had to fix specificity as initially assumed the issue had occurred due to the wrong pseudo element being selected. After trial and error, found that the problem occurred due to specificity, as form input was not specific enough. |
 | Zoom out of your maps more than the max size of the maps are | All trail pages |  |  |  |  | Yes | Set a min and max zoom on the leaflet map |
 
 ---
@@ -596,137 +722,11 @@ https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-
 
 #### CSS Validator
 
-## Credits
+# Credits
 
-### Code Used
+## Code Used
 
-### Content
-
-The content for 
-
-### Media
-
-## Media
-### Compression
-
-
-
-
-
-
-
-
-
-
-Font sizing was not being responsive, used clamp()
-Color scheme fitting the 70/20/10 ratio, there were too much
-Slow loading images use loading lazy and https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
-
-
-
-
-
-
-[Kevin Powell - Most sites have a "hidden" link, and yours should too!](https://www.youtube.com/watch?v=jDDaOFr9nqQ)
-
-
-* [An image format for the Web](https://developers.google.com/speed/webp)
-* [A Guide to Responsive Images with Ready-to-Use Templates](https://medium.com/free-code-camp/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433)
-
-Wanted to use webp images due to the size which if too large would slow down the site. Also, added the ```lazy-loading``` attribute.
-
-#### Homepage
-
-<details>
-<summary>
-<br>
-
-* [Green Trees on Brown Soil photo by Nouman Raees from Pexels](https://www.pexels.com/photo/green-trees-on-brown-soil-3670681/)
-* Footprint by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">Pixabay</a>
-
-The footprints were created from using GIMP to manipulate the image, and then the SVG was created with Inkscape. 
-
-
-* [Two Girls Sitting on Brown Bench Near Body of Water photo by Susanne Jutzeler, suju-foto](https://www.pexels.com/photo/two-girls-sitting-on-brown-bench-near-body-of-water-1292006/)
-
-</summary>
-</details>
-<br>
-
-#### Trail list and Trail 
-
-<details>
-<summary>
-<br>
-
-
-</summary>
-</details>
-<br>
-
-#### Storybook
-
-<details>
-<summary>Images used for the Storybook page</summary>
-<br>
-
-* [Children and adults hiking on a trail in the mountains photo from Unsplash](https://unsplash.com/photos/FSdsaiuRNfc) by <a href="https://unsplash.com/@greg_rosenke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rosenke</a> on <a href="https://unsplash.com/s/photos/free-hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Girl journalling on a rocky surface](https://unsplash.com/photos/q-motCAvPBM) by <a href="https://unsplash.com/@nixcreative?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tyler Nix</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Family and dog going down the mountain](https://unsplash.com/photos/7MrXw_o7Eo4) by <a href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Wheeler</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Boy climbing up rocky steps](https://unsplash.com/photos/t9VI_OSaErI) by <a href="https://unsplash.com/@mael_balland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mael BALLAND</a> on <a href="https://unsplash.com/s/photos/family-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Sun rays beating down on mother and daughter walking in forest](https://unsplash.com/photos/RRZM3cwS1DU) by <a href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Wheeler</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Boy walking up alpine hiking trail path](https://unsplash.com/photos/DgSRu6944ZQ) by <a href="https://unsplash.com/@morganddl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Morgan David de Lossy</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-
-
-* Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-  
-</details>
-<br>
-
-#### Gallery
-
-<details>
-<summary>Images used for the Gallery page</summary>
-<br>
-
-* [Two boys hiking through tall trees in forest](https://unsplash.com/photos/e3PQpLM_SGo) by <a href="https://unsplash.com/@greg_rosenke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rosenke</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Man carrying child](https://unsplash.com/photos/nzUHrjz4wu4) by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-
-</details>
-<br>
-
-
-<details>
-<summary>Images used for the Trail List and individual Trail Pages</0summary>
-<br>
-
-* [White-Red-White Hiking flag painted on rock](https://unsplash.com/photos/ZIFccT5-36Y) by <a href="https://unsplash.com/@giger_00?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Curdin Giger</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [View of the view with the mountain as the backdrop](https://unsplash.com/photos/FNaFLvbLFuk) by <a href="https://unsplash.com/@chris_regg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christian Regg</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [View from the path that leads to the lake](https://unsplash.com/photos/guc520jc0lk) by <a href="https://unsplash.com/@mamuej?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [View of mountain and valley below](https://unsplash.com/photos/NaEIPJ51EHE) by <a href="https://unsplash.com/@bladeoftree?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marco Meyer</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [View from the top of the mountain](https://unsplash.com/photos/NaEIPJ51EHE) by <a href="https://unsplash.com/@msafwat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mohammed Abdullatif</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-* [Swiss Alps in the middle of summer on a sunny day](https://unsplash.com/photos/fZsIcej_bQA) by <a href="https://unsplash.com/@allphotobangkok?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Paul Szewczyk</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-</details>
-<br>
-
-
-### Acknowledgements
-Acknowledgement goes to aweseome people who supported, advised and basically put up with a lot of .
-Rahul
-Stefan Tschudi
-hermina
-For the support on slack epecially Ger Tobin, who suggested using Leaflet and Szilvia Csernus, for reviewing my project
-
-
-#### List of references
-[How gestures are shaping the future of UX
-](https://uxdesign.cc/how-gestures-are-shaping-the-future-of-ux-ce2c9e6d7a9f)
-
-#### References
+### References
 [How gestures are shaping the future of UX
 ]: https://uxdesign.cc/how-gestures-are-shaping-the-future-of-ux-ce2c9e6d7a9f
 [min(), max(), and clamp(): three logical CSS functions to use today]: (https://web.dev/min-max-clamp/)
@@ -747,7 +747,7 @@ For the support on slack epecially Ger Tobin, who suggested using Leaflet and Sz
 * [Font Awesome](https://fontawesome.com)
 * [SVGator](https://app.svgator.com)
 
-#### Resources
+### Resources
 
 * Fonts
     * [](https://matthewjamestaylor.com/responsive-font-size)
@@ -756,5 +756,85 @@ For the support on slack epecially Ger Tobin, who suggested using Leaflet and Sz
     * [](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * Styles
 
+## Content
+
+## Media
+
+### Homepage
+
+<details>
+<summary>
+<br>
+
+* [Green Trees on Brown Soil photo by Nouman Raees from Pexels](https://www.pexels.com/photo/green-trees-on-brown-soil-3670681/)
+* Footprint by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=155457">Pixabay</a>
+
+The footprints were created from using GIMP to manipulate the image, and then the SVG was created with Inkscape. 
 
 
+* [Two Girls Sitting on Brown Bench Near Body of Water photo by Susanne Jutzeler, suju-foto](https://www.pexels.com/photo/two-girls-sitting-on-brown-bench-near-body-of-water-1292006/)
+
+</summary>
+</details>
+<br>
+
+### Gallery
+
+<details>
+<summary>Images used for the Gallery page</summary>
+<br>
+
+* [Two boys hiking through tall trees in forest](https://unsplash.com/photos/e3PQpLM_SGo) by <a href="https://unsplash.com/@greg_rosenke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rosenke</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Man carrying child](https://unsplash.com/photos/nzUHrjz4wu4) by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/s/photos/kids-hiking-adventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+</details>
+<br>
+
+### Trail list and Trail Pages
+
+<details>
+<summary>Images used for the Trail List and individual Trail Pages</0summary>
+<br>
+
+* [White-Red-White Hiking flag painted on rock](https://unsplash.com/photos/ZIFccT5-36Y) by <a href="https://unsplash.com/@giger_00?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Curdin Giger</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [View of the view with the mountain as the backdrop](https://unsplash.com/photos/FNaFLvbLFuk) by <a href="https://unsplash.com/@chris_regg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christian Regg</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [View from the path that leads to the lake](https://unsplash.com/photos/guc520jc0lk) by <a href="https://unsplash.com/@mamuej?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marc</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [View of mountain and valley below](https://unsplash.com/photos/NaEIPJ51EHE) by <a href="https://unsplash.com/@bladeoftree?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marco Meyer</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [View from the top of the mountain](https://unsplash.com/photos/NaEIPJ51EHE) by <a href="https://unsplash.com/@msafwat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mohammed Abdullatif</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Swiss Alps in the middle of summer on a sunny day](https://unsplash.com/photos/fZsIcej_bQA) by <a href="https://unsplash.com/@allphotobangkok?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Paul Szewczyk</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+</details>
+<br>
+
+
+### Storybook
+
+<details>
+<summary>Images used for the Storybook page</summary>
+<br>
+
+* [Children and adults hiking on a trail in the mountains photo from Unsplash](https://unsplash.com/photos/FSdsaiuRNfc) by <a href="https://unsplash.com/@greg_rosenke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rosenke</a> on <a href="https://unsplash.com/s/photos/free-hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Girl journalling on a rocky surface](https://unsplash.com/photos/q-motCAvPBM) by <a href="https://unsplash.com/@nixcreative?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tyler Nix</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Family and dog going down the mountain](https://unsplash.com/photos/7MrXw_o7Eo4) by <a href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Wheeler</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Boy climbing up rocky steps](https://unsplash.com/photos/t9VI_OSaErI) by <a href="https://unsplash.com/@mael_balland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mael BALLAND</a> on <a href="https://unsplash.com/s/photos/family-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Sun rays beating down on mother and daughter walking in forest](https://unsplash.com/photos/RRZM3cwS1DU) by <a href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Wheeler</a> on <a href="https://unsplash.com/s/photos/hiking-family-mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Boy walking up alpine hiking trail path](https://unsplash.com/photos/DgSRu6944ZQ) by <a href="https://unsplash.com/@morganddl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Morgan David de Lossy</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+
+* Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+  
+</details>
+<br>
+
+## Acknowledgements
+A big thank you goes to all the aweseome people who supported me during this process. Acknowledgements go to those who took the time to provide great insights and advice
+* Rahul Lakhanpal - for keeping me focussed.
+* Stefan Tschudi - for repeatedly testing my site on his computer and mobile. Being continually supportive and keeping me on track.
+* Hermina Oláh Vass - for providing beautiful illustrations, and allowing me the priviledge to use your images on my website.
+
+<br>
+
+Also, a huge thank you for the support on Code Institute's Slack Channels, epecially Ger Tobin, who suggested using Leaflet and Szilvia Csernus, for reviewing my project and taking the time to give me constructive feedback, which I was able to report as bugs. 
