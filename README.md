@@ -4,7 +4,7 @@
 
 [View the live project here.](https://halfpintutopia.github.io/magic-forest-trail/)
 
-The website has been created solely for the course, but inpsired by an actual hiking trail based in Braunwald, Glarus-Süd in the North East of Switzerland. "Zwerg Bartli", a moutain dwelling drawf, is an affectionately well know character in this area. A fictitious character   made famous by a children's book.  The idea of the website came about, when a colleague, Hermina, enthused about the trail and taking her children to it. She is very motivated in breathing a new breath of life into this attraction and wanted and I thought it would be a win-win to provide a basic website to get her personal project started.
+The website is a fan website and has been created solely for the course, but inpsired by an actual hiking trail based in Braunwald, Glarus-Süd in the North East of Switzerland. "Zwerg Bartli", a moutain dwelling drawf, is an affectionately well know character in this area. A fictitious character made famous by a children's book. 
 
 ![GitHub forks](https://img.shields.io/github/forks/halfpintutopia/magic-forest-trail?style=social)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?style=social&targetUrl=https%3A%2F%2Fhalfpintutopia.github.io%2Fmagic-forest-trail%2F)
@@ -44,10 +44,13 @@ The website has been created solely for the course, but inpsired by an actual hi
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
-
 ---
 
 # User Experience (UX)
+
+Designed and developed mobile first. 
+
+The idea of the website was inspired by a friend, Hermina ,Her family are very enthusiastic about the trail. She is very motivated in breathing a new breath of life into this attraction and wanted and I thought it would be a win-win to provide a basic website to get her personal project started.
 
 ## Intended Audience
 
@@ -174,27 +177,19 @@ To see the full wireframe, view it [here](https://www.figma.com/file/mY6L1TpxKS6
 
 ## Colour Scheme
 
-![Adobe Color - Color theme from image](./docs/media/images/design/adobe_color_palette.png)
+The colour palette should complement greens, to represent nature and the forest. The red was to represent Bartli's hat. 
 
-*[Adobe Color](https://color.adobe.com/create/image)*
+Created colour palette using:
+* [Adobe Color](https://color.adobe.com/create/image) 
+* [coolors.co](https://coolors.co/image-picker).
 
----
-![Coolors - Color theme from image](./docs/media/images/design/coolors_color-palette.png)
-
-    ```
-    --black-olive: hsla(45, 7%, 22%, 1);
-    --davys-grey: hsla(39, 10%, 33%, 1);
-    --jet: hsla(320, 2%, 25%, 1);
-    --white: hsla(0, 0%, 100%, 1);
-    --timberwolf: hsla(36, 14%, 86%, 1);
-    ```
-*Color Palette created from the Image Picker function on the [coolors.co](https://coolors.co/image-picker) website*
+![Colour palette for the website](./docs/media/images/design/colour-palette.png)
 
 Due to assessibility, the 
 
 ## Typography
 
-Permanent Marker and Overpass Fonts chosen from [Google Fonts](https://fonts.google.com)
+Permanent Marker and Overpass Fonts chosen from [Google Fonts](https://fonts.google.com). Fonts were chosen to represent fun and playful as well as being clear easy to read.
 
 ![Permanent Marker 400](./docs/media/images/typography/permanent_400.png)
 
@@ -203,8 +198,6 @@ Permanent Marker and Overpass Fonts chosen from [Google Fonts](https://fonts.goo
 ![Overpass 400](./docs/media/images/typography/overpass_400.png)
 
 ![Overpass 600](./docs/media/images/typography/overpass_600.png)
-
-The font was chosen to be playful and clear. 
 
 ## Imagery
 
@@ -405,8 +398,20 @@ python3 -m http.server
 ```
 <br>
 
-## Testing
-### User experience
+# Testing
+
+Browserstack was used for testing. Devices selected were:
+* Windows
+    * Firefox 108 on Windows 11
+    * Chrome 108 on Windows 11
+* Apple
+    * Ventura Safari 16
+* Android
+    * Chrome Galaxy S22
+* Apple iOS
+    * Safari iPHone SE 2022
+
+## User experience
 
 <details>
 <summary>Client Goals Testing</summary>
@@ -416,17 +421,18 @@ python3 -m http.server
 | ------------- |:-------------:|:-----:|:-----:|
 | Provide content that is child appropriate | The content was child-friendly | Yes | Yes |
 | Provide content for adults or parents with children | The content is descriptive yet simple  | Yes | Yes |
-| Provide easy access to routes |   | Yes | Yes |
-| Inform visitors of terrain (whether steep or steady climbs) | Text  | Yes | Yes |
-| Inform visitors of trail distances | Text  | Yes | Yes |
-| Inform visitors of approximate times to hike trail | Text  | Yes | Yes |
-| Inform visitors of difficulty levels | Text  | Yes | Yes |
-| Inform visitors of how to get to Braunwald by car or train | Text  | Yes | Yes |
-| Provide a booking form | Text  | Yes | Yes |
+| Provide easy access to routes |  Trail list navigated to via the nav bar. Quick links added to the Storybook page | Yes | Yes |
+| Inform visitors of trail distances | Trail details, distances easily seen on the top of the page  | Yes | Yes |
+| Inform visitors of approximate times to hike trail | Trail details, approximate times easily seen on the top of the page  | Yes | Yes |
+| Inform visitors of difficulty levels | Trail details, difficulty levels easily seen on the top of the page  | Yes | Yes |
+| Provide a booking form | Accessible via the CTA button show on all pages  | Yes | Yes |
 | Provide a form which allows users to book family passes in advance | Text | Yes | Yes |
 | Provide a form for users to ask question about the trail | Text | Yes | Yes |
 | Provide a form for users to ask about other activities in the area | Text | Yes | Yes |
 | Provide a platform that boosts in tourism in the area | Text | Yes | Yes |
+
+| Inform visitors of how to get to Braunwald by car or train | Text  | Yes | Yes |
+
 
 </details>
 <br>
@@ -491,15 +497,15 @@ python3 -m http.server
 | Social media icons go white (on white) therefore not visible on mouse over everywhere / every page | Chrome, Firefox | Apple Laptop| | dark | | Yes | Changed the icon colors in the footer |
 | Twitter link typo - redirects to "twiiter" instead of "twitter" | everywhere / every page | Chrome, Firefox | Apple Laptop | | dark | Yes | Corrected typos |
 | Text box / frame of text box not visible | contact form | Chrome, Firefox | Apple Laptop| | dark | Yes | Added border to textarea field. Applied color for both dark and light mode |
-| Image not loading | full trail | Chrome, Firefox | Apple Laptop| | dark | Yes | Fixed the image path |
-| Zoom / pan on map does not include all dwarfs only top half | every trail page | Chrome | Apple Laptop | | dark | No | |
+| Image not loading | full trail | Chrome, Firefox | Apple Laptop| | dark | Yes | Fixed the broken link by correcting the relative path |
+| Zoom / pan on map does not include all dwarfs only top half | every trail page | Chrome | Apple Laptop | | dark | Yes | Added bounds to the leaflet map, to center the map according to all markers |
 | Shorten text on first story (size is off in comparison to the next story bits) not a bug, just looking off | storybook | Chrome, Firefox | Apple Laptop| | dark | Yes | The text remains the same, but changed spacing on the text image grid areas |
 | Links either labelled wrong or wrong links set (Trail option 3 leads to variation 1 etc.) | storybook | Chrome, Firefox | Apple Laptop | see sheet 2 for details | dark | Yes | Fixed links to suit the actual href |
 | When going back from trail page to storybook, last chosen trail option is marked in green instead of red. nice but not sure if intentional. does not happen in Chrome only ff | storybook | Firefox | Apple Laptop | | dark | No | |
 | Book your family pass blocks scroll down text and animation | home | Chrome | Android mobile | lots of room above magic forest trail | dark |
 | Book your family pass goes into hiding when scrolled to position of any header. nice but not sure if intentional | home | Chrome | Android mobile | | dark | 
 | Social media icon stays white when going back to home after clicking them | everywhere / every page | Chrome | Android mobile | | dark |
-| Image not loading | full trail | Chrome | Android mobile | | dark |
+| Image not loading | full trail | Chrome | Android mobile | | dark | Yes | Fixed the broken link by correcting the relative path |
 | Book your family pass seemingly jumps around randomly when scrolling | all trail pages | Chrome | Android mobile | | dark |
 | Book your family pass snaps back down after scrolling up from the bottom of the page | storybook | Chrome | Android mobile | | dark |
 | Little arrow to expand / collapse above adults doesn't do anything | contact form| Chrome, Firefox | Apple Laptop | | light |
@@ -509,6 +515,14 @@ python3 -m http.server
 | Little arrow above adults is not visible | contact form | Chrome | Apple Laptop | | dark |
 | Arrows to add / sub adults stops at ten (which is max). manual inputs does not automatically resets bigger numbers than 10 to 10 | contact form | Chrome | Apple Laptop | | dark |
 | Error form display in Chrome does not always notify about wrong inputs. Firefox tells you correctly which input is wrong | contact form | Chrome | Apple Laptop | | dark |
+| Neither the labels nor the placeholder texts are visible at the first name, last name, email and phone number inputs | contact form |  |  |  | dark | Yes | Make placeholders visible by changing the default opacity to 1 for input placeholders |
+| Zoom out of your maps more than the max size of the maps are | All trail pages |  |  |  |  | Yes | Set a min and max zoom on the leaflet map |
+
+---
+
+Additional images / videos
+
+
 
 
 </details>
@@ -651,6 +665,12 @@ The footprints were created from using GIMP to manipulate the image, and then th
 
 
 ### Acknowledgements
+Acknowledgement goes to aweseome people who supported, advised and basically put up with a lot of .
+Rahul
+Stefan Tschudi
+hermina
+For the support on slack epecially Ger Tobin, who suggested using Leaflet and Szilvia Csernus, for reviewing my project
+
 
 #### List of references
 [How gestures are shaping the future of UX
