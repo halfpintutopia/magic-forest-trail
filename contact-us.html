@@ -9,6 +9,11 @@
         <title>Magic Forest Trail</title>
         <link rel="icon" type="image/x-icon" href="assets/media/images/logo.ico">
         <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+            integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="">
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
     </head>
 
     <body>
@@ -182,6 +187,29 @@
                 </div>
                 
             </section>
+            <section class="text-image">
+                <div class="text-image-part">
+
+                    <div class="image">
+                         <div class="map-wrapper" >
+                             <div id="map-address"></div>
+                         </div>
+                    </div>
+                    <div class="content-right text-image-container" data-type="wide">
+                        <div class="text">
+                            <h2>Where to start?</h2>
+                            <address>Hüttenbergstrasse 8</address>
+                            <address>8784 Braunwald</address>
+                            <hr>
+                            <p>Tel: <a href="tel: +41123456789">+41 12 345 67 89</a></p>
+                            <p>Email: <a
+                                    href="mailto: notarealemail@notarealemail.com">notarealemail@notarealemail.com</a>
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
             <div class="footer-top">
@@ -228,6 +256,8 @@
         <!-- Font awesome script -->
         <script src="https://kit.fontawesome.com/28847961b6.js" rel="preconnect" crossorigin="anonymous"></script>
         <script src="assets/js/navigation.js"></script>
+        <script src="assets/js/trail-maps.js"></script>
+
     </body>
 
 </html>

@@ -67,7 +67,8 @@
         VARIATION_2: 'map-variation-2',
         VARIATION_3: 'map-variation-3',
         VARIATION_4: 'map-variation-4',
-        VARIATION_5: 'map-variation-5'
+        VARIATION_5: 'map-variation-5',
+        ADDRESS: 'map-address'
     }
 
     /**
@@ -239,6 +240,18 @@
                 LOCATION.TIDIS_HUESLI,
                 LOCATION.WASSERSPEILPLATZ,
                 LOCATION.ZWERGENSCHLOSS
+            ]
+        );
+    }
+
+    if (document.getElementById(ID.ADDRESS)) {
+        initMap(
+            ID.ADDRESS,
+            MAP.AREA,
+            13,
+            ICON.LOCATION,
+            [
+                LOCATION.GROTZENBUEEL
             ]
         );
     }

@@ -73,7 +73,7 @@ span.table-heading {
     color: var(--font-color-body);
 }
 
-p {
+p, address {
     font-family: var(--font-family-body);
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     font-weight: 300;
@@ -87,6 +87,10 @@ p.stage-text {
     font-weight: 400;
     line-height: clamp(1.31rem, calc(1.12rem + 0.98vw), 1.88rem);
     margin-bottom: 0;
+}
+
+address {
+    font-style: normal;
 }
 
 form label,

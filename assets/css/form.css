@@ -202,3 +202,20 @@
 .form-success-message p {
     text-align: center;
 }
+
+.contact-us-address {
+    display: grid;
+}
+
+@media only screen and (width >=768px) {
+    .contact-us-address {
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+        place-items: center;
+    }
+}
+
+.booking-form+.text-image .text-image-part {
+    grid-auto-rows: auto;
+    grid-template-rows: auto;
+}
