@@ -453,8 +453,10 @@ Browserstack was used for testing. Devices selected were:
 
 ## User experience
 
+### Client Goals Testing
+
 <details>
-<summary>### Client Goals Testing</summary>
+<summary>Table of tests and results</summary>
 <br>
 
 | Client goal | Implementation | Tested | Successful |
@@ -477,8 +479,12 @@ Browserstack was used for testing. Devices selected were:
 </details>
 <br>
 
+
+### First Time Visitor Goals
+
 <details>
-<summary>### First Time Visitor Goals</summary>
+<summary>Table of tests and results</summary>
+
 <br>
 
 | First Time Visitor Goals | Implementation | Tested | Successful |
@@ -495,8 +501,11 @@ Browserstack was used for testing. Devices selected were:
 </details>
 <br>
 
+### Return Visitor Goals
+
 <details>
-<summary>Return Visitor Goals</summary>
+<summary>Table of tests and results</summary>
+
 <br>
 
 | Return Vistor Goals | Implementation | Tested | Successful |
@@ -513,8 +522,11 @@ Browserstack was used for testing. Devices selected were:
 </details>
 <br>
 
+### Frequent Visitor Goals
+
 <details>
-<summary>Frequent Vistor Goals</summary>
+<summary>Table of tests and results</summary>
+
 <br>
 
 | Frequent Vistor Goals | Implementation | Tested | Successful |
@@ -524,8 +536,10 @@ Browserstack was used for testing. Devices selected were:
 </details>
 <br>
 
+### Bugs and fixes
+
 <details>
-<summary>Bugs and fixes</summary>
+<summary>Table of tests and results</summary>
 <br>
 
 |Bug / Errors | Where / Location site | Browser | Device | Remarks | Mode (light / dark) | Fixed | Solution |
@@ -594,11 +608,6 @@ The content for
 
 ## Media
 ### Compression
-
-
-Font sizes, margins and paddings were calculated using ```clamp()```, to make the site responsive without having to create media queries.[[2]][[[3]]]
-
-* Images kindly provided by Hermina
 
 
 

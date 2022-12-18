@@ -11,6 +11,7 @@
 
 .booking-form .form-group .form-field {
     display: flex;
+    margin-block: 1rem;
 }
 
 .booking-form .form-group .form-field.textarea-field {
@@ -26,12 +27,8 @@
     flex-direction: column;
 }
 
-.booking-form .form-group:not(:last-child) {
-    margin-bottom: 2rem;
-}
-
 .booking-form .form-group input {
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
 }
 
 .booking-form .form-group input,
