@@ -69,11 +69,9 @@ The idea of the website was inspired by a friend, Hermina Oláh Vass,Her family 
         * Show distances
         * Show approximate times to hike
         * Show difficulty level
-    * Provide details of how to get to Braunwald by car or train
     * Provide a form
         * For people to book family passes in advance
         * To ask questions about the trail
-        * To ask about other activities in the area
 * First Time Visitor Goals
     * Find information about the trails
     * Find the out how to get to the start of the trails
@@ -607,9 +605,8 @@ Browserstack was used for testing. Devices selected were:
 | Inform visitors of approximate times to hike trail | Trail details, approximate times easily seen on the top of the page  | Yes | Yes |
 | Inform visitors of difficulty levels | Trail details, difficulty levels easily seen on the top of the page  | Yes | Yes |
 | Provide a booking form | Accessible via the CTA button show on all pages  | Yes | Yes |
-| Provide a form which allows users to book family passes in advance | Text | Yes | Yes |
-| Provide a form for users to ask question about the trail | Text | Yes | Yes |
-| Provide a form for users to ask about other activities in the area | Text | Yes | Yes |
+| Provide a form which allows users to book family passes in advance | Form has inputs for booking number of adults and children for family pass | Yes | Yes |
+| Provide a form for users to ask question about the trail | Textarea input added for users to ask comments or ask questions | Yes | Yes |
 
 </details>
 <br>
@@ -624,14 +621,11 @@ Browserstack was used for testing. Devices selected were:
 
 | First Time Visitor Goals | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
-| Find information about the trails | Text  | Yes | Yes |
-| Find the out how to get to the start of the trails | Text  | Yes | Yes |
-| Find information about the distance of the trails | Text  | Yes | Yes |
-| Find variations of the trial | Text  | Yes | Yes |
-| Find the difficulty / suitability of the trails | Text  | Yes | Yes |
-| Be able to contact Braunwaldbahn, the company that provides the cable car sevice | Text  | Yes | Yes |
-| See images of the trail | Text  | Yes | Yes |
-| Share their photos on social media | Text  | Yes | Yes |
+| Find information about the trails | Trail list shows available trails. The link from home page takes visitors to individual trail pages  | Yes | Yes |
+| Find information about the distance of the trails | Information about the distance is above the fold on individual trail pages | Yes | Yes |
+| Find variations of the trial | List of trail variations are on the home page  | Yes | Yes |
+| Find the difficulty of the trails | Information about the level is above the fold on individual trail pages  | Yes | Yes |
+| See images of the trail | Images of trail in the gallery on the home page. Main image in header is of the trail | Yes | Yes |
 
 </details>
 <br>
@@ -645,14 +639,9 @@ Browserstack was used for testing. Devices selected were:
 
 | Return Vistor Goals | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
-| Try alternative routes | Text  | Yes | Yes |
-| Try other activities provided in the area | Text  | Yes | Yes |
-| Stay overnight in the accommodation provided in the area | Text  | Yes | Yes |
-| Try other recommended activities in the local area | Text  | Yes | Yes |
-| Find the difficulty / suitability of the trails | Text  | Yes | Yes |
-| Be able to contact Braunwaldbahn, the company that provides the cable car sevice | Text  | Yes | Yes |
-| See images of the trail | Text  | Yes | Yes |
-| Share their photos on social media | Text  | Yes | Yes |
+| Try alternative routes | List of trails on home page. Visitors can check other routes | Yes | Yes |
+| Find the difficulty of the trails | Difficulty of the trail is visible on individual trail pages  | Yes | Yes |
+| See images of the trail | Images of trail in the gallery on the home page. Main image in header is of the trail   | Yes | Yes |
 
 </details>
 <br>
@@ -666,7 +655,7 @@ Browserstack was used for testing. Devices selected were:
 
 | Frequent Vistor Goals | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
-| Refer their friends, families and associates about the trail | Text  | Yes | Yes |
+| Refer their friends, families and associates about the trail | Visitors can share the [trail list](http://localhost:8000/index.html#trails) and each of the individual trail pages | Yes | Yes |
 
 </details>
 <br>

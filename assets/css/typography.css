@@ -181,24 +181,50 @@ a {
     font-weight: 300;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     text-decoration: none;
-    color: var(--chestnut);
-}
-
-@media only screen and (width >=768px) {
-    a {
-        color: var(--font-color-body);
-    }
+    color: var(--font-color-body);
 }
 
 a:hover,
 a:focus,
-a:active {
+a:active,
+.back a:hover,
+.back a:focus,
+.back a:active {
+    color: var(--chestnut);
+}
+
+
+footer small a {
+    color: var(--chestnut);
+}
+
+@media only screen and (width >=768px) {
+    footer small a {
+        color: var(--shark);
+    }
+}
+
+footer small a:hover,
+footer small a:focus,
+footer small a:active,
+.back a {
     color: var(--chestnut);
 }
 
 .back a {
     font-weight: 400;
 }
+
+@media only screen and (width >=768px) {
+    .back a {
+        color: var(--font-color-body);
+    }
+}
+
+.footer-top .social-links {
+    color: var(--pampas);
+}
+
 
 header a i.fa-solid {
     font-size: clamp(2.13rem, calc(1.82rem + 1.52vw), 3.00rem);
