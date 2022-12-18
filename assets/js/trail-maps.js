@@ -55,7 +55,9 @@
 
     const MAP = {
         AREA: [46.949986739165375, 8.993144532870112],
-        ZOOM: 15
+        ZOOM: 15,
+        MAX_ZOOM: 20,
+        MIN_ZOOM: 15,
     }
 
     const ID = {
@@ -128,7 +130,8 @@
 
         L.tileLayer('https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.swissimage/default/current/3857/{z}/{x}/{y}.jpeg', {
             attribution: '&copy; <a href="https://www.swisstopo.admin.ch/">swisstopo</a>',
-            maxZoom: 19
+            maxZoom: MAP.MAX_ZOOM,
+            minZoom: MAP.MIN_ZOOM,
         }).addTo(map);
 
 
