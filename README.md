@@ -360,6 +360,13 @@ The second version is seen on the storybook page. The layout is exactly the same
 
 ## Remote and Local Deployment
 
+</details>
+<br>
+
+<details>
+<summary>Remote deployment</summary>
+<br>
+
 https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-9212-0e119214ff22.mov
 
 
@@ -382,14 +389,21 @@ https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-
 7. It may take more than a few minutes, but when the page has been created, you will see the following success message ![Successful deployed](./docs/media/images/deployment/successful_page.png)
    *Screenshot of success message*
 
-### How to Fork
+</details>
+<br>
+
+
+<details>
+<summary>How to Clone</summary>
+
+<br>
+
 To contribute to my code, you can fork the repository.
 
 1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
 2. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork/fork.png)
 
-### How to Clone
-
+<br>
 
 To run the application type the following into your terminal:
 
@@ -397,6 +411,32 @@ To run the application type the following into your terminal:
 python3 -m http.server
 ```
 <br>
+
+</details>
+<br>
+
+<details>
+<summary>How to Fork</summary>
+
+<br>
+
+To contribute to my code, you can fork the repository.
+
+1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
+2. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork/fork.png)
+
+<br>
+
+To run the application type the following into your terminal:
+
+```bash
+python3 -m http.server
+```
+<br>
+
+</details>
+<br>
+
 
 # Testing
 
