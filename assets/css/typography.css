@@ -91,6 +91,7 @@ p.stage-text {
 
 form label,
 form input::placeholder,
+form input::placeholder-shown,
 strong {
     font-family: var(--font-family-body);
     font-weight: 600;
