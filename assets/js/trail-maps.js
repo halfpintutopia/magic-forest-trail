@@ -7,7 +7,6 @@
     }
 
     const LOCATION = {
-        AREA: [46.949986739165375, 8.993144532870112],
         GUMEN: {
             NAME: 'Gumen',
             COORDINATES: [46.956213832171656, 8.984484977695853]
@@ -55,6 +54,7 @@
     }
 
     const MAP = {
+        AREA: [46.949986739165375, 8.993144532870112],
         ZOOM: 15
     }
 
@@ -124,6 +124,7 @@
 
         const map = createMap(id, mapCoordinates, zoom)
         const marker = createCustomMarker(iconLocation)
+        let bounds = []
 
         L.tileLayer('https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.swissimage/default/current/3857/{z}/{x}/{y}.jpeg', {
             attribution: '&copy; <a href="https://www.swisstopo.admin.ch/">swisstopo</a>',
@@ -133,13 +134,20 @@
 
         locations.forEach((location) => {
             addMarkers(location, marker, map)
+
+            bounds.push(location.COORDINATES)
         })
+
+        bounds = new L.LatLngBounds(bounds);
+
+        map.fitBounds(bounds)
+
     }
 
     if (document.getElementById(ID.FULL_TRAIL)) {
         initMap(
             ID.FULL_TRAIL,
-            LOCATION.AREA,
+            MAP.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
             [
@@ -161,7 +169,7 @@
     if (document.getElementById(ID.VARIATION_1)) {
         initMap(
             ID.VARIATION_1,
-            LOCATION.AREA,
+            MAP.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
             [
@@ -178,7 +186,7 @@
     if (document.getElementById(ID.VARIATION_2)) {
         initMap(
             ID.VARIATION_2,
-            LOCATION.AREA,
+            MAP.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
             [
@@ -194,7 +202,7 @@
     if (document.getElementById(ID.VARIATION_3)) {
         initMap(
             ID.VARIATION_3,
-            LOCATION.AREA,
+            MAP.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
             [
@@ -208,7 +216,7 @@
     if (document.getElementById(ID.VARIATION_4)) {
         initMap(
             ID.VARIATION_4,
-            LOCATION.AREA,
+            MAP.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
             [
@@ -222,7 +230,7 @@
     if (document.getElementById(ID.VARIATION_5)) {
         initMap(
             ID.VARIATION_5,
-            LOCATION.AREA,
+            MAP.AREA,
             MAP.ZOOM,
             ICON.LOCATION,
             [
