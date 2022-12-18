@@ -65,8 +65,9 @@ button[data-type='narrow'],
     bottom: 0;
     box-shadow: var(--box-shadow);
     z-index: 1100;
-
 }
+
+/* TODO lower the media query as don't want it to stretch button on map laptop */
 
 div.book-now-button.sticky-button a.family-pass-button span.book-now-button-text i.fa-solid.fa-arrow-right-long {
     margin-left: .5rem;

@@ -4,7 +4,7 @@
 }
 
 
-@media only screen and (width >= 992px) {
+@media only screen and (width >=768px) {
     .trail-cards .trail-list {
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 1fr;
@@ -42,7 +42,7 @@
     background-color: transparent;
 }
 
-@media only screen and (width >=992px) {
+@media only screen and (width >=768px) {
     .trail-cards .trail-list .trail .overlay {
         --black-dk-opacity: rgba(0, 0, 0, .65);
         position: relative;
