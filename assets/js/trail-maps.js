@@ -13,7 +13,7 @@
         }, 
         BRAUNWALDALP_OBERSTAFEL: {
             NAME: 'Braunwaldalp Oberstafel',
-            COORDINATES: [46.98404183199923, 9.016448059683979]
+            COORDINATES: [46.952868439420726, 8.98052013070347]
         },
         ZWERGENSCHLOSS: {
             NAME: 'Zwergenschloss',
@@ -141,7 +141,6 @@
         bounds = new L.LatLngBounds(bounds);
 
         map.fitBounds(bounds)
-
     }
 
     if (document.getElementById(ID.FULL_TRAIL)) {
