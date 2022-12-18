@@ -103,7 +103,7 @@ form input::-webkit-input-placeholder {
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     line-height: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
-    color: var(--font-color-body);
+    /* color: var(--font-color-body); */
 }
 
 form input::-moz-placeholder {
@@ -111,7 +111,7 @@ form input::-moz-placeholder {
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     line-height: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
-    color: var(--font-color-body);
+    /* color: var(--font-color-body); */
 }
 
 form input::-ms-placeholder {
@@ -119,7 +119,7 @@ form input::-ms-placeholder {
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     line-height: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
-    color: var(--font-color-body);
+    /* color: var(--font-color-body); */
 }
 
 form input::placeholder {
@@ -127,7 +127,7 @@ form input::placeholder {
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     line-height: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
-    color: var(--font-color-body);
+    /* color: var(--font-color-body); */
 }
 
 form input::-webkit-input-placeholder {
