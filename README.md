@@ -33,8 +33,8 @@ The website is a fan website and has been created solely for the course, but inp
 * [Remote & Local Development](#remote-and-local-deployment)
   * [Remote Deployment](#remote-deployment)
   * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
+    * [How to Fork](#fork)
+    * [How to Clone](#clone)
 
 * [Testing](#testing)
 
@@ -195,7 +195,9 @@ Permanent Marker and Overpass Fonts chosen from [Google Fonts](https://fonts.goo
 
 ### References for typography:
 
-<br>
+When thinking about typography, the type had to suit responsively as well. The fonts had to be also readable on mobile view.
+
+Using Utopia, clamp for fonts and spaces were created. This minimised errors where fonts would be oversized or too small on desktop or mobile devices. 
 
 * [min(), max(), and clamp(): three logical CSS functions to use today](https://web.dev/min-max-clamp/)
 * [Modern Fluid Typography Using CSS Clamp](https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/)
@@ -222,9 +224,9 @@ All images should match the theme of the site, families with children on hiking 
 All images were compressed. To increase the speed of the website. Also, added the ```lazy-loading``` attribute to images showing below the fold.
 
 ### References for images
+
 * [An image format for the Web](https://developers.google.com/speed/webp)
 * [A Guide to Responsive Images with Ready-to-Use Templates](https://medium.com/free-code-camp/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433)
-
 
 <br>
 
@@ -387,7 +389,7 @@ The trail map should show all the locations the trail encounters. The trail map 
 ### Text and image
 
 <details>
-<summary>Text Image Sections (with & without quicklinks</summary>
+<summary>Text Image Sections (with & without quicklinks)</summary>
 <br>
 
 Version 1
@@ -458,11 +460,13 @@ The second version is seen on the storybook page. The layout is exactly the same
 # Technologies Used
 
 ## Languages Used
+
 * HTML5
 * CSS3
 * JavaScript
 
 ## Frameworks, Libraries and Programs Used
+
 * [Google Fonts](https://fonts.google.com)
     * Google fonts was used to import the font to the style.css which is used on all pages throughout the project.
 * [Font Awesome](https://fontawesome.com/)
@@ -482,8 +486,6 @@ The second version is seen on the storybook page. The layout is exactly the same
 * [Browserstack](https://www.browserstack.com)
 * [LeafletJS](https://leafletjs.com/) - [Use of GeoJSON with Leaflet](https://leafletjs.com/examples/geojson/)
 * [Figma](https://www.figma.com/)
-
-<br>
 
 # Remote and Local Deployment
 
@@ -527,11 +529,11 @@ https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-
 
 ## Local Deployment
 
-### How to Fork
+### Fork
 To contribute to my code, you can fork the repository.
 
 <details>
-<summary>Instructions</summary>
+<summary>How to Fork</summary>
 
 <br>
 
@@ -550,11 +552,11 @@ python3 -m http.server
 </details>
 <br>
 
-### How to Clone
+### Clone
 To contribute to my code, you can fork the repository.
 
 <details>
-<summary>Instructions</summary>
+<summary>How to Clone</summary>
 
 <br>
 
@@ -609,8 +611,6 @@ Browserstack was used for testing. Devices selected were:
 | Provide a form for users to ask question about the trail | Textarea input added for users to ask comments or ask questions | Yes | Yes |
 
 </details>
-<br>
-
 
 ### First Time Visitor Goals
 
@@ -1009,8 +1009,6 @@ The footprints were created from using GIMP to manipulate the image, and then th
 * [Swiss Alps in the middle of summer on a sunny day](https://unsplash.com/photos/fZsIcej_bQA) by <a href="https://unsplash.com/@allphotobangkok?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Paul Szewczyk</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 </details>
-<br>
-
 
 ### Storybook
 
@@ -1026,10 +1024,8 @@ The footprints were created from using GIMP to manipulate the image, and then th
 * [Boy walking up alpine hiking trail path](https://unsplash.com/photos/DgSRu6944ZQ) by <a href="https://unsplash.com/@morganddl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Morgan David de Lossy</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 
-
 * Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/children-hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-  
 </details>
 <br>
 
