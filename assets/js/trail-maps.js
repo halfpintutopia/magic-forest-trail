@@ -130,7 +130,7 @@
         let bounds = []
 
         L.tileLayer('https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.swissimage/default/current/3857/{z}/{x}/{y}.jpeg', {
-            attribution: '&copy; <a href="https://www.swisstopo.admin.ch/">swisstopo</a>',
+            attribution: '&copy; <a href="https://www.swisstopo.admin.ch/" target="_blank" rel="noopener noreferrer" aria-label="Link to Swiss Topo site">swisstopo</a>',
             maxZoom: MAP.MAX_ZOOM,
             minZoom: MAP.MIN_ZOOM,
         }).addTo(map);
