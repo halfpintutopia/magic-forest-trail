@@ -252,7 +252,6 @@ The footprints were created from using GIMP to manipulate the image, and then th
 
 <details>
 <summary>Trail List</summary>
-<br>
 
 ![Screenshot of the trail (lists) feature](./docs/media/images/features/trail-list/trail_list_mobile.png)
 
@@ -269,11 +268,9 @@ The footprints were created from using GIMP to manipulate the image, and then th
 The trail list are displayed as cards. The text description length of each card depends on the size of the device. A class was added to to shorten the text, so that the card heights were not too tall on mobile devices. 
 
 </details>
-<br>
 
 <details>
 <summary>Gallery</summary>
-<br>
 
 ![Screenshot of the gallery feature for mobile](./docs/media/images/features/gallery/gallery_mobile.png)
 
@@ -290,13 +287,11 @@ The trail list are displayed as cards. The text description length of each card 
 The gallery is in a grid layout masonry style. The gallery was to suit and demonstrate images that are meant to be viewed in potrait or landscape.
 
 </details>
-<br>
 
 ### Buttons
 
 <details>
 <summary>Call to action</summary>
-<br>
 
 ![Screenshot of the cta feature for mobile](./docs/media/images/features/cta/cta_button_mobile.png)
 
@@ -314,11 +309,8 @@ The button link for the contact form is a floating element on the page. This was
 
 </details>
 
-<br>
-
 <details>
 <summary>Back to trails button</summary>
-<br>
 
 ![Screenshot of the back button feature for mobile](./docs/media/images/features/back-btn/back-btn_mobile.png)
 
@@ -336,13 +328,10 @@ The back button is to enable visitors to go back to the trail list easily after 
 
 </details>
 
-<br>
-
 ### Header image
 
 <details>
 <summary>With stats and back button</summary>
-<br>
 
 ![Screenshot of the header image for trail page with statistics and back button feature for mobile](./docs/media/images/features/header-img/header-img_stats_back-btn_mobile.png)
 
@@ -360,13 +349,11 @@ The header image, should be the first view of the landscape and also quick infor
 
 </details>
 
-<br>
 
 ### Trail map
 
 <details>
 <summary>Map with leaflet.js</summary>
-<br>
 
 ![Screenshot of the trail map on trail page feature for mobile](./docs/media/images/features/trail-map/trail-map_mobile.png)
 
@@ -384,13 +371,11 @@ The trail map should show all the locations the trail encounters. The trail map 
 
 </details>
 
-<br>
 
 ### Text and image
 
 <details>
 <summary>Text Image Sections (with & without quicklinks)</summary>
-<br>
 
 Version 1
 
@@ -427,8 +412,6 @@ The first one can be found on the home page. This is simple layout of image and 
 The second version is seen on the storybook page. The layout is exactly the same. The content is slightly different, as under each text, there is a link which enables the visitor to quickly go the trail page if they are interested to visit the place mentioned in the story. 
 
 </details>
-
-<br>
 
 ## Future Implementations
 
@@ -494,16 +477,7 @@ Git was used for version control. Version control was done locally and remotely.
 ## Remote deployment
 Github Pages was used to deploy the site remotely. 
 
-</details>
-<br>
-
-<details>
-<summary>Instructions</summary>
-
-<br>
-
 https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-9212-0e119214ff22.mov
-
 
 *Screencast of deployment*
 
@@ -524,41 +498,11 @@ https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-
 7. It may take more than a few minutes, but when the page has been created, you will see the following success message ![Successful deployed](./docs/media/images/deployment/successful_page.png)
    *Screenshot of success message*
 
-</details>
-<br>
 
 ## Local Deployment
 
-### Fork
+### How to Fork
 To contribute to my code, you can fork the repository.
-
-<details>
-<summary>How to Fork</summary>
-
-<br>
-
-1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
-2. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork/fork.png)
-
-<br>
-
-To run the application type the following into your terminal:
-
-```bash
-python3 -m http.server
-```
-<br>
-
-</details>
-<br>
-
-### Clone
-To contribute to my code, you can fork the repository.
-
-<details>
-<summary>How to Clone</summary>
-
-<br>
 
 
 1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
@@ -571,9 +515,20 @@ To run the application type the following into your terminal:
 ```bash
 python3 -m http.server
 ```
+
+### How to Clone
+To contribute to my code, you can fork the repository.
+
+1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
+2. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork/fork.png)
+
 <br>
 
-</details>
+To run the application type the following into your terminal:
+
+```bash
+python3 -m http.server
+```
 <br>
 
 # Testing
@@ -588,7 +543,7 @@ Browserstack was used for testing. Devices selected were:
     * Chrome Galaxy S22
     * Xiaomi Redmi Note 11 Chrome
 * Apple iOS
-    * Safari iPHone SE 2022
+    * Safari iPhone SE 2022
 
 ## User experience
 
@@ -596,7 +551,6 @@ Browserstack was used for testing. Devices selected were:
 
 <details>
 <summary>Table of tests and results</summary>
-<br>
 
 | Client goal | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
@@ -617,8 +571,6 @@ Browserstack was used for testing. Devices selected were:
 <details>
 <summary>Table of tests and results</summary>
 
-<br>
-
 | First Time Visitor Goals | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
 | Find information about the trails | Trail list shows available trails. The link from home page takes visitors to individual trail pages  | Yes | Yes |
@@ -628,14 +580,11 @@ Browserstack was used for testing. Devices selected were:
 | See images of the trail | Images of trail in the gallery on the home page. Main image in header is of the trail | Yes | Yes |
 
 </details>
-<br>
 
 ### Return Visitor Goals
 
 <details>
 <summary>Table of tests and results</summary>
-
-<br>
 
 | Return Vistor Goals | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
@@ -644,27 +593,22 @@ Browserstack was used for testing. Devices selected were:
 | See images of the trail | Images of trail in the gallery on the home page. Main image in header is of the trail   | Yes | Yes |
 
 </details>
-<br>
 
 ### Frequent Visitor Goals
 
 <details>
 <summary>Table of tests and results</summary>
 
-<br>
-
 | Frequent Vistor Goals | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
 | Refer their friends, families and associates about the trail | Visitors can share the [trail list](http://localhost:8000/index.html#trails) and each of the individual trail pages | Yes | Yes |
 
 </details>
-<br>
 
 ### Bugs and fixes
 
 <details>
 <summary>Table of tests and results</summary>
-<br>
 
 |Bug / Errors | Where / Location site | Browser | Device | Remarks | Mode (light / dark) | Fixed | Solution |
 |-------------|-----------------------|---------|--------|---------|:-------------------:|:-----:|----------|
@@ -702,16 +646,12 @@ Additional images / videos
 
 https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-bd0f-677ca0110535.mp4
 
-
 </details>
-<br>
 
 ### Lighthouse
 
 <details>
 <summary>Home page</summary>
-
-<br>
 
 ![Home page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_index_light-mode.png)
 
@@ -724,12 +664,9 @@ https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-
 *Home page in dark mode*
 
 </details>
-<br>
 
 <details>
 <summary>Storybook page</summary>
-
-<br>
 
 ![Storybook page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_storybook_light-mode.png)
 
@@ -742,12 +679,10 @@ https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-
 *Storybook page in dark mode*
 
 </details>
-<br>
 
 <details>
 <summary>Full trail page</summary>
 
-<br>
 
 ![Full trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_full-trail_light-mode.png)
 
@@ -760,12 +695,9 @@ https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-
 *Full trail page in dark mode*
 
 </details>
-<br>
 
 <details>
 <summary>Option 1 trail page</summary>
-
-<br>
 
 ![Option 1 trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_variation-1_light-mode.png)
 
@@ -778,12 +710,9 @@ https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-
 *Option trail page in dark mode*
 
 </details>
-<br>
 
 <details>
 <summary>Option 2 trail page</summary>
-
-<br>
 
 ![Option 2 trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_variation-2_light-mode.png)
 
@@ -796,12 +725,9 @@ https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-
 *Option 2 trail page in dark mode*
 
 </details>
-<br>
 
 <details>
 <summary>Option 3 trail page</summary>
-
-<br>
 
 ![Option 3 trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_variation-3_light-mode.png)
 
@@ -814,12 +740,9 @@ https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-
 *Option 3 trail page in dark mode*
 
 </details>
-<br>
 
 <details>
 <summary>Option 4 trail page</summary>
-
-<br>
 
 ![Option 4 trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_variation-4_light-mode.png)
 
@@ -830,8 +753,6 @@ https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-
 ![Option 4 trail page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_variation-4_dark_mode.png)
 
 *Option 4 trail page in dark mode*
-
-<br>
 
 #### Error in Lighthouse testing
 
@@ -848,12 +769,9 @@ The error states:
 This error looks to be from the map tile, as all the screenhots refer to the image added by the tile, linked by [vmts.geo.admin.ch](vmts.geo.admin.ch).
 
 </details>
-<br>
 
 <details>
 <summary>Option 5 trail page</summary>
-
-<br>
 
 ![Option 5 trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_variation-5_light-mode.png)
 
@@ -866,12 +784,9 @@ This error looks to be from the map tile, as all the screenhots refer to the ima
 *Option 5 trail page in dark mode*
 
 </details>
-<br>
 
 <details>
 <summary>Contact us form page</summary>
-
-<br>
 
 ![Contact us form page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_contact-us_light-mode.png)
 
@@ -884,12 +799,9 @@ This error looks to be from the map tile, as all the screenhots refer to the ima
 *Contact us form page in dark mode*
 
 </details>
-<br>
 
 <details>
 <summary>Success form page</summary>
-
-<br>
 
 ![Success form page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_success_light-mode.png)
 
@@ -902,12 +814,9 @@ This error looks to be from the map tile, as all the screenhots refer to the ima
 *Success form page in dark mode*
 
 </details>
-<br>
 
 <details>
 <summary>404 page</summary>
-
-<br>
 
 ![404 page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_404_light-mode.png)
 
@@ -920,7 +829,6 @@ This error looks to be from the map tile, as all the screenhots refer to the ima
 *404 page in dark mode*
 
 </details>
-<br>
 
 ### Validator Testing
 
