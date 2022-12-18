@@ -186,3 +186,8 @@ textarea:focus-visible {
     white-space: inherit;
     width: auto;
 }
+
+hr {
+    margin-block: 2rem;
+    border-color: var(--font-color-body);
+}
