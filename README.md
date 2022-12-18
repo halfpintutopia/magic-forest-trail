@@ -454,7 +454,7 @@ Browserstack was used for testing. Devices selected were:
 ## User experience
 
 <details>
-<summary>Client Goals Testing</summary>
+<summary>### Client Goals Testing</summary>
 <br>
 
 | Client goal | Implementation | Tested | Successful |
@@ -478,7 +478,7 @@ Browserstack was used for testing. Devices selected were:
 <br>
 
 <details>
-<summary>First Time Visitor Goals</summary>
+<summary>### First Time Visitor Goals</summary>
 <br>
 
 | First Time Visitor Goals | Implementation | Tested | Successful |
