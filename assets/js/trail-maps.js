@@ -1,6 +1,7 @@
 (function () {
     const ICON = {
-        LOCATION: '../assets/media/images/Character.png',
+        LOCATION_FROM_ROOT: 'assets/media/images/Character.png',
+        LOCATION_FROM_TRAILS: '../assets/media/images/Character.png',
         SIZE: [90, 90],
         ANCHOR: [45, 45],
         POPUP_ANCHOR: [-3, -35]
@@ -152,7 +153,7 @@
             ID.FULL_TRAIL,
             MAP.AREA,
             MAP.ZOOM,
-            ICON.LOCATION,
+            ICON.LOCATION_FROM_TRAILS,
             [
                 LOCATION.GUMEN,
                 LOCATION.BRAUNWALDALP_OBERSTAFEL,
@@ -174,7 +175,7 @@
             ID.VARIATION_1,
             MAP.AREA,
             MAP.ZOOM,
-            ICON.LOCATION,
+            ICON.LOCATION_FROM_TRAILS,
             [
                 LOCATION.GUMEN,
                 LOCATION.ZWERGENSCHLOSS,
@@ -191,7 +192,7 @@
             ID.VARIATION_2,
             MAP.AREA,
             MAP.ZOOM,
-            ICON.LOCATION,
+            ICON.LOCATION_FROM_TRAILS,
             [
                 LOCATION.GROTZENBUEEL,
                 LOCATION.ZWERGENTURM,
@@ -207,7 +208,7 @@
             ID.VARIATION_3,
             MAP.AREA,
             MAP.ZOOM,
-            ICON.LOCATION,
+            ICON.LOCATION_FROM_TRAILS,
             [
                 LOCATION.GROTZENBUEEL,
                 LOCATION.RINDENHUETTI,
@@ -221,7 +222,7 @@
             ID.VARIATION_4,
             MAP.AREA,
             MAP.ZOOM,
-            ICON.LOCATION,
+            ICON.LOCATION_FROM_TRAILS,
             [
                 LOCATION.GROTZENBUEEL,
                 LOCATION.ZWERGENTURM,
@@ -235,7 +236,7 @@
             ID.VARIATION_5,
             MAP.AREA,
             MAP.ZOOM,
-            ICON.LOCATION,
+            ICON.LOCATION_FROM_TRAILS,
             [
                 LOCATION.TIDIS_HUESLI,
                 LOCATION.WASSERSPEILPLATZ,
@@ -249,7 +250,7 @@
             ID.ADDRESS,
             MAP.AREA,
             13,
-            ICON.LOCATION,
+            ICON.LOCATION_FROM_ROOT,
             [
                 LOCATION.GROTZENBUEEL
             ]
