@@ -63,6 +63,13 @@ span.table-heading {
     font-family: var(--font-family-heading);
     font-size: clamp(1.05rem, calc(0.89rem + 0.78vw), 1.5rem);
     line-height: clamp(1.38rem, calc(1.18rem + 0.98vw), 1.94rem);
+}
+
+.sticky-button .book-now-button-text {
+    color: var(--pampas);
+}
+
+span.table-heading {
     color: var(--font-color-body);
 }
 
