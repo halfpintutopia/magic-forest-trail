@@ -55,9 +55,9 @@
 
     const MAP = {
         AREA: [46.949986739165375, 8.993144532870112],
-        ZOOM: 15,
+        ZOOM: 14,
         MAX_ZOOM: 20,
-        MIN_ZOOM: 15,
+        MIN_ZOOM: 14,
     }
 
     const ID = {
