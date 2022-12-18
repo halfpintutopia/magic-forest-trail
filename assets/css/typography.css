@@ -98,51 +98,51 @@ strong {
     color: var(--font-color-body);
 }
 
-form input#booking-first-name::-webkit-input-placeholder {
+form input.booking-input-placeholder::-webkit-input-placeholder {
     font-family: var(--font-family-body);
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     line-height: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
-    /* color: var(--font-color-body); */
+    color: var(--font-color-body);
 }
 
-form input#booking-first-name::-moz-placeholder {
+form input.booking-input-placeholder::-moz-placeholder {
     font-family: var(--font-family-body);
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     line-height: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
-    /* color: var(--font-color-body); */
+    color: var(--font-color-body);
 }
 
-form input#booking-first-name::-ms-placeholder {
+form input.booking-input-placeholder::-ms-placeholder {
     font-family: var(--font-family-body);
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     line-height: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
-    /* color: var(--font-color-body); */
+    color: var(--font-color-body);
 }
 
-form input#booking-first-name::placeholder {
+form input.booking-input-placeholder::placeholder {
     font-family: var(--font-family-body);
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
     line-height: clamp(1.50rem, calc(1.43rem + 0.33vw), 1.69rem);
-    /* color: var(--font-color-body); */
+    color: var(--font-color-body);
 }
 
-form input#booking-first-name::-webkit-input-placeholder {
+form input.booking-input-placeholder::-webkit-input-placeholder {
     opacity: 1;
 }
 
-form input#booking-first-name::-moz-placeholder {
+form input.booking-input-placeholder::-moz-placeholder {
     opacity: 1;
 }
 
-form input#booking-first-name::-ms-placeholder {
+form input.booking-input-placeholder::-ms-placeholder {
     opacity: 1;
 }
 
-form input#booking-first-name::placeholder {
+form input.booking-input-placeholder::placeholder {
     opacity: 1;
 }
 
