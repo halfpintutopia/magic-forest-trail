@@ -33,8 +33,8 @@ The website is a fan website and has been created solely for the course, but inp
 * [Remote & Local Development](#remote-and-local-deployment)
   * [Remote Deployment](#remote-deployment)
   * [Local Development](#local-development)
-    * [How to Fork](#fork)
-    * [How to Clone](#clone)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
 
