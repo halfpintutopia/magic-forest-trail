@@ -99,6 +99,7 @@
 
 .booking-form .checkbox-group label input {
     margin-right: 1rem;
+    border-radius: 0;
 }
 
 .booking-form .button-group button {
