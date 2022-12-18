@@ -98,7 +98,7 @@ strong {
     color: var(--font-color-body);
 }
 
-form input::-webkit-input-placeholder {
+form input#booking-first-name::-webkit-input-placeholder {
     font-family: var(--font-family-body);
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
@@ -106,7 +106,7 @@ form input::-webkit-input-placeholder {
     /* color: var(--font-color-body); */
 }
 
-form input::-moz-placeholder {
+form input#booking-first-name::-moz-placeholder {
     font-family: var(--font-family-body);
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
@@ -114,7 +114,7 @@ form input::-moz-placeholder {
     /* color: var(--font-color-body); */
 }
 
-form input::-ms-placeholder {
+form input#booking-first-name::-ms-placeholder {
     font-family: var(--font-family-body);
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
@@ -122,7 +122,7 @@ form input::-ms-placeholder {
     /* color: var(--font-color-body); */
 }
 
-form input::placeholder {
+form input#booking-first-name::placeholder {
     font-family: var(--font-family-body);
     font-weight: 600;
     font-size: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
@@ -130,19 +130,19 @@ form input::placeholder {
     /* color: var(--font-color-body); */
 }
 
-form input::-webkit-input-placeholder {
+form input#booking-first-name::-webkit-input-placeholder {
     opacity: 1;
 }
 
-form input::-moz-placeholder {
+form input#booking-first-name::-moz-placeholder {
     opacity: 1;
 }
 
-form input::-ms-placeholder {
+form input#booking-first-name::-ms-placeholder {
     opacity: 1;
 }
 
-form input::placeholder {
+form input#booking-first-name::placeholder {
     opacity: 1;
 }
 
