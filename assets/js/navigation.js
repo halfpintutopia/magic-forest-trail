@@ -31,6 +31,10 @@
         window.addEventListener(EVENT.HASHCHANGE, toggleNavActiveCls)
         window.addEventListener(EVENT.RESIZE, setScrollPadding)
 
+        if (location.hash === FRAGMENT.TRAILS) {
+            toggleNavActiveCls()
+        } 
+
         if (htmlElementMap.mainNavigation) {
             setScrollPadding()
         }
@@ -38,14 +42,10 @@
 
 
     const toggleNavActiveCls = () => {
-        if (location.hash === FRAGMENT.TRAILS) {
-            htmlElementMap.menuItems.forEach((item) => {
-                item.classList.remove(CLASS.ACTIVE)
-            })
-            htmlElementMap.navItemTrails.classList.add(CLASS.ACTIVE)
-        } else {
-            htmlElementMap.navItemTrails.classList.remove(CLASS.ACTIVE)
-        }
+        htmlElementMap.menuItems.forEach((item) => {
+            item.classList.remove(CLASS.ACTIVE)
+        })
+        htmlElementMap.navItemTrails.classList.add(CLASS.ACTIVE)
     }
 
     const setScrollPadding = () => {
@@ -54,7 +54,6 @@
             document.documentElement.style.setProperty('--scroll-padding', `${mainNavigationHeight}px`)
         }
     }
-
 
     initHTMLElements()
     initEvents()

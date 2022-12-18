@@ -58,8 +58,9 @@ The idea of the website was inspired by a friend, Hermina Oláh Vass,Her family 
 * Families
 * Schools
 
----
+
 * ## User stories
+
 * Client Goals
     * Create content that is child appropriate
     * Create content for adults or parents with children
@@ -166,8 +167,7 @@ Wireframes were created for the site with [Figma](https://www.figma.com).
 <br>
 
 To see the full wireframe, view it [here](https://www.figma.com/file/mY6L1TpxKS6PupGlHRLvVF/PP1-Wireframe?node-id=0%3A1&t=29queejCZUsKPnX9-1).
-
---- 
+ 
 
 ## Colour Scheme
 
@@ -179,7 +179,7 @@ Created colour palette using:
 
 ![Colour palette for the website](./docs/media/images/design/colour-palette.png)
 
-Due to assessibility, the 
+Due to assessibility, and feedback from a Lighthouse test, the red color was changed. 
 
 ## Typography
 
@@ -192,6 +192,17 @@ Permanent Marker and Overpass Fonts chosen from [Google Fonts](https://fonts.goo
 ![Overpass 400](./docs/media/images/typography/overpass_400.png)
 
 ![Overpass 600](./docs/media/images/typography/overpass_600.png)
+
+<br>
+
+### References for typography:
+
+<br>
+
+* [min(), max(), and clamp(): three logical CSS functions to use today](https://web.dev/min-max-clamp/)
+* [Modern Fluid Typography Using CSS Clamp](https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/)
+* [RFS](https://github.com/twbs/rfs#installation)
+* [Utopia - Responsive font and space sizing](https://utopia.fyi)
 
 ## Imagery
 
@@ -212,7 +223,7 @@ All images should match the theme of the site, families with children on hiking 
 
 All images were compressed. To increase the speed of the website. Also, added the ```lazy-loading``` attribute to images showing below the fold.
 
-### References
+### References for images
 * [An image format for the Web](https://developers.google.com/speed/webp)
 * [A Guide to Responsive Images with Ready-to-Use Templates](https://medium.com/free-code-camp/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433)
 
@@ -437,9 +448,11 @@ The second version is seen on the storybook page. The layout is exactly the same
 
 ## Assessiblity
 
-### Fonts
-### Colours
-### Icons
+* Use of semantic HTML
+* Use of ARIA
+* Use of alt attributes
+* Provide an invisible "Skip to content" button for screen reader. Enabling visitors to skip navigation menu
+* Use Adobe Color to check color contrast
 
 #### Reference 
 * [Kevin Powell - Most sites have a "hidden" link, and yours should too!](https://www.youtube.com/watch?v=jDDaOFr9nqQ)
@@ -597,10 +610,6 @@ Browserstack was used for testing. Devices selected were:
 | Provide a form which allows users to book family passes in advance | Text | Yes | Yes |
 | Provide a form for users to ask question about the trail | Text | Yes | Yes |
 | Provide a form for users to ask about other activities in the area | Text | Yes | Yes |
-| Provide a platform that boosts in tourism in the area | Text | Yes | Yes |
-
-| Inform visitors of how to get to Braunwald by car or train | Text  | Yes | Yes |
-
 
 </details>
 <br>
@@ -712,36 +721,25 @@ https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-
 
 ### Lighthouse
 
-#### Light Mode
-
-#### Dark
-
 ### Validator Testing
 
-#### HTML W3 Validator
-
-#### CSS Validator
+* Use [W3C Markup Validation Service](https://validator.w3.org) to validate all HTML pages
+* Use [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate all stylesheets
+    * Error (```width: min(100% - var(--container-padding), var(--container-max-width));```) caused from related to the following issue:
+        * [Please add support for CSS variables ("custom properties"), a widely supported and crucial feature](https://github.com/w3c/css-validator/issues/111)
 
 # Credits
 
 ## Code Used
 
 ### References
-[How gestures are shaping the future of UX
-]: https://uxdesign.cc/how-gestures-are-shaping-the-future-of-ux-ce2c9e6d7a9f
-[min(), max(), and clamp(): three logical CSS functions to use today]: (https://web.dev/min-max-clamp/)
-[Modern Fluid Typography Using CSS Clamp]: (https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/)
-[RFS]: (https://github.com/twbs/rfs#installation)
-* [Visit Glarnerland](https://glarnerland.ch/de/map/detail/zwerg-bartli-erlebnisweg-9ff632fe-5eaf-45d9-a6ea-4d743635148f.html)
-* Character based on Der Zwerg Bartli by Lorly Jenny
+A list of references used for the site:
 
 * [Box shadows](https://www.cssmatic.com/box-shadow)
 * [CSS Tricks - HTML Picture](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-picture)
 * [Web Dev - Browser level image lazy loading](https://web.dev/browser-level-image-lazy-loading/)
 * [Editorx - Font size](https://www.editorx.com/shaping-design/article/font-size)
-* [Utopia - Responsive font and space sizing](https://utopia.fyi)
-* [](https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/)
-* [](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862)
+* [The 100% correct way to do CSS breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862)
 * [Inkscape](https://inkscape.org/)
 * [GIMP](https://www.gimp.org/)
 * [Font Awesome](https://fontawesome.com)
@@ -757,6 +755,11 @@ https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-
 * Styles
 
 ## Content
+
+References for content:
+
+* [Visit Glarnerland](https://glarnerland.ch/de/map/detail/zwerg-bartli-erlebnisweg-9ff632fe-5eaf-45d9-a6ea-4d743635148f.html)
+* Character based on Der Zwerg Bartli by Lorly Jenny
 
 ## Media
 
