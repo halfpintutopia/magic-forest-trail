@@ -679,22 +679,21 @@ Browserstack was used for testing. Devices selected were:
 | Zoom / pan on map does not include all dwarfs only top half | every trail page | Chrome | Apple Laptop | | dark | Yes | Added bounds to the leaflet map, to center the map according to all markers |
 | Shorten text on first story (size is off in comparison to the next story bits) not a bug, just looking off | storybook | Chrome, Firefox | Apple Laptop| | dark | Yes | The text remains the same, but changed spacing on the text image grid areas |
 | Links either labelled wrong or wrong links set (Trail option 3 leads to variation 1 etc.) | storybook | Chrome, Firefox | Apple Laptop | see sheet 2 for details | dark | Yes | Fixed links to suit the actual href |
-| When going back from trail page to storybook, last chosen trail option is marked in green instead of red. nice but not sure if intentional. does not happen in Chrome only ff | storybook | Firefox | Apple Laptop | | dark | No | |
-| Book your family pass blocks scroll down text and animation | home | Chrome | Android mobile | lots of room above magic forest trail | dark |
-| Book your family pass goes into hiding when scrolled to position of any header. nice but not sure if intentional | home | Chrome | Android mobile | | dark | 
-| Social media icon stays white when going back to home after clicking them | everywhere / every page | Chrome | Android mobile | | dark |
 | Image not loading | full trail | Chrome | Android mobile | | dark | Yes | Fixed the broken link by correcting the relative path |
-| Book your family pass seemingly jumps around randomly when scrolling | all trail pages | Chrome | Android mobile | | dark |
-| Book your family pass snaps back down after scrolling up from the bottom of the page | storybook | Chrome | Android mobile | | dark |
-| Little arrow to expand / collapse above adults doesn't do anything | contact form| Chrome, Firefox | Apple Laptop | | light |
-| Form error display. When trying to book 458 adults it tells me i can only book 10. when i want to book 55 children no error messages displays, same for incorrect email adress | contact form | Chrome | Android mobile || light |
+| Little arrow to expand / collapse above adults doesn't do anything | contact form | Chrome, Firefox | Apple Laptop | | light / dark | Yes | Form made visible from changing colors for dark and light mode |
 | Form error display. Notifies correctly about number of adults and children allowed, but lets me inout incorrect email address| contact form| Chrome| Apple Laptop | | dark|
 | After filling a form in once. the second load of the contact form page displays lines for name, last name etc and the box for additional comments when before there were no lines / box visible | contact form | Chrome | Apple Laptop | | dark |
-| Little arrow above adults is not visible | contact form | Chrome | Apple Laptop | | dark |
-| Arrows to add / sub adults stops at ten (which is max). manual inputs does not automatically resets bigger numbers than 10 to 10 | contact form | Chrome | Apple Laptop | | dark |
 | Error form display in Chrome does not always notify about wrong inputs. Firefox tells you correctly which input is wrong | contact form | Chrome | Apple Laptop | | dark |
 | Neither the labels nor the placeholder texts are visible at the first name, last name, email and phone number inputs | contact form |  |  |  | dark | Yes | Make placeholders visible by changing the default opacity to 1 for input placeholders. Also had to fix specificity as initially assumed the issue had occurred due to the wrong pseudo element being selected. After trial and error, found that the problem occurred due to specificity, as form input was not specific enough. |
 | Zoom out of your maps more than the max size of the maps are | All trail pages |  |  |  |  | Yes | Set a min and max zoom on the leaflet map |
+
+| When going back from trail page to storybook, last chosen trail option is marked in green instead of red. nice but not sure if intentional. does not happen in Chrome only ff | storybook | Firefox | Apple Laptop | | dark | No | |
+
+| Book your family pass blocks scroll down text and animation | home | Chrome | Android mobile | lots of room above magic forest trail | dark |
+| Book your family pass goes into hiding when scrolled to position of any header. nice but not sure if intentional | home | Chrome | Android mobile | | dark | 
+| Social media icon stays white when going back to home after clicking them | everywhere / every page | Chrome | Android mobile | | dark |
+| Book your family pass seemingly jumps around randomly when scrolling | all trail pages | Chrome | Android mobile | | dark |
+| Book your family pass snaps back down after scrolling up from the bottom of the page | storybook | Chrome | Android mobile | | dark |
 
 ---
 
@@ -707,8 +706,221 @@ https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-
 </details>
 <br>
 
-
 ### Lighthouse
+
+<details>
+<summary>Home page</summary>
+
+<br>
+
+![Home page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_index_light-mode.png)
+
+*Home page in light mode*
+
+<br>
+
+![Home page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_index_dark_mode.png)
+
+*Home page in dark mode*
+
+</details>
+<br>
+
+<details>
+<summary>Storybook page</summary>
+
+<br>
+
+![Storybook page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_storybook_light-mode.png)
+
+*Storybook page in light mode*
+
+<br>
+
+![Storybook page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_storybook_dark_mode.png)
+
+*Storybook page in dark mode*
+
+</details>
+<br>
+
+<details>
+<summary>Full trail page</summary>
+
+<br>
+
+![Full trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_full-trail_light-mode.png)
+
+*Full trail page in light mode*
+
+<br>
+
+![Full trail page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_full-trail_dark_mode.png)
+
+*Full trail page in dark mode*
+
+</details>
+<br>
+
+<details>
+<summary>Option 1 trail page</summary>
+
+<br>
+
+![Option 1 trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_variation-1_light-mode.png)
+
+*Option trail page in light mode*
+
+<br>
+
+![Option 1 trail page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_variation-1_dark_mode.png)
+
+*Option trail page in dark mode*
+
+</details>
+<br>
+
+<details>
+<summary>Option 2 trail page</summary>
+
+<br>
+
+![Option 2 trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_variation-2_light-mode.png)
+
+*Option 2 trail page in light mode*
+
+<br>
+
+![Option 2 trail page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_variation-2_dark_mode.png)
+
+*Option 2 trail page in dark mode*
+
+</details>
+<br>
+
+<details>
+<summary>Option 3 trail page</summary>
+
+<br>
+
+![Option 3 trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_variation-3_light-mode.png)
+
+*Option 3 trail page in light mode*
+
+<br>
+
+![Option 3 trail page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_variation-3_dark_mode.png)
+
+*Option 3 trail page in dark mode*
+
+</details>
+<br>
+
+<details>
+<summary>Option 4 trail page</summary>
+
+<br>
+
+![Option 4 trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_variation-4_light-mode.png)
+
+*Option 4 trail page in light mode*
+
+<br>
+
+![Option 4 trail page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_variation-4_dark_mode.png)
+
+*Option 4 trail page in dark mode*
+
+<br>
+
+#### Error in Lighthouse testing
+
+![Best practice error in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_variation-4_dark_mode_best-practice-error.png)
+
+*Best practice error in dark mode*
+
+<br>
+
+The error states: 
+
+"Image natural dimensions hsould be proportional to the display size and the pixel ratio to maximise image clarity."
+
+This error looks to be from the map tile, as all the screenhots refer to the image added by the tile, linked by [vmts.geo.admin.ch](vmts.geo.admin.ch).
+
+</details>
+<br>
+
+<details>
+<summary>Option 5 trail page</summary>
+
+<br>
+
+![Option 5 trail page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_variation-5_light-mode.png)
+
+*Option 5 trail page in light mode*
+
+<br>
+
+![Option 5 trail page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_variation-5_dark_mode.png)
+
+*Option 5 trail page in dark mode*
+
+</details>
+<br>
+
+<details>
+<summary>Contact us form page</summary>
+
+<br>
+
+![Contact us form page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_contact-us_light-mode.png)
+
+*Contact us form page in light mode*
+
+<br>
+
+![Contact us form page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_contact-us_dark_mode.png)
+
+*Contact us form page in dark mode*
+
+</details>
+<br>
+
+<details>
+<summary>Success form page</summary>
+
+<br>
+
+![Success form page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_success_light-mode.png)
+
+*Success form page in light mode*
+
+<br>
+
+![Success form page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_success_dark_mode.png)
+
+*Success form page in dark mode*
+
+</details>
+<br>
+
+<details>
+<summary>404 page</summary>
+
+<br>
+
+![404 page in light mode](docs/media/images/testing/lighthouse/light/lighthouse_404_light-mode.png)
+
+*404 page in light mode*
+
+<br>
+
+![404 page in dark mode](docs/media/images/testing/lighthouse/dark/lighthouse_404_dark_mode.png)
+
+*404 page in dark mode*
+
+</details>
+<br>
 
 ### Validator Testing
 
