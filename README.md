@@ -390,7 +390,7 @@ The back button is to enable visitors to go back to the trail list easily after 
 
 #### Explore button
 
-
+https://user-images.githubusercontent.com/30613818/208512665-33657fd0-3047-4207-b8a4-384b875249ab.mov
 
 The explore button is located on landing page. The button takes visitors directly to the trail cards, so that they can explore the different trail. 
 
