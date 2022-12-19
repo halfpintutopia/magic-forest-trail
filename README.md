@@ -51,7 +51,7 @@ The dwarf is an affectionately well-known character in this area—a fictitious 
 
 The site was designed and developed mobile first. 
 
-The idea of the website was inspired by a friend, Hermina Oláh Vass. She and her family are very enthusiastic about the trail. She is motivated to breathe a new breath of life into this local attraction. The idea was to provide an essential website to start her project.
+The idea of the website was inspired by a friend, Hermina Oláh Vass. She and her family are very enthusiastic about the trail. She is motivated to breathe a new breath of life into this local attraction. The idea was to provide an essential website to start her project. and gain support from investors in Braunwald. As due to climate change, the winter season needs to be open to ventures, other than winter sports. 
 
 ## Intended Audience
 
