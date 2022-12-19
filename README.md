@@ -2,7 +2,7 @@
 
 ![Screenshot of the site on the Am I Responsive site](./docs/media/images/am_i_responsive.png)
 
-[View the live project here.](https://halfpintutopia.github.io/magic-forest-trail/){target="_blank"}
+[View the live project here.](https://halfpintutopia.github.io/magic-forest-trail/)
 
 The website is a fan website and has been created solely for the course, but inpsired by an actual hiking trail based in Braunwald, Glarus-Süd in the North East of Switzerland. "Zwerg Bartli", a moutain dwelling drawf, is an affectionately well know character in this area. A fictitious character made famous by a children's book. 
 
@@ -272,7 +272,7 @@ The website consists of the following pages:
 
 ---
 
-[Home](https://halfpintutopia.github.io/magic-forest-trail/index.html){target="_blank"}
+[Home](https://halfpintutopia.github.io/magic-forest-trail/index.html)
 
 The home page consists of 5 sections. 
 * Full height and width image with:
@@ -286,7 +286,7 @@ The home page consists of 5 sections.
 
 --- 
 
-[Storybook](https://halfpintutopia.github.io/magic-forest-trail//storybook.html){target="_blank"}
+[Storybook](https://halfpintutopia.github.io/magic-forest-trail//storybook.html)
 
 The storybook page consists of:
 * Image banner at the top of the page
@@ -294,7 +294,7 @@ The storybook page consists of:
 
 ---
 
-[Individual trail page](https://halfpintutopia.github.io/magic-forest-trail/trails/full-trail.html){target="_blank"}
+[Individual trail page](https://halfpintutopia.github.io/magic-forest-trail/trails/full-trail.html)
 
 Individual trail pages are accessed via the home page. A link around each card, directs visitors to the see more about the trail.
 
@@ -307,7 +307,7 @@ The trail page consists of:
 
 ---
 
-[Form](https://halfpintutopia.github.io/magic-forest-trail/contact-us.html){target="_blank"}
+[Form](https://halfpintutopia.github.io/magic-forest-trail/contact-us.html)
 
 The form page consists of:
 * A table to clear present the tickets and prices
@@ -507,28 +507,28 @@ The second version is seen on the storybook page. The layout is exactly the same
 
 ## Frameworks, Libraries and Programs Used
 
-* [Google Fonts](https://fonts.google.com){target="_blank"}
+* [Google Fonts](https://fonts.google.com)
     * Google fonts was used to import the font to the style.css which is used on all pages throughout the project.
-* [Font Awesome](https://fontawesome.com/){target="_blank"}
+* [Font Awesome](https://fontawesome.com/)
     * Font Awesome was used on all necessary pages throughout the website to add icons for aesthetic and UX purposes.
-* [Git](https://git-scm.com/){target="_blank"}
+* [Git](https://git-scm.com/)
     * Git was used for version control by utilising the Gitpod terminal to commit to git and push to GitHub.
-* [GitHub](https://github.com/){target="_blank"}
+* [GitHub](https://github.com/)
     * Github was used to store the project's code after being pushed from Git.
-* [Gitpod](https://www.gitpod.io/){target="_blank"}
-* [Coolors](https://coolors.co/){target="_blank"}
-* [Adobe Color](https://color.adobe.com/create/color-wheel){target="_blank"}
-* [Pexels](https://www.pexels.com/){target="_blank"}
-* [Unsplash](https://unsplash.com/){target="_blank"}
+* [Gitpod](https://www.gitpod.io/)
+* [Coolors](https://coolors.co/)
+* [Adobe Color](https://color.adobe.com/create/color-wheel)
+* [Pexels](https://www.pexels.com/)
+* [Unsplash](https://unsplash.com/)
 * Devtool
-    * [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/){target="_blank"}
-    * [Chrome](https://developer.chrome.com/docs/devtools/){target="_blank"}
-* [Browserstack](https://www.browserstack.com){target="_blank"}
-* [LeafletJS](https://leafletjs.com/){target="_blank"} - [Use of GeoJSON with Leaflet](https://leafletjs.com/examples/geojson/){target="_blank"}
-* [Figma](https://www.figma.com/){target="_blank"}
-* [Inkscape](https://inkscape.org/){target="_blank"}
-* [GIMP](https://www.gimp.org/){target="_blank"}
-* [SVGator](https://app.svgator.com){target="_blank"}
+    * [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/)
+    * [Chrome](https://developer.chrome.com/docs/devtools/)
+* [Browserstack](https://www.browserstack.com)
+* [LeafletJS](https://leafletjs.com/) - [Use of GeoJSON with Leaflet](https://leafletjs.com/examples/geojson/)
+* [Figma](https://www.figma.com/)
+* [Inkscape](https://inkscape.org/)
+* [GIMP](https://www.gimp.org/)
+* [SVGator](https://app.svgator.com)
 
 # Remote and Local Deployment
 
@@ -662,17 +662,13 @@ Testing implemented from [User stories](#user-stories)
 
 #### Not solved
 
-The following bug was found, but it was hard to determine the reason for the jumping of the sticky button. It only occurred on mobie devices. The issue has not been resolved and added as an issue to GitHub
+The following bug was found, but it was hard to determine the reason for the jumping of the sticky button. It only occurred on mobie devices. The issue has not been resolved and added as an issue to GitHub.
+
+https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-bd0f-677ca0110535.mp4
 
 |Bug / Errors | Where / Location site | Browser | Device | Remarks | Mode (light / dark) |
 |-------------|-----------------------|---------|--------|---------|:-------------------:|
 | Book your family pass blocks scroll down text and animation; Book your family pass goes into hiding when scrolled to position of any header; Book your family pass seemingly jumps around randomly when scrolling; Book your family pass snaps back down after scrolling up from the bottom of the page | Home / Storybook | Chrome | Android mobile | | dark |
-
-
-Additional images / videos re: not solved bug:
-
-https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-bd0f-677ca0110535.mp4
-
 
 ### Lighthouse
 
@@ -928,7 +924,7 @@ The footprints were created from using GIMP to manipulate the image, and then th
 </details>
 
 <details>
-<summary>Trail list and Trail Pages</0summary>
+<summary>Trail list and Trail Pages</summary>
 
 * [White-Red-White Hiking flag painted on rock](https://unsplash.com/photos/ZIFccT5-36Y) by <a href="https://unsplash.com/@giger_00?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Curdin Giger</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * [View of the view with the mountain as the backdrop](https://unsplash.com/photos/FNaFLvbLFuk) by <a href="https://unsplash.com/@chris_regg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christian Regg</a> on <a href="https://unsplash.com/s/photos/hiking-switzerland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
