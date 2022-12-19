@@ -1,7 +1,7 @@
 (function () {
     const ICON = {
-        LOCATION_FROM_ROOT: 'assets/media/images/Character.png',
-        LOCATION_FROM_TRAILS: '../assets/media/images/Character.png',
+        LOCATION_FROM_ROOT: 'assets/media/images/character.png',
+        LOCATION_FROM_TRAILS: '../assets/media/images/character.png',
         SIZE: [90, 90],
         ANCHOR: [45, 45],
         POPUP_ANCHOR: [-3, -35]
