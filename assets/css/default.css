@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;600&family=Permanent+Marker&display=swap');
+
 /* https://getbootstrap.com/docs/5.2/layout/containers/ */
 :root {
     --xx-large-container: 1400px;
@@ -7,10 +8,17 @@
     --medium-container: 768px;
     --small-container: 576px;
     --extra-container: 576px; /* use with less than */
+
     --font-family-permanent-marker: 'Permanent Marker',
     cursive;
     --font-family-overpass: 'Overpass',
     sans-serif;
+    --font-family-heading: var(--font-family-permanent-marker);
+    --font-family-body: var(--font-family-overpass);
+    --font-family-weight-light: 300;
+    --font-family-weight-regular: 400;
+    --font-family-weight-semi-bold: 600;
+
     --shark: hsl(228, 7%, 14%);
     --verdun-green-light: hsl(79, 96%, 18%);
     --verdun-green-dark: hsl(79, 97%, 13%);
@@ -20,18 +28,15 @@
     --verdun-green-dark-opacity: hsla(79, 97%, 13%, 70%);
     --pampas-opacity: hsla(60, 21%, 94%, 20%);
     --shark-opacity: hsla(228, 7%, 14%, 20%);
+
     --standard-padding: 1rem;
     --standard-margin: 1rem;
     --standard-gap: 1rem;
     --header-height: clamp(3rem, calc(2.30rem + 3.48vw), 5rem);
     --nav-item-width: var(--header-height);
     --nav-item-height: var(--header-height);
-    --font-family-heading: var(--font-family-permanent-marker);
-    --font-family-body: var(--font-family-overpass);
-    --font-family-weight-light: 300;
-    --font-family-weight-regular: 400;
-    --font-family-weight-semi-bold: 600;
-    --font-family-weight-bold: 600;
+
+
     --font-color-hero-title: var(--pampas);
     --font-color-heading: var(--shark);
     --font-color-body: var(--shark);
@@ -70,8 +75,6 @@
         --stage-border-color: var(--pampas-opacity);
     }
 }
-
-
 
 /* Reset default */
 *, *::before, *::after {
@@ -174,7 +177,6 @@ textarea:focus-visible {
     position: absolute;
     white-space: nowrap;
     width: 1px;
-    /* 1 */
 }
 
 .visually-hidden.focusable:active,

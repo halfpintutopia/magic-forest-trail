@@ -73,7 +73,6 @@
     }
 
     /**
-     * 
      * @param {string} id ID of map container
      * @param {Array<float>} coordinates Array of longitude and latitude 
      * @param {number} zoom Number for how much to zoom in
@@ -84,7 +83,6 @@
     }
 
     /**
-     * 
      * @param {string} iconLocation String for relative location for the png
      * @returns 
      */
@@ -99,7 +97,6 @@
     }
 
     /**
-     * 
      * @param {Array<float>} markerCoordinates Coordinates in array of longitude and latitude
      * @param {object} marker Marker object
      * @param {object} map Map object
@@ -111,7 +108,6 @@
     }
 
     /**
-     * 
      * @param {string} id String id name of the map container
      * @param {Array<float>} mapCoordinates Array of location coordinates
      * @param {number} zoom Number to represent how far to zoom into the map

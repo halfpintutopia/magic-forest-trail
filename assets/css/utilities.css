@@ -1,8 +1,7 @@
-    .hidden-small-device {
-        display: none;
-    }
+.hidden-small-device {
+    display: none;
+}
 
-/* Utility classes */
 @media only screen and (width >=768px) {
     .grid-col-span-2 {
         grid-column: span 2;

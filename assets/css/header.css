@@ -91,8 +91,6 @@ header nav .active i.fa-solid {
 }
 
 .hero-section .hero-image {
-    /* width: 100vw;
-    height: calc(100vh - var(--header-height)); */
     position: relative;
     object-fit: cover;
     z-index: -1;
