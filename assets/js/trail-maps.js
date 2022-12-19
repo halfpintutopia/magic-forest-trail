@@ -10,47 +10,47 @@
     const LOCATION = {
         GUMEN: {
             NAME: 'Gumen',
-            COORDINATES: [46.956213832171656, 8.984484977695853]
+            COORDINATES: [46.95630300782775, 8.984794311962439]
         }, 
         BRAUNWALDALP_OBERSTAFEL: {
             NAME: 'Braunwaldalp Oberstafel',
-            COORDINATES: [46.952868439420726, 8.98052013070347]
+            COORDINATES: [46.95284153426676, 8.980290264478532]
         },
         ZWERGENSCHLOSS: {
             NAME: 'Zwergenschloss',
-            COORDINATES: [46.95121414799247, 8.979073183885601]
+            COORDINATES: [46.95135241573962, 8.979012529045242]
         }, 
         EDELSTEINPLATTE: {
             NAME: 'Edelsteinplatte',
-            COORDINATES: [46.95048367533784, 8.986333333285385]
+            COORDINATES: [46.95037287337732, 8.986427037353042]
         }, 
         ZWERGENHOEHLE: {
             NAME: 'Zwergenhöhle',
-            COORDINATES: [46.95349442171878, 8.991858625322976]
+            COORDINATES: [46.95352513294477, 8.991927300906667]
         }, 
         RINDENHUETTI: {
             NAME: 'Rindenhütti',
-            COORDINATES: [46.95150984832085, 8.994210419569713]
+            COORDINATES: [46.95129948447688, 8.994199027159544]
         }, 
         GROTZENBUEEL: {
             NAME: 'Grotzenbüel',
-            COORDINATES: [46.93934468810683, 8.990759377441863]
+            COORDINATES: [46.94911745145799, 8.994060692535617]
         }, 
         ZWERGENTURM: {
             NAME: 'Zwergenturm',
-            COORDINATES: [46.94823018809801, 8.988387950683775]
+            COORDINATES: [46.94821303456593, 8.988419365248616]
         }, 
         WASSERSPEILPLATZ: {
             NAME: 'Wasserpeilplatz',
-            COORDINATES: [46.94212593061035, 8.980563836834103]
+            COORDINATES: [46.94203436055754, 8.980612768158224]
         }, 
         TIDIS_HUESLI: {
             NAME: 'Tiidis Hüsli',
-            COORDINATES: [46.94221915504047, 8.981570927369418]
+            COORDINATES: [46.94161120657334, 8.981221126195354]
         }, 
         MUSIKTRUHE_BRAUNWALD: {
             NAME: 'Musiktruhe',
-            COORDINATES: [46.938899, 8.998710]
+            COORDINATES: [46.938889912172485, 8.998339463477796]
         }, 
     }
 
@@ -208,7 +208,8 @@
             [
                 LOCATION.GROTZENBUEEL,
                 LOCATION.RINDENHUETTI,
-                LOCATION.EDELSTEINPLATTE
+                LOCATION.EDELSTEINPLATTE,
+                LOCATION.ZWERGENHOEHLE,
             ]
         );
     }
@@ -234,6 +235,7 @@
             MAP.ZOOM,
             ICON.LOCATION_FROM_TRAILS,
             [
+                LOCATION.MUSIKTRUHE_BRAUNWALD,
                 LOCATION.TIDIS_HUESLI,
                 LOCATION.WASSERSPEILPLATZ,
                 LOCATION.ZWERGENSCHLOSS
