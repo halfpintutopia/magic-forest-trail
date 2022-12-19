@@ -488,7 +488,7 @@ The second version is seen on the storybook page. The layout is exactly the same
     * Try other recommended activities in the local area
 4. Provide a platform that boosts tourism in the area
 
-## Assessiblity
+## Accessibility
 
 * Use of semantic HTML
 * Use of ARIA
