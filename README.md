@@ -33,7 +33,7 @@ The dwarf is an affectionately well-known character in this area—a fictitious 
 
 * [Remote & Local Development](#remote-and-local-deployment)
   * [Remote Deployment](#remote-deployment)
-  * [Local Development](#local-development)
+  * [Local Deployment](#local-deployment)
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
 
