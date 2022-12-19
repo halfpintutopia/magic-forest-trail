@@ -28,7 +28,7 @@ The website is a fan website and has been created solely for the course, but inp
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 
 * [Remote & Local Development](#remote-and-local-deployment)
   * [Remote Deployment](#remote-deployment)
@@ -62,23 +62,22 @@ The idea of the website was inspired by a friend, Hermina Oláh Vass,Her family 
 * ## User stories
 
 * Client Goals
-    * Create content that is child appropriate
-    * Create content for adults or parents with children
+    * Provide content that is child appropriate
+    * Provide content for adults or parents with children
     * Provide easy access to routes
-        * Show terrain (whether steep or steady climbs)
-        * Show distances
+        * Show trail distances
         * Show approximate times to hike
         * Show difficulty level
-    * Provide a form
+    * Provide a booking form
         * For people to book family passes in advance
-        * To ask questions about the trail
+        * To also ask questions about the trail
 * First Time Visitor Goals
     * Find information about the trails
     * Find the out how to get to the start of the trails
     * Find information about the distance of the trails
     * Find variations of the trial
     * Find the difficulty / suitability of the trails
-    * See images of the trail
+    * See images of various trails
 * Return Vistor Goals
     * Try alternative routes
 * Frequent Vistor Goals
@@ -167,6 +166,18 @@ Wireframes were created for the site with [Figma](https://www.figma.com).
 To see the full wireframe, view it [here](https://www.figma.com/file/mY6L1TpxKS6PupGlHRLvVF/PP1-Wireframe?node-id=0%3A1&t=29queejCZUsKPnX9-1).
  
 
+The website consists of:
+
+* Home page
+* Storybook page
+* Form page
+
+Additional pages for each trail shown on the trail cards displayed on the home page. 
+
+The form has a success page.
+
+Also, included is a 404 page.
+
 ## Colour Scheme
 
 The colour palette should complement greens, to represent nature and the forest. The red was to represent Bartli's hat. 
@@ -246,6 +257,59 @@ The footprints were created from using GIMP to manipulate the image, and then th
 
 # Features
 
+Details of each feature are listed under [General Features on Each Page](#general-features-on-each-page).
+
+The website consists of the following pages:
+* Home page
+* Storybook page
+* Individual trail pages
+    * Full trail
+    * Option 1
+    * Option 2
+    * Option 3
+    * Option 4
+    * Option 5
+* Form page
+    * with a success page
+* 404 page 
+
+---
+
+![Home](docs/media/images/pages/home-page_dark.png)
+
+The home page consists of 5 sections. 
+* Full height and width image with:
+    * text overlay
+    * button to scroll down to trail cards
+* Image, title and text
+* Trail cards
+* Image, title and text (reversed order)
+* Gallery
+* Floating booking button
+
+--- 
+
+![Storybook](docs/media/images/pages/storybook-page_dark.png)
+
+The storybook page consists of:
+* Image banner at the top of the page
+* Multiple image, title and text, alternatively reversing the order
+
+---
+
+![Individual trail page](docs/media//images/pages/trail-page_dark.png)
+
+Individual trail pages are accessed via the home page. A link around each card, directs visitors to the see more about the trail.
+
+The trail page consists of:
+* Image banner at the top of the page
+* Statistics divided into 3 "boxes"
+* A back to trail list link, which redirects visitors back to the home page to the Trail Cards
+* A table of the stages, trails are divided into easy to walk stages
+* A map with markers of the locations indicated in the stages
+
+Every page except the 404, success and form page have a CTA Button, which a button to take visitors to the booking form.
+
 ## General Features on Each Page 
 
 ### Specific features
@@ -290,8 +354,7 @@ The gallery is in a grid layout masonry style. The gallery was to suit and demon
 
 ### Buttons
 
-<details>
-<summary>Call to action</summary>
+#### Call to action
 
 ![Screenshot of the cta feature for mobile](./docs/media/images/features/cta/cta_button_mobile.png)
 
@@ -307,10 +370,8 @@ The gallery is in a grid layout masonry style. The gallery was to suit and demon
 
 The button link for the contact form is a floating element on the page. This was changed from the original wireframe, as wanted the CTA button to be visible whereever the user was on the page. Floating it made it visible and accessible for visitors to easily click. 
 
-</details>
 
-<details>
-<summary>Back to trails button</summary>
+#### Back to trails button
 
 ![Screenshot of the back button feature for mobile](./docs/media/images/features/back-btn/back-btn_mobile.png)
 
@@ -326,7 +387,12 @@ The button link for the contact form is a floating element on the page. This was
 
 The back button is to enable visitors to go back to the trail list easily after viewing the trail page. On mobile the back link is always coloured red, but on the desktop there is a hover effect from white to red. 
 
-</details>
+
+#### Explore button
+
+
+
+The explore button is located on landing page. The button takes visitors directly to the trail cards, so that they can explore the different trail. 
 
 ### Header image
 
@@ -436,6 +502,8 @@ The second version is seen on the storybook page. The layout is exactly the same
 * Use of alt attributes
 * Provide an invisible "Skip to content" button for screen reader. Enabling visitors to skip navigation menu
 * Use Adobe Color to check color contrast
+* Fixed header, providing visitors with easy access to other pages
+* Floating button element, providing visitors to easily reach the contact form
 
 #### Reference 
 * [Kevin Powell - Most sites have a "hidden" link, and yours should too!](https://www.youtube.com/watch?v=jDDaOFr9nqQ)
@@ -469,6 +537,9 @@ The second version is seen on the storybook page. The layout is exactly the same
 * [Browserstack](https://www.browserstack.com)
 * [LeafletJS](https://leafletjs.com/) - [Use of GeoJSON with Leaflet](https://leafletjs.com/examples/geojson/)
 * [Figma](https://www.figma.com/)
+* [Inkscape](https://inkscape.org/)
+* [GIMP](https://www.gimp.org/)
+* [SVGator](https://app.svgator.com)
 
 # Remote and Local Deployment
 
@@ -501,35 +572,27 @@ https://user-images.githubusercontent.com/30613818/205482822-4c33545b-8b52-4a2b-
 
 ## Local Deployment
 
+To contribute or check the code yourself, you can:
+* fork the repository
+* clone the repository
+
 ### How to Fork
-To contribute to my code, you can fork the repository.
 
-
-1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
-2. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork/fork.png)
-
-<br>
-
-To run the application type the following into your terminal:
-
-```bash
-python3 -m http.server
-```
+1. To fork go the repository
+2. Click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork/fork_button.png)
+3. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork/fork.png)
 
 ### How to Clone
-To contribute to my code, you can fork the repository.
 
-1. To fork click on the Fork button in the top left corner of the page. ![Click Fork](./docs/media/images/fork_button.png)
-2. Fill in the form with either keep the name or create a new name for the repository ![Create Fork](./docs/media/images/fork/fork.png)
-
-<br>
-
-To run the application type the following into your terminal:
-
-```bash
-python3 -m http.server
-```
-<br>
+1. To clone on the repository 
+2. Click on the Code button above the repository files. 
+3. A drop down will appear and choose either ![Click Code](./docs/media/images/deployment/clone.png): 
+    * HTTPS
+    * SSH
+    * GitHub CLI 
+4. Go to your terminal and decide where you want to clone the files.
+5. Use the copy / paste button and copy into your terminal
+6. You also have the option to download a ZIP file of the code
 
 # Testing
 
@@ -547,10 +610,9 @@ Browserstack was used for testing. Devices selected were:
 
 ## User experience
 
-### Client Goals Testing
+Testing implemented from [User stories](#user-stories)
 
-<details>
-<summary>Table of tests and results</summary>
+### Client Goals Testing
 
 | Client goal | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
@@ -562,14 +624,9 @@ Browserstack was used for testing. Devices selected were:
 | Inform visitors of difficulty levels | Trail details, difficulty levels easily seen on the top of the page  | Yes | Yes |
 | Provide a booking form | Accessible via the CTA button show on all pages  | Yes | Yes |
 | Provide a form which allows users to book family passes in advance | Form has inputs for booking number of adults and children for family pass | Yes | Yes |
-| Provide a form for users to ask question about the trail | Textarea input added for users to ask comments or ask questions | Yes | Yes |
-
-</details>
+| Provide a form for visitors to ask question about the trail | Textarea input added for users to ask comments or ask questions | Yes | Yes |
 
 ### First Time Visitor Goals
-
-<details>
-<summary>Table of tests and results</summary>
 
 | First Time Visitor Goals | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
@@ -577,38 +634,22 @@ Browserstack was used for testing. Devices selected were:
 | Find information about the distance of the trails | Information about the distance is above the fold on individual trail pages | Yes | Yes |
 | Find variations of the trial | List of trail variations are on the home page  | Yes | Yes |
 | Find the difficulty of the trails | Information about the level is above the fold on individual trail pages  | Yes | Yes |
-| See images of the trail | Images of trail in the gallery on the home page. Main image in header is of the trail | Yes | Yes |
-
-</details>
+| See images of various trails | Images of trail in the gallery on the home page. Main image in header is of the trail | Yes | Yes |
 
 ### Return Visitor Goals
-
-<details>
-<summary>Table of tests and results</summary>
 
 | Return Vistor Goals | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
 | Try alternative routes | List of trails on home page. Visitors can check other routes | Yes | Yes |
-| Find the difficulty of the trails | Difficulty of the trail is visible on individual trail pages  | Yes | Yes |
-| See images of the trail | Images of trail in the gallery on the home page. Main image in header is of the trail   | Yes | Yes |
 
-</details>
 
 ### Frequent Visitor Goals
-
-<details>
-<summary>Table of tests and results</summary>
 
 | Frequent Vistor Goals | Implementation | Tested | Successful |
 | ------------- |:-------------:|:-----:|:-----:|
 | Refer their friends, families and associates about the trail | Visitors can share the [trail list](http://localhost:8000/index.html#trails) and each of the individual trail pages | Yes | Yes |
 
-</details>
-
 ### Bugs and fixes
-
-<details>
-<summary>Table of tests and results</summary>
 
 |Bug / Errors | Where / Location site | Browser | Device | Remarks | Mode (light / dark) | Fixed | Solution |
 |-------------|-----------------------|---------|--------|---------|:-------------------:|:-----:|----------|
@@ -625,28 +666,24 @@ Browserstack was used for testing. Devices selected were:
 | Links either labelled wrong or wrong links set (Trail option 3 leads to variation 1 etc.) | storybook | Chrome, Firefox | Apple Laptop | see sheet 2 for details | dark | Yes | Fixed links to suit the actual href |
 | Image not loading | full trail | Chrome | Android mobile | | dark | Yes | Fixed the broken link by correcting the relative path |
 | Little arrow to expand / collapse above adults doesn't do anything | contact form | Chrome, Firefox | Apple Laptop | | light / dark | Yes | Form made visible from changing colors for dark and light mode |
-| Form error display. Notifies correctly about number of adults and children allowed, but lets me inout incorrect email address| contact form| Chrome| Apple Laptop | | dark|
-| After filling a form in once. the second load of the contact form page displays lines for name, last name etc and the box for additional comments when before there were no lines / box visible | contact form | Chrome | Apple Laptop | | dark |
-| Error form display in Chrome does not always notify about wrong inputs. Firefox tells you correctly which input is wrong | contact form | Chrome | Apple Laptop | | dark |
 | Neither the labels nor the placeholder texts are visible at the first name, last name, email and phone number inputs | contact form |  |  |  | dark | Yes | Make placeholders visible by changing the default opacity to 1 for input placeholders. Also had to fix specificity as initially assumed the issue had occurred due to the wrong pseudo element being selected. After trial and error, found that the problem occurred due to specificity, as form input was not specific enough. |
 | Zoom out of your maps more than the max size of the maps are | All trail pages |  |  |  |  | Yes | Set a min and max zoom on the leaflet map |
+| Error form display in Chrome does not always notify about wrong inputs. Firefox tells you correctly which input is wrong | contact form | Chrome | Apple Laptop | | dark | Not a fix | Chrome moves the page to the area of the error, the red border line highlights the missing information |
+| When going back from trail page to storybook, last chosen trail option is marked in green instead of red. nice but not sure if intentional. does not happen in Chrome only ff | storybook | Firefox | Apple Laptop | | dark | Yes | Change the look of the button, ensure :visited psueudo is not used |
 
-| When going back from trail page to storybook, last chosen trail option is marked in green instead of red. nice but not sure if intentional. does not happen in Chrome only ff | storybook | Firefox | Apple Laptop | | dark | No | |
+#### Not solved
 
-| Book your family pass blocks scroll down text and animation | home | Chrome | Android mobile | lots of room above magic forest trail | dark |
-| Book your family pass goes into hiding when scrolled to position of any header. nice but not sure if intentional | home | Chrome | Android mobile | | dark | 
-| Social media icon stays white when going back to home after clicking them | everywhere / every page | Chrome | Android mobile | | dark |
-| Book your family pass seemingly jumps around randomly when scrolling | all trail pages | Chrome | Android mobile | | dark |
-| Book your family pass snaps back down after scrolling up from the bottom of the page | storybook | Chrome | Android mobile | | dark |
+The following bug was found, but it was hard to determine the reason for the jumping of the sticky button. It only occurred on mobie devices. The issue has not been resolved and added as an issue to GitHub
+
+|Bug / Errors | Where / Location site | Browser | Device | Remarks | Mode (light / dark) |
+| Book your family pass blocks scroll down text and animation; Book your family pass goes into hiding when scrolled to position of any header; Book your family pass seemingly jumps around randomly when scrolling; Book your family pass snaps back down after scrolling up from the bottom of the page | Home / Storybook | Chrome | Android mobile | | dark |
 
 ---
 
 Additional images / videos
 
-
 https://user-images.githubusercontent.com/30613818/208293996-427c7401-a60a-47dc-bd0f-677ca0110535.mp4
 
-</details>
 
 ### Lighthouse
 
@@ -840,35 +877,38 @@ This error looks to be from the map tile, as all the screenhots refer to the ima
 # Credits
 
 ## Code Used
+All code is also reference as a comment in stylesheets.
 
-### References
+[Fix hover effect](https://css-tricks.com/cool-hover-effects-using-background-properties)
+[Fix error with scroll to content](https://www.youtube.com/watch?v=iGUSTyG-CYw)
+[Screen Reader only - hidden elements](https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/style.css#L112)
+[Custom Checkbox](https://moderncss.dev/pure-css-custom-checkbox-style/)
+[Gallery layout](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=1306s)
+[Containers](https://www.youtube.com/watch?v=VsNAuGkCpQU&t=366s)
+[Image with text overlay](https://www.youtube.com/shorts/oy2iUDT0mf8)
+
+### References & Resources
 A list of references used for the site:
 
+* [Kevin Powell](https://www.youtube.com/@KevinPowell)
 * [Box shadows](https://www.cssmatic.com/box-shadow)
 * [CSS Tricks - HTML Picture](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-picture)
 * [Web Dev - Browser level image lazy loading](https://web.dev/browser-level-image-lazy-loading/)
 * [Editorx - Font size](https://www.editorx.com/shaping-design/article/font-size)
 * [The 100% correct way to do CSS breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862)
-* [Inkscape](https://inkscape.org/)
-* [GIMP](https://www.gimp.org/)
-* [Font Awesome](https://fontawesome.com)
-* [SVGator](https://app.svgator.com)
-
-### Resources
-
-* Fonts
-    * [](https://matthewjamestaylor.com/responsive-font-size)
-    * [Font Awesome](https://fontawesome.com)
-* Flexbox
-    * [](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* Styles
-
+* [Containers - width for different devices](https://getbootstrap.com/docs/5.2/layout/containers)
+* [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/)
+* [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+    
 ## Content
 
-References for content:
+The content created for this website were created by my partner, Stefan Tschudi, a colleague, Hermina Oláh Vass and myself. The story was loosely based from a rough translation of the character based on "Der Zwerg Bartli" by Lorly Jenny. 
 
-* [Visit Glarnerland](https://glarnerland.ch/de/map/detail/zwerg-bartli-erlebnisweg-9ff632fe-5eaf-45d9-a6ea-4d743635148f.html)
-* Character based on Der Zwerg Bartli by Lorly Jenny
+All maps were created from actual locations found in [Zwerg-Bartli-Erlebnisweg](https://braunwald.ch/de/map/detail/zwerg-bartli-erlebnisweg-9ff632fe-5eaf-45d9-a6ea-4d743635148f.html). 
+
+The address, email and telephone number on the contact page were made up and are not associated with Braunwald nor the story.
+
+The trail is an actual locally well known tourist attaction. The trail locations were based on the actual trail in Braunwald, Glarus-Süd in Switzerland.
 
 ## Media
 
